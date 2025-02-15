@@ -1,0 +1,548 @@
+Best Combination:
+0.1646266132593
+0.1683429479599
+0.1733305156231
+0.1957867443562
+0.2139729857445
+0.2144857347012
+0.2267703264952
+0.2687200605869
+0.2784543037415
+0.3280678987503
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+Execution time: 41.62 seconds.
+Total combinations tested: 254186856
+
+---------------------------------------
+
+Best Combination:
+0.1821237057447
+0.1916336864233
+0.2016885280609
+0.2134779542685
+0.2174829244614
+0.2219708412886
+0.2247021794319
+0.2434346079826
+0.2637257575989
+0.2723174691200
+
+Average: 0.2232557654381
+Target : 0.2232558139529
+
+Execution time: 0.93 seconds.
+Total combinations tested: 5311735
+
+---------------------------------------
+
+Best Combination:
+0.1657096445561 -----------
+0.1742977648973 -----------
+0.2017863690853 -----------
+0.2129812240601 -----------
+0.2134732156992 -----------
+0.2219708412886 -----------
+0.2358614057302 -----------
+0.2434346079826 light
+0.2637257575989 light
+0.2993173003197 light
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+Execution time: 2643.28 seconds.
+Total combinations tested: 23930713170
+
+---------------------------------------
+
+Barreiro — Hoje às 16:46
+Best Combination:
+0.1603243350983
+0.1991596817970
+0.2164654731750
+0.2184074968100
+0.2279435992241
+0.2302213311195
+0.2307594418526
+0.2376625537872
+0.2392967492342
+0.2723174691200
+Average: 0.2232558131218
+Target : 0.2232558139529
+Execution time: 255.09 seconds.
+Total combinations tested: 2481256778
+Combination e log guardados.
+
+
+Best Combination:
+0.1603243350983---
+0.1991596817970---
+0.2164654731750
+0.2184074968100
+0.2279435992241 -----
+0.2302213311195
+0.2307594418526 -----
+0.2376625537872 ----
+0.2392967492342
+0.2723174691200Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1651680618525 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2231073081493 - SSG 08 | Dezastre
+0.2271699309349 - Nova | Dark Sigil
+0.2271863669157 - Tec-9 | Slag
+0.2341360300779 - Tec-9 | Slag
+0.2342485785484 - XM1014 | Irezumi
+0.2348769605160 - MAC-10 | Light Box
+0.2365401834250 - Nova | Dark Sigil
+0.2396760880947 - Nova | Dark Sigil
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 1.47 seconds.
+Total combinations tested: 8436285
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1651680618525 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2231073081493 - SSG 08 | Dezastre
+0.2271699309349 - Nova | Dark Sigil
+0.2271863669157 - Tec-9 | Slag
+0.2341360300779 - Tec-9 | Slag
+0.2342485785484 - XM1014 | Irezumi
+0.2348769605160 - MAC-10 | Light Box
+0.2365401834250 - Nova | Dark Sigil
+0.2396760880947 - Nova | Dark Sigil
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 1.48 seconds.
+Total combinations tested: 8436285
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0933816872537
+Value 0.0012764240968 above target.
+
+Execution time: 66.59 seconds.
+Total combinations tested: 472733756
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1670833528042 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2175341397524 - XM1014 | Irezumi
+0.2271699309349 - Nova | Dark Sigil
+0.2274029254913 - XM1014 | Irezumi
+0.2341360300779 - Tec-9 | Slag
+0.2347355335951 - Dual Berettas | Hideout
+0.2348769605160 - MAC-10 | Light Box
+0.2395497262478 - UMP-45 | Motor Pool
+0.2396209090948 - MAC-10 | Light Box
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 49.33 seconds.
+Total combinations tested: 348330136
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 70.23 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1751553267240 - MAC-10 | Light Box
+0.1888734847307 - MAC-10 | Light Box
+0.2230876833200 - XM1014 | Irezumi
+0.2271699309349 - Nova | Dark Sigil
+0.2338196486235 - Dual Berettas | Hideout
+0.2347355335951 - Dual Berettas | Hideout
+0.2349485158920 - MAC-10 | Light Box
+0.2365401834250 - Nova | Dark Sigil
+0.2386069148779 - XM1014 | Irezumi
+0.2396209090948 - MAC-10 | Light Box
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 82.82 seconds.
+Total combinations tested: 472733756
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 107.06 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1751553267240 - MAC-10 | Light Box
+0.1888734847307 - MAC-10 | Light Box
+0.2230876833200 - XM1014 | Irezumi
+0.2271699309349 - Nova | Dark Sigil
+0.2338196486235 - Dual Berettas | Hideout
+0.2347355335951 - Dual Berettas | Hideout
+0.2349485158920 - MAC-10 | Light Box
+0.2365401834250 - Nova | Dark Sigil
+0.2386069148779 - XM1014 | Irezumi
+0.2396209090948 - MAC-10 | Light Box
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 71.23 seconds.
+Total combinations tested: 472733756
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 103.40 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1751553267240 - MAC-10 | Light Box
+0.1888734847307 - MAC-10 | Light Box
+0.2230876833200 - XM1014 | Irezumi
+0.2271699309349 - Nova | Dark Sigil
+0.2338196486235 - Dual Berettas | Hideout
+0.2347355335951 - Dual Berettas | Hideout
+0.2349485158920 - MAC-10 | Light Box
+0.2365401834250 - Nova | Dark Sigil
+0.2386069148779 - XM1014 | Irezumi
+0.2396209090948 - MAC-10 | Light Box
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 95.34 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 73.87 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.165168061852 - MAC-10 | Light Box
+0.214311525225 - MAC-10 | Light Box
+0.223087683320 - XM1014 | Irezumi
+0.226030915975 - XM1014 | Irezumi
+0.227169930934 - Nova | Dark Sigil
+0.234136030077 - Tec-9 | Slag
+0.234735533595 - Dual Berettas | Hideout
+0.234948515892 - MAC-10 | Light Box
+0.234983220696 - XM1014 | Irezumi
+0.237986713647 - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 180.48 seconds.
+Total combinations tested: 1471442973
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 92.73 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Best Combination:
+0.175155326724 - MAC-10 | Light Box
+0.177914395928 - MAC-10 | Light Box
+0.228178232908 - MAC-10 | Light Box
+0.231232374906 - Dual Berettas | Hideout
+0.233819648623 - Dual Berettas | Hideout
+0.234876960516 - MAC-10 | Light Box
+0.235670581460 - Nova | Dark Sigil
+0.237427607178 - Dual Berettas | Hideout
+0.238606914877 - XM1014 | Irezumi
+0.239676088094 - Nova | Dark Sigil
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 9.62 seconds.
+Total combinations tested: 64512240
+
+---------------------------------------
+
+Best Combination:
+0.1888734847307 - MAC-10 | Light Box
+0.2016885280609 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2175341397524 - XM1014 | Irezumi
+0.2274029254913 - XM1014 | Irezumi
+0.2342485785484 - XM1014 | Irezumi
+0.2365401834250 - Nova | Dark Sigil
+0.2366504222155 - Nova | Dark Sigil
+0.2395497262478 - UMP-45 | Motor Pool
+0.2396209090948 - MAC-10 | Light Box
+
+Average: 0.2232557520270
+Target : 0.2232558139529
+
+
+Execution time: 0.18 seconds.
+Total combinations tested: 646646
+
+---------------------------------------
+
+Best Combination:
+0.1888734847307 - MAC-10 | Light Box
+0.2016885280609 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2175341397524 - XM1014 | Irezumi
+0.2274029254913 - XM1014 | Irezumi
+0.2342485785484 - XM1014 | Irezumi
+0.2365401834250 - Nova | Dark Sigil
+0.2366504222155 - Nova | Dark Sigil
+0.2395497262478 - UMP-45 | Motor Pool
+0.2396209090948 - MAC-10 | Light Box
+
+Average: 0.2232557520270
+Target : 0.2232558139529
+
+
+Execution time: 0.16 seconds.
+Total combinations tested: 646646
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1888734847307 - MAC-10 | Light Box
+0.2016885280609 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2231073081493 - SSG 08 | Dezastre
+0.2274029254913 - XM1014 | Irezumi
+0.2309450358152 - Tec-9 | Slag
+0.2357391566038 - Tec-9 | Slag
+0.2366504222155 - Nova | Dark Sigil
+0.2380817234516 - Nova | Dark Sigil
+0.2396209090948 - MAC-10 | Light Box
+
+Average: 0.2232558116317
+Target : 0.2232558139529
+
+
+Execution time: 2.59 seconds.
+Total combinations tested: 20030010
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 66.40 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1888734847307 - MAC-10 | Light Box
+0.2007812559605 - MAC-10 | Light Box
+0.2175341397524 - XM1014 | Irezumi
+0.2266919314861 - MAC-10 | Light Box
+0.2276290953159 - SSG 08 | Dezastre
+0.2282741218805 - Nova | Dark Sigil
+0.2309450358152 - Tec-9 | Slag
+0.2357391566038 - Tec-9 | Slag
+0.2365401834250 - Nova | Dark Sigil
+0.2395497262478 - UMP-45 | Motor Pool
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 19.93 seconds.
+Total combinations tested: 131128140
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 90.80 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Best Combination:
+0.1672676801681 - MAC-10 | Light Box
+0.2192468047142 - Dual Berettas | Hideout
+0.2235952466726 - XM1014 | Irezumi
+0.2257226407528 - UMP-45 | Motor Pool
+0.2266919314861 - MAC-10 | Light Box
+0.2271863669157 - Tec-9 | Slag
+0.2274029254913 - XM1014 | Irezumi
+0.2366504222155 - Nova | Dark Sigil
+0.2391725480556 - Dual Berettas | Hideout
+0.2396209090948 - MAC-10 | Light Box
+
+Average: 0.2232557475567
+Target : 0.2232558139529
+
+
+Execution time: 0.40 seconds.
+Total combinations tested: 1961256
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1670833528042 - MAC-10 | Light Box
+0.2187646627426 - XM1014 | Irezumi
+0.2192468047142 - Dual Berettas | Hideout
+0.2261127531529 - SSG 08 | Dezastre
+0.2266919314861 - MAC-10 | Light Box
+0.2271863669157 - Tec-9 | Slag
+0.2326847314835 - MAC-10 | Light Box
+0.2375332564115 - XM1014 | Irezumi
+0.2380817234516 - Nova | Dark Sigil
+0.2391725480556 - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 16.11 seconds.
+Total combinations tested: 92561040
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 92.88 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1668534725904 - MAC-10 | Light Box
+0.2139746844769 - Dual Berettas | Hideout
+0.2231073081493 - SSG 08 | Dezastre
+0.2261127531529 - SSG 08 | Dezastre
+0.2271863669157 - Tec-9 | Slag
+0.2274029254913 - XM1014 | Irezumi
+0.2326847314835 - MAC-10 | Light Box
+0.2375332564115 - XM1014 | Irezumi
+0.2380817234516 - Nova | Dark Sigil
+0.2396209090948 - MAC-10 | Light Box
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 15.47 seconds.
+Total combinations tested: 92561040
+
+---------------------------------------
+
+Best Combination:
+0.1866487860680 - MAC-10 | Light Box
+0.2073572427034 - MAC-10 | Light Box
+0.2154438346624 - SSG 08 | Dezastre
+0.2192468047142 - Dual Berettas | Hideout
+0.2257226407528 - UMP-45 | Motor Pool
+0.2317910194397 - Tec-9 | Slag
+0.2342485785484 - XM1014 | Irezumi
+0.2369217425585 - SSG 08 | Dezastre
+0.2371274977922 - UMP-45 | Motor Pool
+0.2380495518446 - Tec-9 | Slag
+
+Average: 0.2232557699084
+Target : 0.2232558139529
+
+
+Execution time: 0.25 seconds.
+Total combinations tested: 1144066
+
+---------------------------------------
+
+Best Combination:
+0.1793007552624 - MAC-10 | Light Box
+0.1859458982944 - MAC-10 | Light Box
+0.2016885280609 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2187646627426 - XM1014 | Irezumi
+0.2235952466726 - XM1014 | Irezumi
+0.2256277948618 - Nova | Dark Sigil
+0.2363388389349 - XM1014 | Irezumi
+0.2366504222155 - Nova | Dark Sigil
+0.2391725480556 - Dual Berettas | Hideout
+
+Average: 0.2157533317804
+Target : 0.2232558139529
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
