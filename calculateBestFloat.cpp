@@ -26,35 +26,33 @@ std::vector<double> dangerZone = G3SG1Scavenger;
 const double kilowattMSMax = 0.2232558139529;
 const std::vector<double> MAC10LightBoxs = {
     0.18594589829445,
-    0.16726768016815,
     // 0.21298122406006,
-    0.16039046645164,
     0.20168852806091,
     0.17930075526237,
     0.16708335280418,
+    0.23247745633125,
 };
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
     0.23573741316795,
 };
 const std::vector<double> TEC9Slags = {
-
+    0.23614075779915,
+    0.22702267765999,
 };
 const std::vector<double> DualBeretasHideouts = {
-    0.23917254805565,
+    0.23612774908543,
+    0.22606867551804,
+    0.22828559577465,
 };
 const std::vector<double> UMP45Motorizeds = {
-
+    0.23698088526726,
 };
 const std::vector<double> XM1014Irezumis = {
-    0.23633883893490,
-    0.21876466274261,
-    0.22359524667263,
+
 };
 const std::vector<double> NovaDarkSigils = {
-    0.22562779486179,
-    0.23665042221546,
-    0.22021220624447,
+
 };
 
 std::vector<double> kilowattMS = MAC10LightBoxs;
@@ -566,9 +564,9 @@ case 4: Dreams & Nightmares MS
 */
 
 /*   COMANDOS CMD
-cd C:\xampp\htdocs\cs
-g++ -std=c++17 -o cookingCalculateBestFloat cookingCalculateBestFloat.cpp
-cookingCalculateBestFloat.exe
+cd C:\xampp\htdocs\cs\CalculateFloatSkins
+g++ -std=c++17 -o calculateBestFloat calculateBestFloat.cpp
+calculateBestFloat.exe
 */
 
 /*   SORT ARRAY AND PRINT IT

@@ -546,3 +546,98 @@ Total combinations tested: 286
 
 ---------------------------------------
 
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+ - MAC-10 | Light Box
+ - Nova | Dark Sigil
+ - XM1014 | Irezumi
+ - Dual Berettas | Hideout
+ - XM1014 | Irezumi
+ - SSG 08 | Dezastre
+ - MAC-10 | Light Box
+ - Nova | Dark Sigil
+ - XM1014 | Irezumi
+ - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 7.06 seconds.
+Total combinations tested: 64512240
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 62.65 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Best Combination:
+0.1603904664516 - MAC-10 | Light Box
+0.2187646627426 - XM1014 | Irezumi
+0.2256277948618 - Nova | Dark Sigil
+0.2284716963768 - MAC-10 | Light Box
+0.2286490499973 - MAC-10 | Light Box
+0.2305207401514 - Dual Berettas | Hideout
+0.2306408137083 - Nova | Dark Sigil
+0.2358109951019 - UMP-45 | Motor Pool
+0.2366504222155 - Nova | Dark Sigil
+0.2370314896107 - Nova | Dark Sigil
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 0.11 seconds.
+Total combinations tested: 646646
+
+---------------------------------------
+
+Best Combination:
+0.1859458982944 - MAC-10 | Light Box
+0.2016885280609 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2260686755180 - Dual Berettas | Hideout
+0.2270226776600 - Tec-9 | Slag
+0.2324774563312 - MAC-10 | Light Box
+0.2357374131679 - SSG 08 | Dezastre
+0.2361277490854 - Dual Berettas | Hideout
+0.2361407577992 - Tec-9 | Slag
+0.2369808852673 - UMP-45 | Motor Pool
+
+Average: 0.2228638663888
+Target : 0.2232558139529
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 66
+
+---------------------------------------
+
+Best Combination:
+0.1859458982944 - MAC-10 | Light Box
+0.2016885280609 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2270226776600 - Tec-9 | Slag
+0.2282855957746 - Dual Berettas | Hideout
+0.2324774563312 - MAC-10 | Light Box
+0.2357374131679 - SSG 08 | Dezastre
+0.2361277490854 - Dual Berettas | Hideout
+0.2361407577992 - Tec-9 | Slag
+0.2369808852673 - UMP-45 | Motor Pool
+
+Average: 0.2230855584145
+Target : 0.2232558139529
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
