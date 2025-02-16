@@ -180,7 +180,7 @@ void printStrRandomColor(const std::string& text) {
 }
 
 std::string getSkinName(double skinFloat, int num) {
-    std::string s = "Skin não encontrada!";    
+    std::string s = "Skin not found!";    
     switch (num) {
         case 1: // Danger Zone MS
             for (int i = 0; i < G3SG1Scavenger.size(); i++){
