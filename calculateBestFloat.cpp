@@ -44,9 +44,11 @@ const std::vector<double> DualBeretasHideouts = {
     0.23612774908543,
     0.22606867551804,
     0.22828559577465,
+    0.22691345214844,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.23698088526726,
+    0.23476776480675,
 };
 const std::vector<double> XM1014Irezumis = {
 

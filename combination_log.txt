@@ -641,3 +641,87 @@ Total combinations tested: 286
 
 ---------------------------------------
 
+Best Combination:
+0.1859458982944 - MAC-10 | Light Box
+0.2016885280609 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2260686755180 - Dual Berettas | Hideout
+0.2282855957746 - Dual Berettas | Hideout
+0.2347677648067 - UMP-45 | Motor Pool
+0.2357374131679 - SSG 08 | Dezastre
+0.2361277490854 - Dual Berettas | Hideout
+0.2361407577992 - Tec-9 | Slag
+0.2369808852673 - UMP-45 | Motor Pool
+
+Average: 0.2232191890478
+Target : 0.2232558139529
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3003
+
+---------------------------------------
+
+Best Combination:
+0.18594589829444999 - MAC-10 | Light Box
+0.20168852806091001 - MAC-10 | Light Box
+0.21044862270355000 - SSG 08 | Dezastre
+0.22606867551804000 - Dual Berettas | Hideout
+0.22828559577464999 - Dual Berettas | Hideout
+0.23476776480674999 - UMP-45 | Motor Pool
+0.23573741316794999 - SSG 08 | Dezastre
+0.23612774908542999 - Dual Berettas | Hideout
+0.23614075779915000 - Tec-9 | Slag
+0.23698088526725999 - UMP-45 | Motor Pool
+
+Average: 0.22321918904781399
+Target : 0.22325581395290001
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3003
+
+---------------------------------------
+
+Best Combination:
+0.185945898294450 - MAC-10 | Light Box
+0.201688528060910 - MAC-10 | Light Box
+0.210448622703550 - SSG 08 | Dezastre
+0.226068675518040 - Dual Berettas | Hideout
+0.228285595774650 - Dual Berettas | Hideout
+0.234767764806750 - UMP-45 | Motor Pool
+0.235737413167950 - SSG 08 | Dezastre
+0.236127749085430 - Dual Berettas | Hideout
+0.236140757799150 - Tec-9 | Slag
+0.236980885267260 - UMP-45 | Motor Pool
+
+Average: 0.223219189047814
+Target : 0.223255813952900
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3003
+
+---------------------------------------
+
+Best Combination:
+0.1859458982944 - MAC-10 | Light Box
+0.2016885280609 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2260686755180 - Dual Berettas | Hideout
+0.2282855957746 - Dual Berettas | Hideout
+0.2347677648067 - UMP-45 | Motor Pool
+0.2357374131679 - SSG 08 | Dezastre
+0.2361277490854 - Dual Berettas | Hideout
+0.2361407577992 - Tec-9 | Slag
+0.2369808852673 - UMP-45 | Motor Pool
+
+Average: 0.2232191890478
+Target : 0.2232558139529
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3003
+
+---------------------------------------
+
