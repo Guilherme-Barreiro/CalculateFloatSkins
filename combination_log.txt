@@ -725,3 +725,58 @@ Total combinations tested: 3003
 
 ---------------------------------------
 
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1793007552624 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2260686755180 - Dual Berettas | Hideout
+0.2269134521484 - Dual Berettas | Hideout
+0.2270226776600 - Tec-9 | Slag
+0.2276052534580 - Dual Berettas | Hideout
+0.2282855957746 - Dual Berettas | Hideout
+0.2347677648067 - UMP-45 | Motor Pool
+0.2360042184591 - UMP-45 | Motor Pool
+0.2361407577992 - Tec-9 | Slag
+
+Average: 0.2232557773590
+Target : 0.2232558139529
+
+
+Execution time: 0.02 seconds.
+Total combinations tested: 43758
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 74.87 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1793007552624 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2260686755180 - Dual Berettas | Hideout
+0.2269134521484 - Dual Berettas | Hideout
+0.2270226776600 - Tec-9 | Slag
+0.2276052534580 - Dual Berettas | Hideout
+0.2282855957746 - Dual Berettas | Hideout
+0.2347677648067 - UMP-45 | Motor Pool
+0.2360042184591 - UMP-45 | Motor Pool
+0.2361407577992 - Tec-9 | Slag
+
+Average: 0.2232557773590
+Target : 0.2232558139529
+
+
+Execution time: 0.02 seconds.
+Total combinations tested: 43758
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.

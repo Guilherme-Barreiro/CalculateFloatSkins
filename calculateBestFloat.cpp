@@ -20,6 +20,7 @@ const std::vector<double> G3SG1Scavenger = {
 };
 const std::vector<double> MAC10PipeDowns = {
     0.18204480409622,
+    0.18069760501385,
 };
 std::vector<double> dangerZone = G3SG1Scavenger;
 
@@ -45,10 +46,13 @@ const std::vector<double> DualBeretasHideouts = {
     0.22606867551804,
     0.22828559577465,
     0.22691345214844,
+    0.22760525345802,
+    0.22376704216003,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.23698088526726,
     0.23476776480675,
+    0.23600421845913,
 };
 const std::vector<double> XM1014Irezumis = {
 
@@ -566,6 +570,7 @@ case 4: Dreams & Nightmares MS
 */
 
 /*   COMANDOS CMD
+cd C:\xampp\htdocs\cs\CalculateBestFloat\CalculateFloatSkins
 cd C:\xampp\htdocs\cs\CalculateFloatSkins
 g++ -std=c++17 -o calculateBestFloat calculateBestFloat.cpp
 calculateBestFloat.exe
