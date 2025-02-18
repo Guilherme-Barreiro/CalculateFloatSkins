@@ -780,3 +780,1096 @@ Total combinations tested: 43758
 ---------------------------------------
 
 Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 80.80 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1793007552624 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2260686755180 - Dual Berettas | Hideout
+0.2269134521484 - Dual Berettas | Hideout
+0.2270226776600 - Tec-9 | Slag
+0.2276052534580 - Dual Berettas | Hideout
+0.2282855957746 - Dual Berettas | Hideout
+0.2347677648067 - UMP-45 | Motor Pool
+0.2360042184591 - UMP-45 | Motor Pool
+0.2361407577992 - Tec-9 | Slag
+
+Average: 0.2232557773590
+Target : 0.2232558139529
+
+
+Execution time: 0.06 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.0930133305490
+Value 0.0009080673921 above target.
+
+Execution time: 78.38 seconds.
+Total combinations tested: 635745396
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1657096445561 - Nova | Dark Sigil
+0.1742977648973 - Nova | Dark Sigil
+0.2017863690853 - Nova | Dark Sigil
+0.2129812240601 - Nova | Dark Sigil
+0.2134732156992 - Nova | Dark Sigil
+0.2219708412886 - Nova | Dark Sigil
+0.2358614057302 - Nova | Dark Sigil
+0.2434346079826 - Nova | Dark Sigil
+0.2637257575989 - Nova | Dark Sigil
+0.2993173003197 - Nova | Dark Sigil
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 4.44 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1657096445561 - Nova | Dark Sigil
+0.1742977648973 - Nova | Dark Sigil
+0.2017863690853 - Nova | Dark Sigil
+0.2129812240601 - Nova | Dark Sigil
+0.2134732156992 - Nova | Dark Sigil
+0.2219708412886 - Nova | Dark Sigil
+0.2358614057302 - Nova | Dark Sigil
+0.2434346079826 - Nova | Dark Sigil
+0.2637257575989 - Nova | Dark Sigil
+0.2993173003197 - Nova | Dark Sigil
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 4.82 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1657096445569 - Nova | Dark Sigil
+0.1742977648973 - Nova | Dark Sigil
+0.2017863690853 - Nova | Dark Sigil
+0.2129812240601 - Nova | Dark Sigil
+0.2134732156992 - Nova | Dark Sigil
+0.2219708412886 - Nova | Dark Sigil
+0.2358614057302 - Nova | Dark Sigil
+0.2434346079826 - Nova | Dark Sigil
+0.2637257575989 - Nova | Dark Sigil
+0.2993173003197 - Nova | Dark Sigil
+
+Average: 0.2232558131219
+Target : 0.2232558139529
+
+
+Execution time: 4.89 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1657096445569 - Nova | Dark Sigil
+0.1742977648973 - Nova | Dark Sigil
+0.2017863690853 - Nova | Dark Sigil
+0.2129812240601 - Nova | Dark Sigil
+0.2134732156992 - Nova | Dark Sigil
+0.2219708412886 - Nova | Dark Sigil
+0.2358614057302 - Nova | Dark Sigil
+0.2434346079826 - Nova | Dark Sigil
+0.2637257575989 - Nova | Dark Sigil
+0.2993173003197 - Nova | Dark Sigil
+
+Average: 0.2232558131219
+Target : 0.2232558139529
+
+
+Execution time: 3.91 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1657096445569 - Nova | Dark Sigil
+0.1742977648973 - Nova | Dark Sigil
+0.2017863690853 - Nova | Dark Sigil
+0.2129812244601 - Nova | Dark Sigil
+0.2134732156992 - Nova | Dark Sigil
+0.2219708412886 - Nova | Dark Sigil
+0.2358614057302 - Nova | Dark Sigil
+0.2434346079826 - Nova | Dark Sigil
+0.2637257575989 - Nova | Dark Sigil
+0.2993173003197 - Nova | Dark Sigil
+
+Average: 0.2232558131619
+Target : 0.2232558139529
+
+
+Execution time: 4.10 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1657096445569 - Nova | Dark Sigil
+0.1742977648973 - Nova | Dark Sigil
+0.2017863690853 - Nova | Dark Sigil
+0.2129812244601 - Nova | Dark Sigil
+0.2134732156992 - Nova | Dark Sigil
+0.2219708419886 - Nova | Dark Sigil
+0.2358614057302 - Nova | Dark Sigil
+0.2434346079826 - Nova | Dark Sigil
+0.2637257575989 - Nova | Dark Sigil
+0.2993173003197 - Nova | Dark Sigil
+
+Average: 0.2232558132319
+Target : 0.2232558139529
+
+
+Execution time: 0.06 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.1657096445569 - Nova | Dark Sigil
+0.1793007552624 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2134732156992 - Nova | Dark Sigil
+0.2219708419886 - Nova | Dark Sigil
+0.2270226776600 - Tec-9 | Slag
+0.2357374131679 - SSG 08 | Dezastre
+0.2361407577992 - Tec-9 | Slag
+0.2434346079826 - Nova | Dark Sigil
+0.2993173003197 - Nova | Dark Sigil
+
+Average: 0.2232555837140
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.1657096445569 - Nova | Dark Sigil
+0.1793007552624 - MAC-10 | Light Box
+0.2104486227035 - SSG 08 | Dezastre
+0.2134732156992 - Nova | Dark Sigil
+0.2219708419886 - Nova | Dark Sigil
+0.2270226776600 - Tec-9 | Slag
+0.2357374131679 - SSG 08 | Dezastre
+0.2361407577992 - Tec-9 | Slag
+0.2434346079826 - Nova | Dark Sigil
+0.2993173093197 - Nova | Dark Sigil
+
+Average: 0.2232555846140
+Target : 0.2232558139529
+
+
+Execution time: 0.07 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.1657096445569 - Nova | Dark Sigil
+0.1742977648973 - Nova | Dark Sigil
+0.2017863690853 - Nova | Dark Sigil
+0.2129812244601 - Nova | Dark Sigil
+0.2134732156992 - Nova | Dark Sigil
+0.2219708419886 - Nova | Dark Sigil
+0.2358614057302 - Nova | Dark Sigil
+0.2434346079826 - Nova | Dark Sigil
+0.2637257575989 - Nova | Dark Sigil
+0.2993173009197 - Nova | Dark Sigil
+
+Average: 0.2232558132919
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.1657096445569 - Nova | Dark Sigil
+0.1742977648973 - Nova | Dark Sigil
+0.2017863690853 - Nova | Dark Sigil
+0.2129812244601 - Nova | Dark Sigil
+0.2134732156992 - Nova | Dark Sigil
+0.2219708419886 - Nova | Dark Sigil
+0.2358614057302 - Nova | Dark Sigil
+0.2434346079826 - Nova | Dark Sigil
+0.2637257579989 - Nova | Dark Sigil
+0.2993173009197 - Nova | Dark Sigil
+
+Average: 0.2232558133319
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.1657096445569 - Nova | Dark Sigil
+0.1742977648973 - Nova | Dark Sigil
+0.2017863690853 - Nova | Dark Sigil
+0.2129812244901 - Nova | Dark Sigil
+0.2134732156992 - Nova | Dark Sigil
+0.2219708419886 - Nova | Dark Sigil
+0.2358614057302 - Nova | Dark Sigil
+0.2434346079826 - Nova | Dark Sigil
+0.2637257579989 - Nova | Dark Sigil
+0.2993173009997 - Nova | Dark Sigil
+
+Average: 0.2232558133429
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.1657096445569 - Nova | Dark Sigil
+0.1742977648973 - Nova | Dark Sigil
+0.2017863690853 - Nova | Dark Sigil
+0.2129812244901 - Nova | Dark Sigil
+0.2134732156992 - Nova | Dark Sigil
+0.2219708419886 - Nova | Dark Sigil
+0.2358614057302 - Nova | Dark Sigil
+0.2434346079826 - Nova | Dark Sigil
+0.2637257579989 - Nova | Dark Sigil
+0.2993173009997 - Nova | Dark Sigil
+
+Average: 0.2232558133429
+Target : 0.2232558139529
+
+
+Execution time: 0.07 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+
+Average: 0.2232558139529
+Target : 0.2232558139529
+
+
+Execution time: 0.08 seconds.
+Total combinations tested: 184755
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.09 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.06 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.06 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.06 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.06 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.06 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2357374131679 - SSG 08 | Dezastre
+
+Average: 0.2232232547495
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+Best Combination:
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+
+Average: 0.2232558139529
+Target : 0.2232558139529
+
+
+Execution time: 0.06 seconds.
+Total combinations tested: 184755
+
+---------------------------------------
+
+Best Combination:
+0.2232558139500 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+0.2232558139529 - Nova | Dark Sigil
+
+Average: 0.2232558139526
+Target : 0.2232558139529
+
+
+Execution time: 0.05 seconds.
+Total combinations tested: 184755
+
+---------------------------------------
+

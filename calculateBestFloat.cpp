@@ -32,6 +32,7 @@ const std::vector<double> MAC10LightBoxs = {
     0.17930075526237,
     0.16708335280418,
     0.23247745633125,
+    0.22662311792374,
 };
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
@@ -40,6 +41,7 @@ const std::vector<double> SSGDezastres = {
 const std::vector<double> TEC9Slags = {
     0.23614075779915,
     0.22702267765999,
+    0.22487623989582,
 };
 const std::vector<double> DualBeretasHideouts = {
     0.23612774908543,
@@ -48,6 +50,8 @@ const std::vector<double> DualBeretasHideouts = {
     0.22691345214844,
     0.22760525345802,
     0.22376704216003,
+    0.23745325207710,
+    0.22508232295513,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.23698088526726,
@@ -55,10 +59,12 @@ const std::vector<double> UMP45Motorizeds = {
     0.23600421845913,
 };
 const std::vector<double> XM1014Irezumis = {
-
+    0.23302868008614,
+    0.23876348137856,
 };
 const std::vector<double> NovaDarkSigils = {
-
+    0.22795368731022,
+    0.22899319231510,
 };
 
 std::vector<double> kilowattMS = MAC10LightBoxs;
