@@ -33,6 +33,7 @@ const std::vector<double> MAC10LightBoxs = {
     0.16708335280418,
     0.23247745633125,
     0.22662311792374,
+    0.23212438821793,
 };
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
@@ -57,6 +58,7 @@ const std::vector<double> UMP45Motorizeds = {
     0.23698088526726,
     0.23476776480675,
     0.23600421845913,
+    0.22311396896839,
 };
 const std::vector<double> XM1014Irezumis = {
     0.23302868008614,
@@ -65,6 +67,7 @@ const std::vector<double> XM1014Irezumis = {
 const std::vector<double> NovaDarkSigils = {
     0.22795368731022,
     0.22899319231510,
+    0.22464281320572,
 };
 
 std::vector<double> kilowattMS = MAC10LightBoxs;
