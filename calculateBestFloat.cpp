@@ -57,6 +57,7 @@ const std::vector<double> UMP45Motorizeds = {
 };
 const std::vector<double> XM1014Irezumis = {
     0.23205494880676,
+    0.23301656544209,
 };
 const std::vector<double> NovaDarkSigils = {
     0.22464281320572,
@@ -69,6 +70,7 @@ const std::vector<double> MP7JustSmiles = {
     0.22325582802296,
     0.22325579822063,
     0.22325582802296,
+    0.18122749030590,
 };    
 const std::vector<double> FiveSevenHybrids = {
     0.22325582802296,
@@ -587,4 +589,15 @@ calculateBestFloat.exe
     for (double num : arrray) {
         std::cout << num << "\n";
     }
+*/
+
+
+/*
+
+(a + b + c + d + e + f + g + h + i + j) / 10 = target
+
+
+
+
+
 */

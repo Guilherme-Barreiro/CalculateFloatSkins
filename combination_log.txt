@@ -2086,3 +2086,34 @@ Total combinations tested: 1
 
 ---------------------------------------
 
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1793007552624 - MAC-10 | Light Box
+0.2219613641500 - Dual Berettas | Hideout
+0.2231139689684 - UMP-45 | Motor Pool
+0.2234193086624 - SSG 08 | Dezastre
+0.2250823229551 - Dual Berettas | Hideout
+0.2258350402117 - SSG 08 | Dezastre
+0.2270226776600 - Tec-9 | Slag
+0.2333640456200 - UMP-45 | Motor Pool
+0.2360042184591 - UMP-45 | Motor Pool
+0.2374532520771 - Dual Berettas | Hideout
+
+Average: 0.2232556954026
+Target : 0.2232558139529
+
+
+Execution time: 0.04 seconds.
+Total combinations tested: 184756
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2182901442051
+Value 0.0040044299202 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 11
+
+---------------------------------------
+
