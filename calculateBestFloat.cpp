@@ -21,52 +21,44 @@ const std::vector<double> G3SG1Scavenger = {
 const std::vector<double> MAC10PipeDowns = {
     0.18204480409622,
     0.18069760501385,
+    0.18127416074276,
 };
 std::vector<double> dangerZone = G3SG1Scavenger;
 
 const double kilowattMSMax = 0.2232558139529;
 const std::vector<double> MAC10LightBoxs = {
-    0.18594589829445,
     // 0.21298122406006,
-    0.20168852806091,
     0.17930075526237,
     0.16708335280418,
-    0.23247745633125,
-    0.22662311792374,
-    0.23212438821793,
 };
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
-    0.23573741316795,
+    0.23781546950340,
+    0.22341930866241,
+    0.16637663543224,
+    0.17392650246620,
+    0.22583504021168,
 };
 const std::vector<double> TEC9Slags = {
-    0.23614075779915,
     0.22702267765999,
-    0.22487623989582,
 };
 const std::vector<double> DualBeretasHideouts = {
-    0.23612774908543,
-    0.22606867551804,
-    0.22828559577465,
-    0.22691345214844,
     0.22760525345802,
-    0.22376704216003,
     0.23745325207710,
     0.22508232295513,
+    0.16301672160625,
+    0.22196136415005,
+    0.21013486385345,
 };
 const std::vector<double> UMP45Motorizeds = {
-    0.23698088526726,
-    0.23476776480675,
     0.23600421845913,
     0.22311396896839,
+    0.23336404561996,
 };
 const std::vector<double> XM1014Irezumis = {
-    0.23302868008614,
-    0.23876348137856,
+    0.23205494880676,
 };
 const std::vector<double> NovaDarkSigils = {
-    0.22795368731022,
-    0.22899319231510,
     0.22464281320572,
 };
 
@@ -74,6 +66,8 @@ std::vector<double> kilowattMS = MAC10LightBoxs;
 
 const double kilowattRMax = 0.2142857142849;
 const std::vector<double> MP7JustSmiles = {
+    0.22325582802296,
+    0.22325579822063,
     0.22325582802296,
 };    
 const std::vector<double> FiveSevenHybrids = {
@@ -84,6 +78,7 @@ const std::vector<double> EtchLords = {
     0.21562741696835,
     0.22325579822063,
     0.22325579822063,
+    0.22325582802296,
     0.22325582802296,
 };
 std::vector<double> kilowattR = MP7JustSmiles;
