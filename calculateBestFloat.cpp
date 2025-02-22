@@ -594,10 +594,11 @@ calculateBestFloat.exe
 
 /*
 
-(a + b + c + d + e + f + g + h + i + j) / 10 = target
+ - assumindo que cada letra é um numero e estao ordenados por ordem crescente
+quero que media seje inferior a 0.2 (exemplo)
+(a + b + c + d + e + f + g + h + i + j) / 10 = media
 
-
-
-
+se a media for > 0.2 (digamos que seja 0.21)
+qual seria o valor que tenho de substituir j para que a media seje 0.2
 
 */
