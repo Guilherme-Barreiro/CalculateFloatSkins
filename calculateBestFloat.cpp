@@ -30,6 +30,10 @@ const std::vector<double> MAC10LightBoxs = {
     // 0.21298122406006,
     0.17930075526237,
     0.16708335280418,
+    0.22476065158844,
+    0.21172598004341,
+    0.22446407377720,
+    0.23198553919792,
 };
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
@@ -38,9 +42,26 @@ const std::vector<double> SSGDezastres = {
     0.16637663543224,
     0.17392650246620,
     0.22583504021168,
+    0.23617786169052,
+    0.23001581430435,
+    0.22797204554081,
+    0.21025262773037,
+    0.17598824203014,
+    0.17598824203014,
+    0.22966387867928,
+    0.21581986546516,
+    0.21024024486542,
+    0.18839631974697,
+    0.20182131230831,
 };
 const std::vector<double> TEC9Slags = {
     0.22702267765999,
+    0.23689585924149,
+    0.22142088413239,
+    0.23652729392052,
+    0.23676261305809,
+    0.22656439244747,
+    0.23346488177776,
 };
 const std::vector<double> DualBeretasHideouts = {
     0.22760525345802,
@@ -49,15 +70,26 @@ const std::vector<double> DualBeretasHideouts = {
     0.16301672160625,
     0.22196136415005,
     0.21013486385345,
+    0.23987548053265,
+    0.21350018680096,
+    0.23210437595844,
+    0.22228354215622,
+    0.23633606731892,
+    0.21885551512241,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.23600421845913,
     0.22311396896839,
     0.23336404561996,
+    0.22008232772350,
+    0.23591566085815,
+    0.23856626451015,
 };
 const std::vector<double> XM1014Irezumis = {
     0.23205494880676,
     0.23301656544209,
+    0.22702011466026,
+    0.22124402225018,
 };
 const std::vector<double> NovaDarkSigils = {
     0.22464281320572,
@@ -124,6 +156,7 @@ const std::vector<double> SawedOffSpiritBoards = {
 };
 const std::vector<double> MP5SDNecroJrs = {
     0.09171529114246,
+    0.09229476004839,
 };
 const std::vector<double> MAC10Ensnareds = {
     0.09040935337543,
@@ -134,6 +167,9 @@ const std::vector<double> FiveSeveNScrawls = {
 };
 const std::vector<double> SCAR20Poultrygeists = {
     0.09223306924105  
+};
+const std::vector<double> MAG7Foresights = {
+    0.09278006851673,
 };
 std::vector<double> DreamsNightmaresMS = SawedOffSpiritBoards;
 
@@ -305,6 +341,12 @@ std::string getSkinName(double skinFloat, int num) {
                     setConsoleColor(5);
                     s = "SCAR-20 | Poultrygeist";
                 }
+            }            
+            for (int i = 0; i < MAG7Foresights.size(); i++){
+                if (MAG7Foresights[i] == skinFloat){
+                    setConsoleColor(2);
+                    s = "SCAR-20 | Poultrygeist";
+                }
             }
             break;
 
@@ -324,6 +366,12 @@ struct Result {
 std::vector<double> sortArray(const std::vector<double> &array) {
     std::vector<double> sortedArray = array;
     std::sort(sortedArray.begin(), sortedArray.end());
+    std::cout << std::fixed << std::setprecision(13);
+
+    // for (double num : sortedArray) {
+    //     std::cout << num << "\n";
+    // }
+
     return sortedArray;
 }
 
@@ -429,12 +477,43 @@ void writeSeparatorToFile(const std::string &barraN, const std::string &fileName
     outFile.close();
 }
 
+std::vector<double> getFirstN(const std::vector<double> &values, int N){
+    std::vector<double> newArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+    for(int i = 0; i < 10; i++)
+        newArray[i] = values[i];
+
+    return newArray;
+}
+
+double getLastGood(const std::vector<double> &values, double target){
+    std::vector<double> newArray = getFirstN(values, 9);
+    double j = target * 10 - (newArray[0] + newArray[1] + newArray[2] + newArray[3] + newArray[4] + newArray[5] + newArray[6] + newArray[7] + newArray[8]);
+    return j;
+}
+
+boolean isArrayGood(const std::vector<double> &values, double target){
+    const std::vector<double> arrray = sortArray(values);
+    std::cout << std::fixed << std::setprecision(13);
+    const std::vector<double> newArray = getFirstN(arrray, 10);
+    double average = calculateAverage(newArray, 10);
+
+    return average > target ? false : true;
+}
+
 void processCombination(const std::vector<double> &values, double target, int mode) {
     auto start = std::chrono::high_resolution_clock::now();
 
     try {
         std::cout << "\n" << values.size() << " entries\n";
-        Result result = findBestCombination(values, target);
+        Result result;
+
+        if(isArrayGood(values, target)){
+            Result result = findBestCombination(values, target);
+        } else {
+            double j = getLastGood(values, target);
+            std::cout << "\nUm " << j << " resolve o problema em vez de " << values[8] << "\n\n";
+        }
 
         auto end = std::chrono::high_resolution_clock::now();
         std::chrono::duration<double> elapsed = end - start;
@@ -444,7 +523,6 @@ void processCombination(const std::vector<double> &values, double target, int mo
             double avg = calculateAverage(values, 10);
             std::cout << std::fixed << std::setprecision(13);
             logStream << std::fixed << std::setprecision(13);
-
             std::cout << "No possible combinations for these floats.\n";
             std::cout << "Average of the lowest 10: " << avg << "\n";
             std::cout << "Value " << abs(target - avg) << " above target.\n";
@@ -520,7 +598,8 @@ int main(){
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), MAC10Ensnareds.begin(), MAC10Ensnareds.end());
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), FiveSeveNScrawls.begin(), FiveSeveNScrawls.end());
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), SCAR20Poultrygeists.begin(), SCAR20Poultrygeists.end());
-   
+    DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), MAG7Foresights.begin(), MAG7Foresights.end());
+    
     int op = -1;
     do{
         std::cout << "\n\n\n\n|----------------------------|\n";
@@ -539,6 +618,7 @@ int main(){
                 processCombination(dangerZone, dangerZoneMax, 1);
                 break;
             case 2:
+                // processCombination(testes, testeMax, 2);
                 processCombination(kilowattMS, kilowattMSMax, 2);
                 break;
             case 3:
@@ -601,4 +681,20 @@ quero que media seje inferior a 0.2 (exemplo)
 se a media for > 0.2 (digamos que seja 0.21)
 qual seria o valor que tenho de substituir j para que a media seje 0.2
 
+*/
+
+/*
+    const double testeMax = 5;
+    const std::vector<double> testes = {
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+    };
 */

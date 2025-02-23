@@ -2117,3 +2117,276 @@ Total combinations tested: 11
 
 ---------------------------------------
 
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1630167216062 - Dual Berettas | Hideout
+0.2101348638535 - Dual Berettas | Hideout
+0.2247606515884 - MAC-10 | Light Box
+0.2250823229551 - Dual Berettas | Hideout
+0.2300158143044 - SSG 08 | Dezastre
+0.2330165654421 - XM1014 | Irezumi
+0.2360042184591 - UMP-45 | Motor Pool
+0.2361778616905 - SSG 08 | Dezastre
+0.2368958592415 - Tec-9 | Slag
+0.2374532520771 - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 3.50 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2182901442051
+Value 0.0040044299202 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 11
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.0926657542586
+Value 0.0005604911017 above target.
+
+Execution time: 85.11 seconds.
+Total combinations tested: 847660528
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1793007552624 - MAC-10 | Light Box
+0.2135001868010 - Dual Berettas | Hideout
+0.2250823229551 - Dual Berettas | Hideout
+0.2258350402117 - SSG 08 | Dezastre
+0.2270226776600 - Tec-9 | Slag
+0.2276052534580 - Dual Berettas | Hideout
+0.2300158143044 - SSG 08 | Dezastre
+0.2330165654421 - XM1014 | Irezumi
+0.2333640456200 - UMP-45 | Motor Pool
+0.2378154695034 - SSG 08 | Dezastre
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 5.26 seconds.
+Total combinations tested: 44352165
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2182901442051
+Value 0.0040044299202 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 11
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.0926657542586
+Value 0.0005604911017 above target.
+
+Execution time: 87.28 seconds.
+Total combinations tested: 847660528
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.2102402448654 - SSG 08 | Dezastre
+0.2104486227035 - SSG 08 | Dezastre
+0.2117259800434 - MAC-10 | Light Box
+0.2135001868010 - Dual Berettas | Hideout
+0.2244640737772 - MAC-10 | Light Box
+0.2246428132057 - Nova | Dark Sigil
+0.2247606515884 - MAC-10 | Light Box
+0.2360042184591 - UMP-45 | Motor Pool
+0.2368958592415 - Tec-9 | Slag
+0.2398754805327 - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 603.01 seconds.
+Total combinations tested: 6540715896
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2182901442051
+Value 0.0040044299202 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 11
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.0924282096326
+Value 0.0003229464757 above target.
+
+Execution time: 110.17 seconds.
+Total combinations tested: 1121099408
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.0109398939576 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.0109398939576 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.0109398939576 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.0109398939576 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.0109398939576 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.0109398939576 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.1123159199953 above target.
+
+Execution time: 0.11 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.1123159199953 above target.
+
+Execution time: 0.11 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.1123159199953 above target.
+
+Execution time: 0.11 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.1123159199953 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2123159199953
+Value 0.1123159199953 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 5.5000000000000
+Value 0.5000000000000 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.0924282096326
+Value 0.0003229464757 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.0924282096326
+Value 0.0003229464757 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.0924282096326
+Value 0.0003229464757 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.0908154209124
+Value 0.0012898422445 above target.
+
+Execution time: 108.42 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2182901442051
+Value 0.0040044299202 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
