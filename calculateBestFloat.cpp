@@ -34,6 +34,8 @@ const std::vector<double> MAC10LightBoxs = {
     0.21172598004341,
     0.22446407377720,
     0.23198553919792,
+    0.22533085942268,
+    0.23541513085365,
 };
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
@@ -53,6 +55,7 @@ const std::vector<double> SSGDezastres = {
     0.21024024486542,
     0.18839631974697,
     0.20182131230831,
+    0.22859668731689,
 };
 const std::vector<double> TEC9Slags = {
     0.22702267765999,
@@ -62,6 +65,9 @@ const std::vector<double> TEC9Slags = {
     0.23676261305809,
     0.22656439244747,
     0.23346488177776,
+    0.23389655351639,
+    0.22407078742981,
+    0.23153664171696,
 };
 const std::vector<double> DualBeretasHideouts = {
     0.22760525345802,
@@ -76,6 +82,7 @@ const std::vector<double> DualBeretasHideouts = {
     0.22228354215622,
     0.23633606731892,
     0.21885551512241,
+    0.23826770484447,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.23600421845913,
@@ -84,12 +91,15 @@ const std::vector<double> UMP45Motorizeds = {
     0.22008232772350,
     0.23591566085815,
     0.23856626451015,
+    0.22402523458004,
 };
 const std::vector<double> XM1014Irezumis = {
     0.23205494880676,
     0.23301656544209,
     0.22702011466026,
     0.22124402225018,
+    0.23217976093292,
+    0.23565153777599,
 };
 const std::vector<double> NovaDarkSigils = {
     0.22464281320572,
