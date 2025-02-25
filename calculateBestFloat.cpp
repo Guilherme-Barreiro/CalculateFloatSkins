@@ -36,6 +36,9 @@ const std::vector<double> MAC10LightBoxs = {
     0.23198553919792,
     0.22533085942268,
     0.23541513085365,
+    0.21452142298222,
+    0.21826556324959,
+    0.23732303082943,
 };
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
@@ -56,6 +59,8 @@ const std::vector<double> SSGDezastres = {
     0.18839631974697,
     0.20182131230831,
     0.22859668731689,
+    0.17297409474850,
+    0.20775668323040,
 };
 const std::vector<double> TEC9Slags = {
     0.22702267765999,
@@ -68,6 +73,8 @@ const std::vector<double> TEC9Slags = {
     0.23389655351639,
     0.22407078742981,
     0.23153664171696,
+    0.23267789185047,
+    0.22939285635948,
 };
 const std::vector<double> DualBeretasHideouts = {
     0.22760525345802,
@@ -83,6 +90,7 @@ const std::vector<double> DualBeretasHideouts = {
     0.23633606731892,
     0.21885551512241,
     0.23826770484447,
+    0.19570872187614,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.23600421845913,
@@ -92,6 +100,7 @@ const std::vector<double> UMP45Motorizeds = {
     0.23591566085815,
     0.23856626451015,
     0.22402523458004,
+    0.22324673831463,
 };
 const std::vector<double> XM1014Irezumis = {
     0.23205494880676,
@@ -100,6 +109,7 @@ const std::vector<double> XM1014Irezumis = {
     0.22124402225018,
     0.23217976093292,
     0.23565153777599,
+    0.21657063066959,
 };
 const std::vector<double> NovaDarkSigils = {
     0.22464281320572,
@@ -192,8 +202,6 @@ const std::vector<double> MAG7MonsterCalls = {
     0.20020510256290,
     0.20667530596256,
 };
-
-
 
 void setConsoleColor(int color) {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
