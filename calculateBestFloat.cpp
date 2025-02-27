@@ -260,6 +260,26 @@ const std::vector<double> MAG7MonsterCalls = {
     0.20667530596256,
 };
 
+// void setConsoleColor(int color);
+// void printColorTable();
+// void printStrRandomColor(const std::string& text);
+// std::string getSkinName(double skinFloat, int num);
+// std::vector<double> sortArray(const std::vector<double> &array);
+// Result findBestCombination(const std::vector<double> &numbers, double target);
+// Result findBestCombination(const std::vector<double> &numbers, double target, double aceitavel);
+// double calculateAverage(const std::vector<double> &array, int entries);
+// void writeCombinationToFile(const std::vector<double> &combination, const std::string &fileName, const std::string &logContent = "");
+// void writeSeparatorToFile(const std::string &barraN, const std::string &fileName, const std::string &logContent = "");
+// std::vector<double> getFirstN(const std::vector<double> &values, int N);
+// double getLastGood(const std::vector<double> &values, double target);
+// bool isArrayGood(const std::vector<double> &values, double target);
+// unsigned long long binomialCoefficient(int n, int k);
+// std::vector<double> shuffleArray(std::vector<double> values);
+// double estimateExecutionTime(const std::vector<double> &values, double target, double aceitavel = 0);
+// void printArray(const std::vector<double> &values);
+// std::string formatExecutionTime(double seconds);
+// void processCombination(const std::vector<double> &values, double target, int mode, double aceitavel = 0);
+
 void setConsoleColor(int color) {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(hConsole, color);
@@ -450,7 +470,7 @@ std::vector<double> sortArray(const std::vector<double> &array) {
     return sortedArray;
 }
 
-Result findBestCombination(const std::vector<double> &numbers, double target) {
+Result findBestCombination(const std::vector<double> &numbers, double target, bool mode = false) {
     if (numbers.size() < 10) {
         throw std::invalid_argument("The array must contain at least 10 numbers.");
     }
@@ -462,13 +482,16 @@ Result findBestCombination(const std::vector<double> &numbers, double target) {
     long double currentSum = 0.0;
     unsigned long long totalCombinations = 0;
     bool foundExactMatch = false;
+    
+    const char spinner[4] = {'|', '/', '-', '\\'};
+    int spinnerIndex = 0;
+    auto lastUpdate = std::chrono::high_resolution_clock::now();
 
     std::function<void(int, int)> backtrack = [&](int start, int depth) {
         if (foundExactMatch) return;
 
         if (depth == 10) {
             double average = static_cast<double>(currentSum / 10.0);
-
             double truncatedAverage = std::floor(average * 1e12) / 1e12;
             double truncatedTarget = std::floor(target * 1e12) / 1e12;
 
@@ -485,6 +508,15 @@ Result findBestCombination(const std::vector<double> &numbers, double target) {
             }
 
             totalCombinations++;
+
+            if (totalCombinations % 10000 == 0) {
+                auto now = std::chrono::high_resolution_clock::now();
+                if (std::chrono::duration_cast<std::chrono::milliseconds>(now - lastUpdate).count() > 100) {
+                    std::cout << "\rProcessing " << spinner[spinnerIndex] << std::flush;
+                    spinnerIndex = (spinnerIndex + 1) % 4;
+                    lastUpdate = now;
+                }
+            }
             return;
         }
 
@@ -498,13 +530,14 @@ Result findBestCombination(const std::vector<double> &numbers, double target) {
             currentCombination.pop_back();
         }
     };
-
+    if(mode) std::cout << "Processing |" << std::flush;
     backtrack(0, 0);
 
     return {bestCombination, bestAverage, totalCombinations};
 }
 
-Result findBestCombination(const std::vector<double> &numbers, double target, double aceitavel) {
+
+Result findBestCombination(const std::vector<double> &numbers, double target, double aceitavel, bool mode = false) {
     if (numbers.size() < 10) {
         throw std::invalid_argument("The array must contain at least 10 numbers.");
     }
@@ -516,6 +549,10 @@ Result findBestCombination(const std::vector<double> &numbers, double target, do
     long double currentSum = 0.0;
     unsigned long long totalCombinations = 0;
     bool foundExactMatch = false;
+
+    const char spinner[4] = {'|', '/', '-', '\\'};
+    int spinnerIndex = 0;
+    auto lastUpdate = std::chrono::high_resolution_clock::now();
 
     std::function<void(int, int)> backtrack = [&](int start, int depth) {
         if (foundExactMatch) return;
@@ -536,6 +573,15 @@ Result findBestCombination(const std::vector<double> &numbers, double target, do
             }
 
             totalCombinations++;
+
+            if (totalCombinations % 10000 == 0) {
+                auto now = std::chrono::high_resolution_clock::now();
+                if (std::chrono::duration_cast<std::chrono::milliseconds>(now - lastUpdate).count() > 100) {
+                    std::cout << "\rProcessing " << spinner[spinnerIndex] << std::flush;
+                    spinnerIndex = (spinnerIndex + 1) % 4;
+                    lastUpdate = now;
+                }
+            }
             return;
         }
 
@@ -550,6 +596,7 @@ Result findBestCombination(const std::vector<double> &numbers, double target, do
         }
     };
 
+    if(mode) std::cout << "Processing |" << std::flush;
     backtrack(0, 0);
 
     return {bestCombination, bestAverage, totalCombinations};
@@ -618,7 +665,7 @@ double getLastGood(const std::vector<double> &values, double target){
     return j;
 }
 
-boolean isArrayGood(const std::vector<double> &values, double target){
+bool isArrayGood(const std::vector<double> &values, double target){
     const std::vector<double> arrray = sortArray(values);
     std::cout << std::fixed << std::setprecision(13);
     const std::vector<double> newArray = getFirstN(arrray, 10);
@@ -637,19 +684,38 @@ unsigned long long binomialCoefficient(int n, int k) {
     return result;
 }
 
-double estimateExecutionTime(const std::vector<double> &values, double target, double aceitavel) {
+std::vector<double> shuffleArray(std::vector<double> values) {
+    std::random_device rd;
+    std::mt19937 g(rd());
+    std::shuffle(values.begin(), values.end(), g);
+    return values;
+}
+
+double estimateExecutionTime(const std::vector<double> &values, double target, double aceitavel = 0) {
     int n = values.size();
     int k = 10;
     unsigned long long totalCombinations = binomialCoefficient(n, k);
 
-    std::vector<double> testSubset = getFirstN(values, k);
+    int numTests = 0;
+    double totalElapsedTime = 0.0;
+    double lastAvg = -1.0;
 
-    auto startTest = std::chrono::high_resolution_clock::now();
-    findBestCombination(testSubset, target, aceitavel);
-    auto endTest = std::chrono::high_resolution_clock::now();
+    while (numTests < 10000 || (numTests >= 100 && std::abs((totalElapsedTime / numTests) - lastAvg) > 0.05 * lastAvg)) {
+        lastAvg = totalElapsedTime / (numTests == 0 ? 1 : numTests);
 
-    std::chrono::duration<double> elapsedTest = endTest - startTest;
-    double averageTimePerCombination = elapsedTest.count();
+        std::vector<double> shuffledValues = shuffleArray(values);
+        std::vector<double> testSubset(shuffledValues.begin(), shuffledValues.begin() + k);
+
+        auto startTest = std::chrono::high_resolution_clock::now();
+        findBestCombination(testSubset, target, aceitavel);
+        auto endTest = std::chrono::high_resolution_clock::now();
+
+        std::chrono::duration<double> elapsedTest = endTest - startTest;
+        totalElapsedTime += elapsedTest.count();
+        numTests++;
+    }
+
+    double averageTimePerCombination = totalElapsedTime / numTests;
 
     return averageTimePerCombination * totalCombinations;
 }
@@ -659,13 +725,6 @@ void printArray(const std::vector<double> &values) {
     for (double value : values) {
         std::cout << value << "\n";
     }
-}
-
-std::vector<double> shuffleArray(std::vector<double> values) {
-    std::random_device rd;
-    std::mt19937 g(rd());
-    std::shuffle(values.begin(), values.end(), g);
-    return values;
 }
 
 std::string formatExecutionTime(double seconds) {
@@ -681,25 +740,32 @@ std::string formatExecutionTime(double seconds) {
         return std::to_string(hours) + " hours";
     }
     double days = hours / 24;
-    return std::to_string(days) + " days";
+    if (days < 365) {
+        return std::to_string(days) + " days";
+    }
+    double years = days / 365;
+    return std::to_string(years) + " years";
 }
 
-void processCombination(const std::vector<double> &values, double target, int mode) {
+void processCombination(const std::vector<double> &values, double target, int mode, double aceitavel = 0) {
     auto start = std::chrono::high_resolution_clock::now();
 
     try {
         std::cout << "\n" << values.size() << " entries\n";
         std::cout << "Total combinations to test: " << binomialCoefficient(values.size(), 10) << "\n";
         
-        double estimatedTime = estimateExecutionTime(values, target, 0.2232558131218);
+        double estimatedTime = estimateExecutionTime(values, target);
         std::cout << "Estimated total execution time: " << formatExecutionTime(estimatedTime) << "\n";
              
         Result result;
 
         if(isArrayGood(values, target)){
             std::vector<double> shuffledValues = shuffleArray(values);
-             // result = findBestCombination(values, target);
-            result = findBestCombination(shuffledValues, target, 0.2232558131218);
+            if(aceitavel == 0){
+                result = findBestCombination(shuffledValues, target, true);
+            } else {
+                result = findBestCombination(shuffledValues, target, aceitavel, true);
+            }
         } else {
             double j = getLastGood(values, target);
             std::cout << "\nUm " << j << " resolve o problema em vez de " << values[8] << "\n\n";
@@ -801,7 +867,7 @@ int main(){
                 break;
             case 2:
                 // processCombination(testes, testeMax, 2);
-                processCombination(kilowattMS, kilowattMSMax, 2);
+                processCombination(kilowattMS, kilowattMSMax, 2, 0.2232558131218);
                 break;
             case 3:
                 processCombination(kilowattR, kilowattRMax, 3);

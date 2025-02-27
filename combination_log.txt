@@ -2523,3 +2523,4 @@ Total combinations tested: 0
 
 ---------------------------------------
 
+Erro: The array must contain at least 10 numbers.
