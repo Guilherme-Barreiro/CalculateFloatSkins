@@ -27,6 +27,16 @@ std::vector<double> dangerZone = G3SG1Scavenger;
 
 const double kilowattMSMax = 0.2232558139529;
 const std::vector<double> MAC10LightBoxs = {
+    // 0.22325581312356,
+    // 0.22325581312356,
+    // 0.22325581312356,
+    // 0.22325581312356,
+    // 0.22325581312356,
+    // 0.22325581312356,
+    // 0.22325581312356,
+    // 0.22325581312356,
+    // 0.22325581312356,
+    // 0.22325581312356,
     // 0.21298122406006,
     0.17930075526237,
     0.16708335280418,
@@ -44,6 +54,7 @@ const std::vector<double> MAC10LightBoxs = {
     0.22595721483231,
     0.17857378721237,
     0.19027878344059,
+    0.23376765847206,
 };
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
@@ -72,6 +83,8 @@ const std::vector<double> SSGDezastres = {
     0.21304327249527,
     0.16113430261612,
     0.17083610594273,
+    0.23397356271744,
+    0.21759814023972,
 };
 const std::vector<double> TEC9Slags = {
     0.22702267765999,
@@ -89,6 +102,8 @@ const std::vector<double> TEC9Slags = {
     0.23166742920876,
     0.22078390419483,
     0.15595465898514,
+    0.22581608593464,
+    0.14883780479431,
 };
 const std::vector<double> DualBeretasHideouts = {
     0.22760525345802,
@@ -122,6 +137,13 @@ const std::vector<double> UMP45Motorizeds = {
     0.22402523458004,
     0.22324673831463,
     0.20455411076546,
+    0.21707290410995,
+    0.21718129515648,
+    0.21314667165279,
+    0.21295048296452,
+    0.19712463021278,
+    0.16602112352848,
+    0.20275172591209,
 };
 const std::vector<double> XM1014Irezumis = {
     0.23205494880676,
@@ -138,6 +160,8 @@ const std::vector<double> XM1014Irezumis = {
     0.20719406008720,
     0.19257529079914,
     0.23803666234016,
+    0.15315745770931,
+    0.21868249773979,
 };
 const std::vector<double> NovaDarkSigils = {
     0.22464281320572,
@@ -475,6 +499,57 @@ Result findBestCombination(const std::vector<double> &numbers, double target) {
     return {bestCombination, bestAverage, totalCombinations};
 }
 
+Result findBestCombination(const std::vector<double> &numbers, double target, double aceitavel) {
+    if (numbers.size() < 10) {
+        throw std::invalid_argument("The array must contain at least 10 numbers.");
+    }
+
+    int n = numbers.size();
+    double bestAverage = -std::numeric_limits<double>::infinity();
+    std::vector<double> bestCombination;
+    std::vector<double> currentCombination;
+    long double currentSum = 0.0;
+    unsigned long long totalCombinations = 0;
+    bool foundExactMatch = false;
+
+    std::function<void(int, int)> backtrack = [&](int start, int depth) {
+        if (foundExactMatch) return;
+
+        if (depth == 10) {
+            double average = static_cast<double>(currentSum / 10.0);
+
+            if (average >= aceitavel && average <= target) {
+                bestCombination = currentCombination;
+                bestAverage = average;
+                foundExactMatch = true;
+                return;
+            }
+
+            if (average < target && average > bestAverage) {
+                bestCombination = currentCombination;
+                bestAverage = average;
+            }
+
+            totalCombinations++;
+            return;
+        }
+
+        for (int i = start; i < n; ++i) {
+            currentCombination.push_back(numbers[i]);
+            currentSum += numbers[i];
+
+            backtrack(i + 1, depth + 1);
+
+            currentSum -= currentCombination.back();
+            currentCombination.pop_back();
+        }
+    };
+
+    backtrack(0, 0);
+
+    return {bestCombination, bestAverage, totalCombinations};
+}
+
 double calculateAverage(const std::vector<double> &array, int entries){
     std::vector<double> sortedArray = array;
     std::sort(sortedArray.begin(), sortedArray.end());
@@ -555,7 +630,8 @@ void processCombination(const std::vector<double> &values, double target, int mo
         Result result;
 
         if(isArrayGood(values, target)){
-            Result result = findBestCombination(values, target);
+            // Result result = findBestCombination(values, target);
+            result = findBestCombination(values, target, 0.2232558131218);
         } else {
             double j = getLastGood(values, target);
             std::cout << "\nUm " << j << " resolve o problema em vez de " << values[8] << "\n\n";
@@ -601,7 +677,7 @@ void processCombination(const std::vector<double> &values, double target, int mo
         }
 
         std::cout << std::fixed << std::setprecision(2);
-        std::cout << "Execution time: " << elapsed.count() << " seconds.\n";
+        std::cout << "\nExecution time: " << elapsed.count() << " seconds.\n";
         std::cout << "Total combinations tested: " << result.totalCombinations << "\n";
 
         logStream << std::fixed << std::setprecision(2);
