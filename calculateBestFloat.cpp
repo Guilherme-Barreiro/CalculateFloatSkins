@@ -26,7 +26,7 @@ const std::vector<double> MAC10PipeDowns = {
 };
 std::vector<double> dangerZone = G3SG1Scavenger;
 
-const double kilowattMSMax = 0.2232558139529;
+const double kilowattMSMax = 0.2232558139519;
 const std::vector<double> MAC10LightBoxs = {
     // 0.22325581312356,
     // 0.22325581312356,
@@ -39,133 +39,76 @@ const std::vector<double> MAC10LightBoxs = {
     // 0.22325581312356,
     // 0.22325581312356,
     // 0.21298122406006,
-    0.17930075526237,
     0.16708335280418,
-    0.22476065158844,
     0.21172598004341,
-    0.22446407377720,
-    0.23198553919792,
-    0.22533085942268,
-    0.23541513085365,
     0.21452142298222,
-    0.21826556324959,
-    0.23732303082943,
-    0.21392472088337,
-    0.23532339930534,
     0.22595721483231,
-    0.17857378721237,
     0.19027878344059,
-    0.23376765847206,
 };
+
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
     0.23781546950340,
     0.22341930866241,
     0.16637663543224,
-    0.17392650246620,
     0.22583504021168,
-    0.23617786169052,
-    0.23001581430435,
-    0.22797204554081,
-    0.21025262773037,
-    0.17598824203014,
-    0.17598824203014,
-    0.22966387867928,
-    0.21581986546516,
-    0.21024024486542,
     0.18839631974697,
-    0.20182131230831,
-    0.22859668731689,
-    0.17297409474850,
-    0.20775668323040,
-    0.17687685787678,
-    0.17826052010059,
-    0.22539266943932,
-    0.21304327249527,
-    0.16113430261612,
-    0.17083610594273,
     0.23397356271744,
     0.21759814023972,
     0.17145434021950,
 };
 const std::vector<double> TEC9Slags = {
-    0.22702267765999,
-    0.23689585924149,
-    0.22142088413239,
     0.23652729392052,
-    0.23676261305809,
     0.22656439244747,
-    0.23346488177776,
     0.23389655351639,
-    0.22407078742981,
     0.23153664171696,
     0.23267789185047,
-    0.22939285635948,
     0.23166742920876,
-    0.22078390419483,
-    0.15595465898514,
-    0.22581608593464,
-    0.14883780479431,
     0.19159898161888,
+    0.19941687583923,
+    0.20475757122040,
+    0.21206176280975,
+    0.22931824624538,
 };
+
 const std::vector<double> DualBeretasHideouts = {
     0.22760525345802,
     0.23745325207710,
     0.22508232295513,
     0.16301672160625,
     0.22196136415005,
-    0.21013486385345,
     0.23987548053265,
     0.21350018680096,
-    0.23210437595844,
-    0.22228354215622,
-    0.23633606731892,
     0.21885551512241,
-    0.23826770484447,
     0.19570872187614,
     0.23139290511608,
     0.20232538878918,
     0.21034881472588,
     0.21969285607338,
-    0.17865273356438,
-    0.16671207547188,
-    0.19770096242428,
+    0.22494767606258,
+    0.21523442864418,
 };
+
 const std::vector<double> UMP45Motorizeds = {
-    0.23600421845913,
     0.22311396896839,
     0.23336404561996,
     0.22008232772350,
-    0.23591566085815,
     0.23856626451015,
     0.22402523458004,
     0.22324673831463,
-    0.20455411076546,
     0.21707290410995,
-    0.21718129515648,
-    0.21314667165279,
-    0.21295048296452,
     0.19712463021278,
-    0.16602112352848,
-    0.20275172591209,
+    0.23057961463928,
+    0.18630437552929,
 };
 const std::vector<double> XM1014Irezumis = {
-    0.23205494880676,
     0.23301656544209,
-    0.22702011466026,
     0.22124402225018,
-    0.23217976093292,
-    0.23565153777599,
     0.21657063066959,
     0.23484013974667,
     0.18199497461319,
-    0.20640374720097,
     0.19558809697628,
-    0.20719406008720,
-    0.19257529079914,
-    0.23803666234016,
-    0.15315745770931,
-    0.21868249773979,
+    // 0.21868249773979,
     0.22854188084602,
 };
 const std::vector<double> NovaDarkSigils = {
@@ -176,21 +119,16 @@ std::vector<double> kilowattMS = MAC10LightBoxs;
 
 const double kilowattRMax = 0.2142857142849;
 const std::vector<double> MP7JustSmiles = {
+    0.15003338456154, // glock block 18 failed
+    0.15000000596046, // glock block 18 failed
     0.22325582802296,
     0.22325579822063,
     0.22325582802296,
-    0.18122749030590,
-};    
-const std::vector<double> FiveSevenHybrids = {
-    0.22325582802296,
     0.22325582802296,
 };    
+const std::vector<double> FiveSevenHybrids = {};    
 const std::vector<double> EtchLords = {
-    0.21562741696835,
     0.22325579822063,
-    0.22325579822063,
-    0.22325582802296,
-    0.22325582802296,
 };
 std::vector<double> kilowattR = MP7JustSmiles;
 
@@ -389,7 +327,7 @@ std::string getSkinName(double skinFloat, int num) {
             for (int i = 0; i < MP7JustSmiles.size(); i++){
                 if (MP7JustSmiles[i] == skinFloat){
                     setConsoleColor(12);
-                    s = "MP7 | Just My Style";
+                    s = "MP7 | Just Smile";
                 }
             }
             for (int i = 0; i < FiveSevenHybrids.size(); i++){
@@ -535,7 +473,6 @@ Result findBestCombination(const std::vector<double> &numbers, double target, bo
 
     return {bestCombination, bestAverage, totalCombinations};
 }
-
 
 Result findBestCombination(const std::vector<double> &numbers, double target, double aceitavel, bool mode = false) {
     if (numbers.size() < 10) {
@@ -793,7 +730,7 @@ void processCombination(const std::vector<double> &values, double target, int mo
 
             logStream << "Best Combination:\n";
 
-            std::cout << "Best Combination:\n";
+            std::cout << "\n\nBest Combination:\n";
             for (double value : result.combination) {
                 std::cout << value << " - " << getSkinName(value, mode) << "\n";
                 setConsoleColor(7);
@@ -867,9 +804,10 @@ int main(){
                 break;
             case 2:
                 // processCombination(testes, testeMax, 2);
-                processCombination(kilowattMS, kilowattMSMax, 2, 0.2232558131218);
+                processCombination(kilowattMS, kilowattMSMax, 2, 0.223255813);
                 break;
             case 3:
+                printArray(sortArray(kilowattR));           
                 processCombination(kilowattR, kilowattRMax, 3);
                 break;
             case 4:

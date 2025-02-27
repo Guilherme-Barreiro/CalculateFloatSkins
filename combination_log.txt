@@ -2524,3 +2524,609 @@ Total combinations tested: 0
 ---------------------------------------
 
 Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1971246302128 - UMP-45 | Motor Pool
+0.1977009624243 - Dual Berettas | Hideout
+0.2071940600872 - XM1014 | Irezumi
+0.2196928560734 - Dual Berettas | Hideout
+0.2222835421562 - Dual Berettas | Hideout
+0.2270201146603 - XM1014 | Irezumi
+0.2279720455408 - SSG 08 | Dezastre
+0.2315366417170 - Tec-9 | Slag
+0.2353233993053 - MAC-10 | Light Box
+0.2354151308537 - MAC-10 | Light Box
+
+Average: 0.2201263383031
+Target : 0.2232558139529
+
+
+Execution time: 0.71 seconds.
+Total combinations tested: 6438958
+
+---------------------------------------
+
+Best Combination:
+0.1630167216062 - Dual Berettas | Hideout
+0.1793007552624 - MAC-10 | Light Box
+0.2240252345800 - UMP-45 | Motor Pool
+0.2240707874298 - Tec-9 | Slag
+0.2246428132057 - Nova | Dark Sigil
+0.2320549488068 - XM1014 | Irezumi
+0.2363360673189 - Dual Berettas | Hideout
+0.2382677048445 - Dual Berettas | Hideout
+0.2385662645102 - UMP-45 | Motor Pool
+0.2398754805327 - Dual Berettas | Hideout
+
+Average: 0.2200156778097
+Target : 0.2232558139529
+
+
+Execution time: 1.06 seconds.
+Total combinations tested: 10465859
+
+---------------------------------------
+
+Best Combination:
+0.1759882420301 - SSG 08 | Dezastre
+0.1955880969763 - XM1014 | Irezumi
+0.2139247208834 - MAC-10 | Light Box
+0.2244640737772 - MAC-10 | Light Box
+0.2285966873169 - SSG 08 | Dezastre
+0.2293928563595 - Tec-9 | Slag
+0.2316674292088 - Tec-9 | Slag
+0.2320549488068 - XM1014 | Irezumi
+0.2333640456200 - UMP-45 | Motor Pool
+0.2354151308537 - MAC-10 | Light Box
+
+Average: 0.2200456231832
+Target : 0.2232558139529
+
+
+Execution time: 0.78 seconds.
+Total combinations tested: 6660667
+
+---------------------------------------
+
+Best Combination:
+0.1663766354322 - SSG 08 | Dezastre
+0.1955880969763 - XM1014 | Irezumi
+0.2135001868010 - Dual Berettas | Hideout
+0.2232467383146 - UMP-45 | Motor Pool
+0.2240252345800 - UMP-45 | Motor Pool
+0.2326778918505 - Tec-9 | Slag
+0.2339735627174 - SSG 08 | Dezastre
+0.2363360673189 - Dual Berettas | Hideout
+0.2374532520771 - Dual Berettas | Hideout
+0.2380366623402 - XM1014 | Irezumi
+
+Average: 0.2201214328408
+Target : 0.2232558139529
+
+
+Execution time: 0.73 seconds.
+Total combinations tested: 6438747
+
+---------------------------------------
+
+Best Combination:
+0.1729740947485 - SSG 08 | Dezastre
+0.1786527335644 - Dual Berettas | Hideout
+0.2279720455408 - SSG 08 | Dezastre
+0.2320549488068 - XM1014 | Irezumi
+0.2353233993053 - MAC-10 | Light Box
+0.2361778616905 - SSG 08 | Dezastre
+0.2363360673189 - Dual Berettas | Hideout
+0.2367626130581 - Tec-9 | Slag
+0.2380366623402 - XM1014 | Irezumi
+0.2382677048445 - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 4165.16 seconds.
+Total combinations tested: 52174303385
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2182901442051
+Value 0.0040044299202 above target.
+
+Execution time: 1.05 seconds.
+Total combinations tested: 34359725568
+
+---------------------------------------
+
+Best Combination:
+0.1531574577093 - XM1014 | Irezumi
+0.1660211235285 - UMP-45 | Motor Pool
+0.1708361059427 - SSG 08 | Dezastre
+0.1759882420301 - SSG 08 | Dezastre
+0.1768768578768 - SSG 08 | Dezastre
+0.1782605201006 - SSG 08 | Dezastre
+0.1793007552624 - MAC-10 | Light Box
+0.2027517259121 - UMP-45 | Motor Pool
+0.2102402448654 - SSG 08 | Dezastre
+0.2186819463968 - MAC-10 | Light Box
+
+Average: 0.1832114979625
+Target : 0.1832114990187
+
+
+Execution time: 132.89 seconds.
+Total combinations tested: 1401440700
+
+---------------------------------------
+
+Best Combination:
+0.1812274903059 - MP7 | Just My Style
+0.1832114979625 - MP7 | Just My Style
+0.2156274169683 - M4A4 | Etch Lord
+0.2232557982206 - M4A4 | Etch Lord
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2142857141793
+Target : 0.2142857142849
+
+
+Execution time: 0.75 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.60 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1714543402195 - SSG 08 | Dezastre
+0.2196928560734 - Dual Berettas | Hideout
+0.2240252345800 - UMP-45 | Motor Pool
+0.2253308594227 - MAC-10 | Light Box
+0.2253926694393 - SSG 08 | Dezastre
+0.2293928563595 - Tec-9 | Slag
+0.2313929051161 - Dual Berettas | Hideout
+0.2321043759584 - Dual Berettas | Hideout
+0.2338965535164 - Tec-9 | Slag
+0.2398754805327 - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 0.73 seconds.
+Total combinations tested: 4318602
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.55 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.52 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.48 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1488378047943 - Tec-9 | Slag
+0.1559546589851 - Tec-9 | Slag
+0.1611343026161 - SSG 08 | Dezastre
+0.1667120754719 - Dual Berettas | Hideout
+0.1739265024662 - SSG 08 | Dezastre
+0.1785737872124 - MAC-10 | Light Box
+0.1925752907991 - XM1014 | Irezumi
+0.1977009624243 - Dual Berettas | Hideout
+0.2207839041948 - Tec-9 | Slag
+0.2359156608581 - UMP-45 | Motor Pool
+
+Average: 0.1832114949822
+Target : 0.1832114990187
+
+
+Execution time: 3636.58 seconds.
+Total combinations tested: 42697421044
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.2182901442051
+Value 0.0040044299202 above target.
+
+Execution time: 1.02 seconds.
+Total combinations tested: 140724602880040
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.60 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.59 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.58 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.57 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.55 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - Five-SeveN | Hybrid
+0.2232558280230 - Five-SeveN | Hybrid
+0.2232558280230 - Five-SeveN | Hybrid
+0.2232558280230 - Five-SeveN | Hybrid
+0.2232558280230 - Five-SeveN | Hybrid
+0.2232558280230 - Five-SeveN | Hybrid
+0.2232558280230 - Five-SeveN | Hybrid
+0.2232558280230 - Five-SeveN | Hybrid
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.57 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.56 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1500333845615 - MP7 | Just Smile
+0.1812274903059 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280229 - MP7 | Just Smile
+0.2232558280229 - MP7 | Just Smile
+0.2232558280229 - Five-SeveN | Hybrid
+0.2232558280229 - Five-SeveN | Hybrid
+0.2232558280229 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2117307469249
+Target : 0.2142857142849
+
+
+Execution time: 0.57 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+
+Best Combination:
+0.1812274903059 - MP7 | Just Smile
+0.1832114905119 - MP7 | Just Smile
+0.2156274169683 - M4A4 | Etch Lord
+0.2232557982206 - M4A4 | Etch Lord
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280229 - Five-SeveN | Hybrid
+0.2232558280229 - Five-SeveN | Hybrid
+0.2232558280229 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2142857134342
+Target : 0.2142857142849
+
+
+Execution time: 0.44 seconds.
+Total combinations tested: 1001
+
+---------------------------------------
+
+Best Combination:
+0.1812274903059 - MP7 | Just Smile
+0.1832114905119 - MP7 | Just Smile
+0.2156274169650 - M4A4 | Etch Lord
+0.2232557982220 - M4A4 | Etch Lord
+0.2232557982230 - M4A4 | Etch Lord
+0.2232558280229 - Five-SeveN | Hybrid
+0.2232558280229 - Five-SeveN | Hybrid
+0.2232558280230 - MP7 | Just Smile
+0.2232558280250 - M4A4 | Etch Lord
+0.2232558280260 - M4A4 | Etch Lord
+
+Average: 0.2142857134348
+Target : 0.2142857142849
+
+
+Execution time: 0.42 seconds.
+Total combinations tested: 1001
+
+---------------------------------------
+
+Best Combination:
+0.2045541107655 - UMP-45 | Motor Pool
+0.2129504829645 - UMP-45 | Motor Pool
+0.2130432724953 - SSG 08 | Dezastre
+0.2131466716528 - UMP-45 | Motor Pool
+0.2244640737772 - MAC-10 | Light Box
+0.2270201146603 - XM1014 | Irezumi
+0.2293928563595 - Tec-9 | Slag
+0.2337676584721 - MAC-10 | Light Box
+0.2368958592415 - Tec-9 | Slag
+0.2373230308294 - MAC-10 | Light Box
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 0.50 seconds.
+Total combinations tested: 565301
+
+---------------------------------------
+
+Best Combination:
+0.2018213123083 - SSG 08 | Dezastre
+0.2101348638535 - Dual Berettas | Hideout
+0.2158198654652 - SSG 08 | Dezastre
+0.2240707874298 - Tec-9 | Slag
+0.2253926694393 - SSG 08 | Dezastre
+0.2270226776600 - Tec-9 | Slag
+0.2285966873169 - SSG 08 | Dezastre
+0.2321043759584 - Dual Berettas | Hideout
+0.2321797609329 - XM1014 | Irezumi
+0.2354151308537 - MAC-10 | Light Box
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 0.43 seconds.
+Total combinations tested: 359451
+
+---------------------------------------
+
+Best Combination:
+0.2102526277304 - SSG 08 | Dezastre
+0.2139247208834 - MAC-10 | Light Box
+0.2171812951565 - UMP-45 | Motor Pool
+0.2214208841324 - Tec-9 | Slag
+0.2222835421562 - Dual Berettas | Hideout
+0.2247606515884 - MAC-10 | Light Box
+0.2253308594227 - MAC-10 | Light Box
+0.2296638786793 - SSG 08 | Dezastre
+0.2324785292149 - MAC-10 | Light Box
+0.2352611422539 - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139529
+
+
+Execution time: 1.11 seconds.
+Total combinations tested: 7934097
+
+---------------------------------------
+
+Best Combination:
+0.2064037472010 - XM1014 | Irezumi
+0.2071940600872 - XM1014 | Irezumi
+0.2077566832304 - SSG 08 | Dezastre
+0.2182655632496 - MAC-10 | Light Box
+0.2258160859346 - Tec-9 | Slag
+0.2300158143044 - SSG 08 | Dezastre
+0.2319855391979 - MAC-10 | Light Box
+0.2334648817778 - Tec-9 | Slag
+0.2356515377760 - XM1014 | Irezumi
+0.2360042184591 - UMP-45 | Motor Pool
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 0.81 seconds.
+Total combinations tested: 5209843
+
+---------------------------------------
+
+Best Combination:
+0.2104486227035 - SSG 08 | Dezastre
+0.2117259800434 - MAC-10 | Light Box
+0.2120617628098 - Tec-9 | Slag
+0.2145214229822 - MAC-10 | Light Box
+0.2259572148323 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2293182462454 - Tec-9 | Slag
+0.2315366417170 - Tec-9 | Slag
+0.2338965535164 - Tec-9 | Slag
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 18.36 seconds.
+Total combinations tested: 179606425
+
+---------------------------------------
+
