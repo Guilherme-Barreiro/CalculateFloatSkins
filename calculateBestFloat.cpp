@@ -9,6 +9,7 @@
 #include <fstream>
 #include <windows.h>
 #include <cstdlib>
+#include <random>
 
 const double dangerZoneMax = 0.1874999999999;
 const std::vector<double> G3SG1Scavenger = {
@@ -85,6 +86,7 @@ const std::vector<double> SSGDezastres = {
     0.17083610594273,
     0.23397356271744,
     0.21759814023972,
+    0.17145434021950,
 };
 const std::vector<double> TEC9Slags = {
     0.22702267765999,
@@ -104,6 +106,7 @@ const std::vector<double> TEC9Slags = {
     0.15595465898514,
     0.22581608593464,
     0.14883780479431,
+    0.19159898161888,
 };
 const std::vector<double> DualBeretasHideouts = {
     0.22760525345802,
@@ -126,6 +129,7 @@ const std::vector<double> DualBeretasHideouts = {
     0.21969285607338,
     0.17865273356438,
     0.16671207547188,
+    0.19770096242428,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.23600421845913,
@@ -162,6 +166,7 @@ const std::vector<double> XM1014Irezumis = {
     0.23803666234016,
     0.15315745770931,
     0.21868249773979,
+    0.22854188084602,
 };
 const std::vector<double> NovaDarkSigils = {
     0.22464281320572,
@@ -622,16 +627,79 @@ boolean isArrayGood(const std::vector<double> &values, double target){
     return average > target ? false : true;
 }
 
+unsigned long long binomialCoefficient(int n, int k) {
+    if (k > n) return 0;
+    if (k == 0 || k == n) return 1;
+    unsigned long long result = 1;
+    for (int i = 1; i <= k; ++i) {
+        result = result * (n - i + 1) / i;
+    }
+    return result;
+}
+
+double estimateExecutionTime(const std::vector<double> &values, double target, double aceitavel) {
+    int n = values.size();
+    int k = 10;
+    unsigned long long totalCombinations = binomialCoefficient(n, k);
+
+    std::vector<double> testSubset = getFirstN(values, k);
+
+    auto startTest = std::chrono::high_resolution_clock::now();
+    findBestCombination(testSubset, target, aceitavel);
+    auto endTest = std::chrono::high_resolution_clock::now();
+
+    std::chrono::duration<double> elapsedTest = endTest - startTest;
+    double averageTimePerCombination = elapsedTest.count();
+
+    return averageTimePerCombination * totalCombinations;
+}
+
+void printArray(const std::vector<double> &values) {
+    std::cout << std::fixed << std::setprecision(13);
+    for (double value : values) {
+        std::cout << value << "\n";
+    }
+}
+
+std::vector<double> shuffleArray(std::vector<double> values) {
+    std::random_device rd;
+    std::mt19937 g(rd());
+    std::shuffle(values.begin(), values.end(), g);
+    return values;
+}
+
+std::string formatExecutionTime(double seconds) {
+    if (seconds < 60) {
+        return std::to_string(seconds) + " seconds";
+    }
+    double minutes = seconds / 60;
+    if (minutes < 60) {
+        return std::to_string(minutes) + " minutes";
+    }
+    double hours = minutes / 60;
+    if (hours < 24) {
+        return std::to_string(hours) + " hours";
+    }
+    double days = hours / 24;
+    return std::to_string(days) + " days";
+}
+
 void processCombination(const std::vector<double> &values, double target, int mode) {
     auto start = std::chrono::high_resolution_clock::now();
 
     try {
         std::cout << "\n" << values.size() << " entries\n";
+        std::cout << "Total combinations to test: " << binomialCoefficient(values.size(), 10) << "\n";
+        
+        double estimatedTime = estimateExecutionTime(values, target, 0.2232558131218);
+        std::cout << "Estimated total execution time: " << formatExecutionTime(estimatedTime) << "\n";
+             
         Result result;
 
         if(isArrayGood(values, target)){
-            // Result result = findBestCombination(values, target);
-            result = findBestCombination(values, target, 0.2232558131218);
+            std::vector<double> shuffledValues = shuffleArray(values);
+             // result = findBestCombination(values, target);
+            result = findBestCombination(shuffledValues, target, 0.2232558131218);
         } else {
             double j = getLastGood(values, target);
             std::cout << "\nUm " << j << " resolve o problema em vez de " << values[8] << "\n\n";
@@ -693,14 +761,6 @@ void processCombination(const std::vector<double> &values, double target, int mo
         writeCombinationToFile({}, "combination_log.txt", std::string("Erro: ") + e.what());
     }
 }
-
-void printArray(const std::vector<double> &values) {
-    std::cout << std::fixed << std::setprecision(13);
-    for (double value : values) {
-        std::cout << value << "\n";
-    }
-}
-
 
 int main(){
 
