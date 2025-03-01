@@ -3130,3 +3130,43 @@ Total combinations tested: 179606425
 
 ---------------------------------------
 
+Best Combination:
+0.1955880969763 - XM1014 | Irezumi
+0.2047575712204 - Tec-9 | Slag
+0.2200823277235 - UMP-45 | Motor Pool
+0.2246428132057 - Nova | Dark Sigil
+0.2259572148323 - MAC-10 | Light Box
+0.2285418808460 - XM1014 | Irezumi
+0.2293182462454 - Tec-9 | Slag
+0.2315366417170 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2374532520771 - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 8.46 seconds.
+Total combinations tested: 120577177
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+No possible combinations for these floats.
+Average of the lowest 10: 0.1716345861554
+Value 0.0426511281295 above target.
+
+Execution time: 0.29 seconds.
+Total combinations tested: 571190801664
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.0924282096326
+Value 0.0003229464757 above target.
+
+Execution time: 0.81 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+

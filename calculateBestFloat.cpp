@@ -44,6 +44,15 @@ const std::vector<double> MAC10LightBoxs = {
     0.21452142298222,
     0.22595721483231,
     0.19027878344059,
+    0.21915514767170,
+    0.21814171969891,
+    0.22587949037552,
+    0.23468008637428,
+    0.22022610902786,
+    0.22719961404800,
+    0.23906281590462,
+    0.23239931464195,
+    0.22180806100368,
 };
 
 const std::vector<double> SSGDezastres = {
@@ -56,6 +65,7 @@ const std::vector<double> SSGDezastres = {
     0.23397356271744,
     0.21759814023972,
     0.17145434021950,
+    0.22799071669579,
 };
 const std::vector<double> TEC9Slags = {
     0.23652729392052,
@@ -69,6 +79,11 @@ const std::vector<double> TEC9Slags = {
     0.20475757122040,
     0.21206176280975,
     0.22931824624538,
+    0.19603025913239,
+    0.20593534410000,
+    0.22883753478527,
+    0.23934806883335,
+    0.22546690702438,
 };
 
 const std::vector<double> DualBeretasHideouts = {
@@ -87,6 +102,9 @@ const std::vector<double> DualBeretasHideouts = {
     0.21969285607338,
     0.22494767606258,
     0.21523442864418,
+    0.22267846763134,
+    0.21356855332851,
+    0.22575123608112,
 };
 
 const std::vector<double> UMP45Motorizeds = {
@@ -100,6 +118,9 @@ const std::vector<double> UMP45Motorizeds = {
     0.19712463021278,
     0.23057961463928,
     0.18630437552929,
+    0.19506695866585,
+    0.23163858056068,
+    0.22532562911510,
 };
 const std::vector<double> XM1014Irezumis = {
     0.23301656544209,
@@ -110,6 +131,7 @@ const std::vector<double> XM1014Irezumis = {
     0.19558809697628,
     // 0.21868249773979,
     0.22854188084602,
+    0.22605520486832,
 };
 const std::vector<double> NovaDarkSigils = {
     0.22464281320572,
@@ -807,7 +829,7 @@ int main(){
                 processCombination(kilowattMS, kilowattMSMax, 2, 0.223255813);
                 break;
             case 3:
-                printArray(sortArray(kilowattR));           
+                // printArray(sortArray(kilowattR));           
                 processCombination(kilowattR, kilowattRMax, 3);
                 break;
             case 4:
