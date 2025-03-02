@@ -10,6 +10,7 @@
 #include <windows.h>
 #include <cstdlib>
 #include <random>
+//#include <thread>
 
 const double dangerZoneMax = 0.1874999999999;
 const std::vector<double> G3SG1Scavenger = {
@@ -835,6 +836,7 @@ int main(){
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), MAG7Foresights.begin(), MAG7Foresights.end());
     
     int op = -1;
+    double kilowattMSMin = 0.2232558131219;
     do{
         std::cout << "\n\n|----------------------------|\n";
         std::cout << "| Escolha uma opcao:         |\n";
@@ -852,8 +854,8 @@ int main(){
                 processCombination(dangerZone, dangerZoneMax, 1);
                 break;
             case 2:
-                // processCombination(testes, testeMax, 2);
-                processCombination(kilowattMS, kilowattMSMax, 2, 0.223255813);
+                // processCombination(testes, testeMax, 2);      0.2232558131218
+                processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMin);
                 break;
             case 3:
                 // printArray(sortArray(kilowattR));           
@@ -864,7 +866,7 @@ int main(){
                 break;
             case 5:
                 processCombination(dangerZone, dangerZoneMax, 1);printStrRandomColor("\n------------------------------------------------------");
-                processCombination(kilowattMS, kilowattMSMax, 2);printStrRandomColor("\n------------------------------------------------------");
+                processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMin);printStrRandomColor("\n------------------------------------------------------");
                 processCombination(kilowattR, kilowattRMax, 3);printStrRandomColor("\n------------------------------------------------------");
                 processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4);
                 break;
