@@ -38,34 +38,33 @@ const std::vector<double> MAC10LightBoxs = {
     // 0.22325581312356,
     // 0.22325581312356,
     // 0.22325581312356,
-    // 0.21298122406006,
+    // 0.21298122406006, // craft ig
     0.16708335280418,
     0.21172598004341,
-    0.21452142298222,
     0.22595721483231,
     0.19027878344059,
-    0.21915514767170,
     0.21814171969891,
     0.22587949037552,
     0.23468008637428,
     0.22022610902786,
     0.22719961404800,
     0.23906281590462,
-    0.23239931464195,
     0.22180806100368,
+    0.22192408144474,
 };
 
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
-    0.23781546950340,
     0.22341930866241,
     0.16637663543224,
     0.22583504021168,
+    0.18728305399418,
     0.18839631974697,
     0.23397356271744,
     0.21759814023972,
     0.17145434021950,
     0.22799071669579,
+    0.22729751467705,
 };
 const std::vector<double> TEC9Slags = {
     0.23652729392052,
@@ -74,37 +73,34 @@ const std::vector<double> TEC9Slags = {
     0.23153664171696,
     0.23267789185047,
     0.23166742920876,
-    0.19159898161888,
     0.19941687583923,
     0.20475757122040,
     0.21206176280975,
-    0.22931824624538,
     0.19603025913239,
     0.20593534410000,
     0.22883753478527,
-    0.23934806883335,
     0.22546690702438,
+    0.22193294763565,
 };
 
 const std::vector<double> DualBeretasHideouts = {
     0.22760525345802,
     0.23745325207710,
     0.22508232295513,
+    0.23869195580482,
     0.16301672160625,
     0.22196136415005,
     0.23987548053265,
     0.21350018680096,
-    0.21885551512241,
     0.19570872187614,
     0.23139290511608,
     0.20232538878918,
     0.21034881472588,
     0.21969285607338,
-    0.22494767606258,
     0.21523442864418,
-    0.22267846763134,
     0.21356855332851,
-    0.22575123608112,
+    0.22362002730370,
+    0.22345954179764,
 };
 
 const std::vector<double> UMP45Motorizeds = {
@@ -112,29 +108,28 @@ const std::vector<double> UMP45Motorizeds = {
     0.23336404561996,
     0.22008232772350,
     0.23856626451015,
-    0.22402523458004,
-    0.22324673831463,
+    0.19558809697628,
     0.21707290410995,
     0.19712463021278,
-    0.23057961463928,
     0.18630437552929,
-    0.19506695866585,
     0.23163858056068,
-    0.22532562911510,
+    0.23116812109947,
+    0.23427477478981,
+    0.22420834004879,
 };
 const std::vector<double> XM1014Irezumis = {
-    0.23301656544209,
-    0.22124402225018,
-    0.21657063066959,
-    0.23484013974667,
     0.18199497461319,
-    0.19558809697628,
     // 0.21868249773979,
+    0.22124402225018,
     0.22854188084602,
-    0.22605520486832,
+    0.23545329272747,
+    0.23750379681587,
+    0.22557795047760,
+    0.22036875784397,
+    0.23268729448318,
 };
 const std::vector<double> NovaDarkSigils = {
-    0.22464281320572,
+    0.22464281320572
 };
 
 std::vector<double> kilowattMS = MAC10LightBoxs;
@@ -200,10 +195,11 @@ const std::vector<double> MAC10Ensnareds = {
     0.09102553129196,
 };    
 const std::vector<double> FiveSeveNScrawls = {
-    0.09268655627966   
+    0.09268655627966,
+    0.09254652261734,
 };
 const std::vector<double> SCAR20Poultrygeists = {
-    0.09223306924105  
+    0.09223306924105,
 };
 const std::vector<double> MAG7Foresights = {
     0.09278006851673,
@@ -321,14 +317,14 @@ std::string getSkinName(double skinFloat, int num) {
             }
             for (int i = 0; i < DualBeretasHideouts.size(); i++){
                 if (DualBeretasHideouts[i] == skinFloat){
-                    setConsoleColor(13);
+                    setConsoleColor(11);
                     s = "Dual Berettas | Hideout";
                 }
             }
             for (int i = 0; i < UMP45Motorizeds.size(); i++){
                 if (UMP45Motorizeds[i] == skinFloat){
                     setConsoleColor(5);
-                    s = "UMP-45 | Motor Pool";
+                    s = "UMP-45 | Motorized";
                 }
             }
             for (int i = 0; i < XM1014Irezumis.size(); i++){
@@ -339,7 +335,7 @@ std::string getSkinName(double skinFloat, int num) {
             }
             for (int i = 0; i < NovaDarkSigils.size(); i++){
                 if (NovaDarkSigils[i] == skinFloat){
-                    setConsoleColor(11);
+                    setConsoleColor(13);
                     s = "Nova | Dark Sigil";
                 }
             }
@@ -490,7 +486,7 @@ Result findBestCombination(const std::vector<double> &numbers, double target, bo
             currentCombination.pop_back();
         }
     };
-    if(mode) std::cout << "Processing |" << std::flush;
+    if(mode) std::cout << "\nProcessing |" << std::flush;
     backtrack(0, 0);
 
     return {bestCombination, bestAverage, totalCombinations};
@@ -687,6 +683,7 @@ void printArray(const std::vector<double> &values) {
 }
 
 std::string formatExecutionTime(double seconds) {
+    std::cout << std::fixed << std::setprecision(6);
     if (seconds < 60) {
         return std::to_string(seconds) + " seconds";
     }
@@ -706,12 +703,37 @@ std::string formatExecutionTime(double seconds) {
     return std::to_string(years) + " years";
 }
 
+void isCombinationAcceptable(double average, double aceitavel, int mode){
+    if(average < aceitavel) {
+        switch(mode){
+            case 1:
+                setConsoleColor(4);
+                std::cout << "\n\nA MELHOR COMBINACAO E INFERIOR AO MINIMO ACEITAVEL!!!\n";
+                setConsoleColor(7);                
+                break;
+            case 2:
+                setConsoleColor(4);
+                std::cout << "\nMinAcei: " << aceitavel;
+                setConsoleColor(7);
+                break;
+            default:
+                setConsoleColor(4);
+                std::cout << "\n\nPORGAMASTE ISTO MAL PATRAO\n";
+                setConsoleColor(7); 
+                break;
+        }
+    }
+}
+
 void processCombination(const std::vector<double> &values, double target, int mode, double aceitavel = 0) {
     auto start = std::chrono::high_resolution_clock::now();
 
     try {
         std::cout << "\n" << values.size() << " entries\n";
-        std::cout << "Total combinations to test: " << binomialCoefficient(values.size(), 10) << "\n";
+        double totalCombinations = binomialCoefficient(values.size(), 10);
+
+        std::cout << std::fixed << std::setprecision(0);
+        std::cout << "Total combinations to test: " << totalCombinations << "\n";
         
         double estimatedTime = estimateExecutionTime(values, target);
         std::cout << "Estimated total execution time: " << formatExecutionTime(estimatedTime) << "\n";
@@ -750,20 +772,25 @@ void processCombination(const std::vector<double> &values, double target, int mo
             std::cout << std::fixed << std::setprecision(13);
             logStream << std::fixed << std::setprecision(13);
 
-            logStream << "Best Combination:\n";
-
+            isCombinationAcceptable(result.average, aceitavel, 1);
+            
             std::cout << "\n\nBest Combination:\n";
+            logStream << "\nBest Combination:\n";
             for (double value : result.combination) {
                 std::cout << value << " - " << getSkinName(value, mode) << "\n";
                 setConsoleColor(7);
                 logStream << value << " - " << getSkinName(value, mode) << "\n";
                 setConsoleColor(7);
             }
+
+            isCombinationAcceptable(result.average, aceitavel, 2);
             std::cout << "\nAverage: " << result.average << "\n";
-            std::cout << "Target : " << target << "\n\n";
+            std::cout << "Target : " << target << "\n";
 
             logStream << "\nAverage: " << result.average << "\n";
             logStream << "Target : " << target << "\n\n";
+
+            isCombinationAcceptable(result.average, aceitavel, 1);
 
             writeCombinationToFile(result.combination, "combination.txt");
             writeSeparatorToFile("\n--------------------\n\n", "combination.txt");
@@ -771,7 +798,7 @@ void processCombination(const std::vector<double> &values, double target, int mo
 
         std::cout << std::fixed << std::setprecision(2);
         std::cout << "\nExecution time: " << elapsed.count() << " seconds.\n";
-        std::cout << "Total combinations tested: " << result.totalCombinations << "\n";
+        std::cout << "Total combinations tested: " << result.totalCombinations << " ("<< result.totalCombinations/totalCombinations*100 << "%)\n";
 
         logStream << std::fixed << std::setprecision(2);
         logStream << "\nExecution time: " << elapsed.count() << " seconds.\n";
@@ -809,7 +836,7 @@ int main(){
     
     int op = -1;
     do{
-        std::cout << "\n\n\n\n|----------------------------|\n";
+        std::cout << "\n\n|----------------------------|\n";
         std::cout << "| Escolha uma opcao:         |\n";
         std::cout << "| 1 - Danger Zone MS         |\n";
         std::cout << "| 2 - Kilowatt MS            |\n";

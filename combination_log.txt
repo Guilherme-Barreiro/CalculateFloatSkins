@@ -3170,3 +3170,574 @@ Total combinations tested: 0
 
 ---------------------------------------
 
+Best Combination:
+0.1950669586658 - UMP-45 | Motor Pool
+0.2165706306696 - XM1014 | Irezumi
+0.2191551476717 - MAC-10 | Light Box
+0.2240252345800 - UMP-45 | Motor Pool
+0.2249476760626 - Dual Berettas | Hideout
+0.2253256291151 - UMP-45 | Motor Pool
+0.2260552048683 - XM1014 | Irezumi
+0.2305796146393 - UMP-45 | Motor Pool
+0.2330165654421 - XM1014 | Irezumi
+0.2378154695034 - SSG 08 | Dezastre
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 0.26 seconds.
+Total combinations tested: 399555
+
+---------------------------------------
+
+Erro: The array must contain at least 10 numbers.
+Best Combination:
+0.1915989816189 - Tec-9 | Slag
+0.2145214229822 - MAC-10 | Light Box
+0.2188555151224 - Dual Berettas | Hideout
+0.2226784676313 - Dual Berettas | Hideout
+0.2232467383146 - UMP-45 | Motor Pool
+0.2257512360811 - Dual Berettas | Hideout
+0.2293182462454 - Tec-9 | Slag
+0.2323993146419 - MAC-10 | Light Box
+0.2348401397467 - XM1014 | Irezumi
+0.2393480688333 - Tec-9 | Slag
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 0.88 seconds.
+Total combinations tested: 10231785
+
+---------------------------------------
+
+Best Combination:
+0.1955880969763 - XM1014 | Irezumi
+0.2047575712204 - Tec-9 | Slag
+0.2202261090279 - MAC-10 | Light Box
+0.2250823229551 - Dual Berettas | Hideout
+0.2254669070244 - Tec-9 | Slag
+0.2258350402117 - SSG 08 | Dezastre
+0.2315366417170 - Tec-9 | Slag
+0.2316385805607 - UMP-45 | Motor Pool
+0.2333640456200 - UMP-45 | Motor Pool
+0.2390628159046 - MAC-10 | Light Box
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 21.15 seconds.
+Total combinations tested: 290851812
+
+---------------------------------------
+
+Best Combination:
+0.1902787834406 - MAC-10 | Light Box
+0.2059353441000 - Tec-9 | Slag
+0.2212440222502 - XM1014 | Irezumi
+0.2231139689684 - UMP-45 | Motor Pool
+0.2246428132057 - Nova | Dark Sigil
+0.2259572148323 - MAC-10 | Light Box
+0.2313929051161 - Dual Berettas | Hideout
+0.2339735627174 - SSG 08 | Dezastre
+0.2374532520771 - Dual Berettas | Hideout
+0.2385662645102 - UMP-45 | Motor Pool
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 4.53 seconds.
+Total combinations tested: 57932778
+
+---------------------------------------
+
+Best Combination:
+0.2103488147259 - Dual Berettas | Hideout
+0.2104486227035 - SSG 08 | Dezastre
+0.2135685533285 - Dual Berettas | Hideout
+0.2196928560734 - Dual Berettas | Hideout
+0.2218080610037 - MAC-10 | Light Box
+0.2276052534580 - Dual Berettas | Hideout
+0.2279907166958 - SSG 08 | Dezastre
+0.2285418808460 - XM1014 | Irezumi
+0.2326778918505 - Tec-9 | Slag
+0.2398754805327 - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 3.57 seconds.
+Total combinations tested: 42762581
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.81 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.44 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.99 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.70 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.72 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.81 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.92 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.97 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.71 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1714543402195 - SSG 08 | Dezastre
+0.2120617628098 - Tec-9 | Slag
+0.2181417196989 - MAC-10 | Light Box
+0.2219613641500 - Dual Berettas | Hideout
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2271996140480 - MAC-10 | Light Box
+0.2288375347853 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2200162515044
+Target : 0.2232558139519
+
+
+Execution time: 0.13 seconds.
+Total combinations tested: 10679
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.58 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.79 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.34 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+Execution time: 3.56 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 4.44 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.34 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.36 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.85 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.45 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.45 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.49 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
+
+Best Combination:
+0.1883963197470 - SSG 08 | Dezastre
+0.2181417196989 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2234193086624 - SSG 08 | Dezastre
+0.2258794903755 - MAC-10 | Light Box
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2346800863743 - MAC-10 | Light Box
+0.2365272939205 - Tec-9 | Slag
+
+Average: 0.2232557982206
+Target : 0.2232558139519
+
+
+Execution time: 3.37 seconds.
+Total combinations tested: 30045015
+
+---------------------------------------
+
