@@ -3800,3 +3800,201 @@ Total combinations tested: 111192947
 
 ---------------------------------------
 
+
+Best Combination:
+0.1955880969763 - UMP-45 | Motorized
+0.2152344286442 - Dual Berettas | Hideout
+0.2170729041100 - UMP-45 | Motorized
+0.2181417196989 - MAC-10 | Light Box
+0.2202261090279 - MAC-10 | Light Box
+0.2258794903755 - MAC-10 | Light Box
+0.2316674292088 - Tec-9 | Slag
+0.2326778918505 - Tec-9 | Slag
+0.2375037968159 - XM1014 | Irezumi
+0.2385662645102 - UMP-45 | Motorized
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 0.56 seconds.
+Total combinations tested: 4635059
+
+---------------------------------------
+
+
+Best Combination:
+0.1663766354322 - SSG 08 | Dezastre
+0.1902787834406 - MAC-10 | Light Box
+0.2313929051161 - Dual Berettas | Hideout
+0.2333640456200 - UMP-45 | Motorized
+0.2338965535164 - Tec-9 | Slag
+0.2339735627174 - SSG 08 | Dezastre
+0.2346800863743 - MAC-10 | Light Box
+0.2354532927275 - XM1014 | Irezumi
+0.2365272939205 - Tec-9 | Slag
+0.2366149723530 - XM1014 | Irezumi
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 28.09 seconds.
+Total combinations tested: 382659324
+
+---------------------------------------
+
+
+Best Combination:
+0.1630167216062 - Dual Berettas | Hideout
+0.2231139689684 - UMP-45 | Motorized
+0.2234595417976 - Dual Berettas | Hideout
+0.2255779504776 - XM1014 | Irezumi
+0.2265643924475 - Tec-9 | Slag
+0.2271996140480 - MAC-10 | Light Box
+0.2276052534580 - Dual Berettas | Hideout
+0.2374532520771 - Dual Berettas | Hideout
+0.2386919558048 - Dual Berettas | Hideout
+0.2398754805327 - Dual Berettas | Hideout
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 1.78 seconds.
+Total combinations tested: 22629589
+
+---------------------------------------
+
+
+Best Combination:
+0.1960302591324 - Tec-9 | Slag
+0.2135685533285 - Dual Berettas | Hideout
+0.2219613641500 - Dual Berettas | Hideout
+0.2254669070244 - Tec-9 | Slag
+0.2258350402117 - SSG 08 | Dezastre
+0.2279907166958 - SSG 08 | Dezastre
+0.2285418808460 - XM1014 | Irezumi
+0.2288375347853 - Tec-9 | Slag
+0.2316385805607 - UMP-45 | Motorized
+0.2326872944832 - XM1014 | Irezumi
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 1.53 seconds.
+Total combinations tested: 18677928
+
+---------------------------------------
+
+
+Best Combination:
+0.2047575712204 - Tec-9 | Slag
+0.2135001868010 - Dual Berettas | Hideout
+0.2196928560734 - Dual Berettas | Hideout
+0.2203687578440 - XM1014 | Irezumi
+0.2236200273037 - Dual Berettas | Hideout
+0.2242083400488 - UMP-45 | Motorized
+0.2246428132057 - Nova | Dark Sigil
+0.2311681210995 - UMP-45 | Motorized
+0.2315366417170 - Tec-9 | Slag
+0.2390628159046 - MAC-10 | Light Box
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 15.63 seconds.
+Total combinations tested: 155277495
+
+---------------------------------------
+
+
+Best Combination:
+0.2120617628098 - Tec-9 | Slag
+0.2175981402397 - SSG 08 | Dezastre
+0.2212440222502 - XM1014 | Irezumi
+0.2219329476356 - Tec-9 | Slag
+0.2234193086624 - SSG 08 | Dezastre
+0.2236865758896 - Tec-9 | Slag
+0.2250823229551 - Dual Berettas | Hideout
+0.2259572148323 - MAC-10 | Light Box
+0.2272975146771 - SSG 08 | Dezastre
+0.2342747747898 - UMP-45 | Motorized
+
+Average: 0.2232554584742
+Target : 0.2232558139519
+
+
+Execution time: 1.17 seconds.
+Total combinations tested: 8436285
+
+---------------------------------------
+
+
+Best Combination:
+0.1500000059605 - MP7 | Just Smile
+0.1500333845615 - MP7 | Just Smile
+0.2232557982206 - M4A4 | Etch Lord
+0.2232557982206 - M4A4 | Etch Lord
+0.2232557982206 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2086079925299
+Target : 0.2142857142849
+
+
+Execution time: 0.13 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.1500000059605 - MP7 | Just Smile
+0.1500333845615 - MP7 | Just Smile
+0.2232557982206 - MP7 | Just Smile
+0.2232557982207 - MP7 | Just Smile
+0.2232557982207 - M4A4 | Etch Lord
+0.2232558280229 - M4A4 | Etch Lord
+0.2232558280230 - MP7 | Just Smile
+0.2232558280230 - MP7 | Just Smile
+0.2232558280230 - MP7 | Just Smile
+0.2232558280230 - M4A4 | Etch Lord
+
+Average: 0.2086079925299
+Target : 0.2142857142849
+
+
+Execution time: 0.27 seconds.
+Total combinations tested: 11
+
+---------------------------------------
+
+
+Best Combination:
+0.1994168758392 - Tec-9 | Slag
+0.2023253887892 - Dual Berettas | Hideout
+0.2059353441000 - Tec-9 | Slag
+0.2103488147259 - Dual Berettas | Hideout
+0.2104486227035 - SSG 08 | Dezastre
+0.2117259800434 - MAC-10 | Light Box
+0.2200823277235 - UMP-45 | Motorized
+0.2218080610037 - MAC-10 | Light Box
+0.2219240814447 - MAC-10 | Light Box
+0.2387811243534 - Tec-9 | Slag
+
+Average: 0.2142796620727
+Target : 0.2232558139519
+
+
+Execution time: 0.15 seconds.
+Total combinations tested: 43758
+
+---------------------------------------
+
