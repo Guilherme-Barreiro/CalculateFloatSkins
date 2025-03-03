@@ -19,6 +19,7 @@ const std::vector<double> G3SG1Scavenger = {
     0.18018649518490,
     0.18594343960285,
     0.18546999990940,
+    0.19151069223881,
 };
 const std::vector<double> MAC10PipeDowns = {
     0.18204480409622,
@@ -26,6 +27,12 @@ const std::vector<double> MAC10PipeDowns = {
     0.18127416074276,
 };
 std::vector<double> dangerZone = G3SG1Scavenger;
+
+
+
+
+
+
 
 const double kilowattMSMax = 0.2232558139519;
 const std::vector<double> MAC10LightBoxs = {
@@ -44,36 +51,64 @@ const std::vector<double> MAC10LightBoxs = {
     0.21172598004341,
     0.22180806100368,
     0.22192408144474,
+    0.18037891387939,
+    0.20167511701584,
+    0.18130007386208,
+    0.18326807022095,
+    0.18773081898689,
+    0.19033686816692,
+    0.19517473876476,
+    0.19562581181526,
+    0.19694817066193,
+    0.19981390237808,
 };
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
     0.18728305399418,
     0.18839631974697,
     0.17145434021950,
+    0.22045558691025,
 };
 const std::vector<double> TEC9Slags = {
     0.19941687583923,
     0.20593534410000,
     0.23878112435341,
+    0.22652888298035,
+    0.22223876416683,
+    0.23818714916706,
+    0.23372501134872,
 };
 const std::vector<double> DualBeretasHideouts = {
     0.19570872187614,
     0.20232538878918,
     0.21034881472588,
+    0.34354776144028,
+    0.23620174825191,
+    0.25698640942574,
+    0.28974914550781,
+    0.24553622305393,
+    0.25094312429428,
+    0.24042755365372,
+    0.25962203741074,
 };
-
 const std::vector<double> UMP45Motorizeds = {
     0.22008232772350,
     0.19712463021278,
     0.18630437552929,
+    0.22717818617821,
+    0.24883580207825,
 };
 const std::vector<double> XM1014Irezumis = {
     0.18199497461319,
     // 0.21868249773979,
 };
-const std::vector<double> NovaDarkSigils = {};
-
+const std::vector<double> NovaDarkSigils = {0.24674656987190};
 std::vector<double> kilowattMS = MAC10LightBoxs;
+
+
+
+
+
 
 const double kilowattRMax = 0.2142857142849;
 const std::vector<double> MP7JustSmiles = {};    
