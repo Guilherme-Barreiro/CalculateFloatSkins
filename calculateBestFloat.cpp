@@ -61,6 +61,7 @@ const std::vector<double> MAC10LightBoxs = {
     0.19562581181526,
     0.19694817066193,
     0.19981390237808,
+    0.22477895021439,
 };
 const std::vector<double> SSGDezastres = {
     0.21044862270355,
@@ -68,6 +69,7 @@ const std::vector<double> SSGDezastres = {
     0.18839631974697,
     0.17145434021950,
     0.22045558691025,
+    0.17818516492844,
 };
 const std::vector<double> TEC9Slags = {
     0.19941687583923,
@@ -77,6 +79,8 @@ const std::vector<double> TEC9Slags = {
     0.22223876416683,
     0.23818714916706,
     0.23372501134872,
+    0.23539100587368,
+    0.20254525542259,
 };
 const std::vector<double> DualBeretasHideouts = {
     0.19570872187614,
@@ -90,6 +94,8 @@ const std::vector<double> DualBeretasHideouts = {
     0.25094312429428,
     0.24042755365372,
     0.25962203741074,
+    0.25958108901978,
+    0.22760997712612,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.22008232772350,
@@ -101,6 +107,10 @@ const std::vector<double> UMP45Motorizeds = {
 const std::vector<double> XM1014Irezumis = {
     0.18199497461319,
     // 0.21868249773979,
+    0.23804046213627,
+    0.23527348041534,
+    0.23257170617580,
+    0.22225667536259,
 };
 const std::vector<double> NovaDarkSigils = {0.24674656987190};
 std::vector<double> kilowattMS = MAC10LightBoxs;
@@ -112,7 +122,9 @@ std::vector<double> kilowattMS = MAC10LightBoxs;
 
 const double kilowattRMax = 0.2142857142849;
 const std::vector<double> MP7JustSmiles = {};    
-const std::vector<double> FiveSevenHybrids = {};    
+const std::vector<double> FiveSevenHybrids = {
+    0.22043582797050,
+};    
 const std::vector<double> EtchLords = {
     0.22325547039509,
 };
@@ -395,9 +407,22 @@ std::vector<double> sortArray(const std::vector<double> &array) {
     return sortedArray;
 }
 
+double calculateAverage(const std::vector<double> &array, int entries){
+    std::vector<double> sortedArray = array;
+    std::sort(sortedArray.begin(), sortedArray.end());
+    double sum = 0.0;
+    for (int i = 0; i < entries; ++i) {
+        sum += sortedArray[i];
+    }
+    return sum / entries;
+}
+
 Result findBestCombination(const std::vector<double> &numbers, double target, bool mode = false) {
     if (numbers.size() < 10) {
-        throw std::invalid_argument("The array must contain at least 10 numbers.");
+        double avgg = calculateAverage(numbers, numbers.size());
+        // std::cout << "\n\nIGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n";
+        // getLastGood(numbers, target);
+        return {numbers, avgg, 1};
     }
 
     int n = numbers.size();
@@ -524,16 +549,6 @@ Result findBestCombination(const std::vector<double> &numbers, double target, do
     backtrack(0, 0);
 
     return {bestCombination, bestAverage, totalCombinations};
-}
-
-double calculateAverage(const std::vector<double> &array, int entries){
-    std::vector<double> sortedArray = array;
-    std::sort(sortedArray.begin(), sortedArray.end());
-    double sum = 0.0;
-    for (int i = 0; i < entries; ++i) {
-        sum += sortedArray[i];
-    }
-    return sum / entries;
 }
 
 void writeCombinationToFile(const std::vector<double> &combination, const std::string &fileName, const std::string &logContent = ""){
@@ -673,7 +688,7 @@ std::string formatExecutionTime(double seconds) {
 }
 
 void isCombinationAcceptable(double average, double aceitavel, int mode){
-    if(average < aceitavel) {
+    if(average < aceitavel || aceitavel == -1) {
         switch(mode){
             case 1:
                 setConsoleColor(4);
@@ -718,7 +733,7 @@ void processCombination(const std::vector<double> &values, double target, int mo
             }
         } else {
             double j = getLastGood(values, target);
-            std::cout << "\nUm " << j << " resolve o problema em vez de " << values[8] << "\n\n";
+            std::cout << "\nUm " << j << " resolve o problema em vez de " << values[9] << "\n\n";
         }
 
         auto end = std::chrono::high_resolution_clock::now();
@@ -732,6 +747,8 @@ void processCombination(const std::vector<double> &values, double target, int mo
             std::cout << "No possible combinations for these floats.\n";
             std::cout << "Average of the lowest 10: " << avg << "\n";
             std::cout << "Value " << abs(target - avg) << " above target.\n";
+            double j = getLastGood(values, target);
+            std::cout << "\nUm " << j << " resolve\n\n";
 
             logStream << "No possible combinations for these floats.\n";
             logStream << "Average of the lowest 10: " << avg << "\n";

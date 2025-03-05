@@ -4042,3 +4042,67 @@ Total combinations tested: 352716
 
 ---------------------------------------
 
+Erro: The array must contain at least 10 numbers.
+
+Best Combination:
+0.1801864951849 - G3SG1 | Scavenger
+0.1806976050138 - MAC-10 | Pipe Down
+0.1812741607428 - MAC-10 | Pipe Down
+0.1820448040962 - MAC-10 | Pipe Down
+0.1854699999094 - G3SG1 | Scavenger
+0.1859434396029 - G3SG1 | Scavenger
+0.1893630474806 - G3SG1 | Scavenger
+0.1915106922388 - G3SG1 | Scavenger
+0.1986558288336 - G3SG1 | Scavenger
+
+Average: 0.1861273414559
+Target : 0.1874999999999
+
+
+Execution time: 0.14 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.1801864951849 - G3SG1 | Scavenger
+0.1806976050138 - MAC-10 | Pipe Down
+0.1812741607428 - MAC-10 | Pipe Down
+0.1820448040962 - MAC-10 | Pipe Down
+0.1854699999094 - G3SG1 | Scavenger
+0.1859434396029 - G3SG1 | Scavenger
+0.1893630474806 - G3SG1 | Scavenger
+0.1915106922388 - G3SG1 | Scavenger
+0.1986558288336 - G3SG1 | Scavenger
+
+Average: 0.1861273414559
+Target : 0.1874999999999
+
+
+Execution time: 0.13 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.1801864951849 - G3SG1 | Scavenger
+0.1806976050138 - MAC-10 | Pipe Down
+0.1812741607428 - MAC-10 | Pipe Down
+0.1820448040962 - MAC-10 | Pipe Down
+0.1854699999094 - G3SG1 | Scavenger
+0.1859434396029 - G3SG1 | Scavenger
+0.1893630474806 - G3SG1 | Scavenger
+0.1915106922388 - G3SG1 | Scavenger
+0.1986558288336 - G3SG1 | Scavenger
+
+Average: 0.1861273414559
+Target : 0.1874999999999
+
+
+Execution time: 0.14 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
