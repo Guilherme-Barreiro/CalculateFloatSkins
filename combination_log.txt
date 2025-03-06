@@ -4106,3 +4106,97 @@ Total combinations tested: 1
 
 ---------------------------------------
 
+
+Best Combination:
+0.1956258118153 - MAC-10 | Light Box
+0.1971246302128 - UMP-45 | Motorized
+0.2059353441000 - Tec-9 | Slag
+0.2117259800434 - MAC-10 | Light Box
+0.2234669178724 - UMP-45 | Motorized
+0.2362017482519 - Dual Berettas | Hideout
+0.2380404621363 - XM1014 | Irezumi
+0.2381871491671 - Tec-9 | Slag
+0.2395035177469 - MAC-10 | Light Box
+0.2467465698719 - Nova | Dark Sigil
+
+Average: 0.2232558131218
+Target : 0.2232558139519
+
+
+Execution time: 2.78 seconds.
+Total combinations tested: 25627009
+
+---------------------------------------
+
+
+Best Combination:
+0.1801864951849 - G3SG1 | Scavenger
+0.1806976050138 - MAC-10 | Pipe Down
+0.1812741607428 - MAC-10 | Pipe Down
+0.1820448040962 - MAC-10 | Pipe Down
+0.1854699999094 - G3SG1 | Scavenger
+0.1859434396029 - G3SG1 | Scavenger
+0.1893630474806 - G3SG1 | Scavenger
+0.1915106922388 - G3SG1 | Scavenger
+0.1986558288336 - G3SG1 | Scavenger
+
+Average: 0.1861273414559
+Target : 0.1874999999999
+
+
+Execution time: 0.29 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.1801864951849 - G3SG1 | Scavenger
+0.1806976050138 - MAC-10 | Pipe Down
+0.1812741607428 - MAC-10 | Pipe Down
+0.1820448040962 - MAC-10 | Pipe Down
+0.1854699999094 - G3SG1 | Scavenger
+0.1859434396029 - G3SG1 | Scavenger
+0.1893630474806 - G3SG1 | Scavenger
+0.1915106922388 - G3SG1 | Scavenger
+0.1986558288336 - G3SG1 | Scavenger
+
+Average: 0.1861273414559
+Target : 0.1874999999999
+
+
+Execution time: 0.25 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.1801864951849 - G3SG1 | Scavenger
+0.1806976050138 - MAC-10 | Pipe Down
+0.1812741607428 - MAC-10 | Pipe Down
+0.1820448040962 - MAC-10 | Pipe Down
+0.1854699999094 - G3SG1 | Scavenger
+0.1859434396029 - G3SG1 | Scavenger
+0.1893630474806 - G3SG1 | Scavenger
+0.1915106922388 - G3SG1 | Scavenger
+0.1986558288336 - G3SG1 | Scavenger
+
+Average: 0.1861273414559
+Target : 0.1874999999999
+
+
+Execution time: 0.25 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.1675146073103
+Value 0.0199853926896 above target.
+
+Execution time: 0.27 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
