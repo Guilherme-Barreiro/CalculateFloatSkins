@@ -14,17 +14,11 @@
 
 const double dangerZoneMax = 0.1874999999999;
 const std::vector<double> G3SG1Scavenger = {
-    0.19865582883358,
-    0.18936304748058,
     0.18018649518490,
-    0.18594343960285,
-    0.18546999990940,
-    0.19151069223881,
+    0.18475167453289,
 };
 const std::vector<double> MAC10PipeDowns = {
-    0.18204480409622,
     0.18069760501385,
-    0.18127416074276,
 };
 std::vector<double> dangerZone = G3SG1Scavenger;
 
@@ -35,7 +29,9 @@ std::vector<double> dangerZone = G3SG1Scavenger;
 
 
 // const double kilowattMSMax = 0.2232558139519;
-const double kilowattMSMax = 0.2232558131217;
+// const double kilowattMSMax = 0.2232558131217;
+const double kilowattMSMax = 0.2232558116315;
+
 const std::vector<double> MAC10LightBoxs = {
     // 0.22325581312356,
     // 0.22325581312356,
@@ -49,73 +45,56 @@ const std::vector<double> MAC10LightBoxs = {
     // 0.22325581312356,
     // 0.21298122406006, // stickers ig
     0.16708335280418,
-    0.22180806100368,
-    0.22192408144474,
-    0.18037891387939,
-    0.20167511701584,
     0.18130007386208,
     0.18326807022095,
-    0.18773081898689,
-    0.19033686816692,
-    0.19517473876476,
-    0.19694817066193,
-    0.19981390237808,
     0.22477895021439,
     0.23051807284355,
+    0.23881867527962,
+    0.22967022657394,
+    0.22043907642365,
+    0.23489335179329,
 };
 const std::vector<double> SSGDezastres = {
-    0.21044862270355,
-    0.18728305399418,
-    0.18839631974697,
     0.17145434021950,
     0.22045558691025,
     0.17818516492844,
-    0.23728862404823,
-    0.22053600847721,
 };
 const std::vector<double> TEC9Slags = {
-    0.19941687583923,
-    0.23878112435341,
-    0.22652888298035,
     0.22223876416683,
     0.23372501134872,
-    0.23539100587368,
     0.20254525542259,
+    0.22324557602406,
+    0.22857441008091,
+    0.23824642598629,
+    0.23879389464855,
+    0.23339726030827,
+    0.23491092026234,
 };
 
 const std::vector<double> DualBeretasHideouts = {
-    0.19570872187614,
-    0.20232538878918,
-    0.21034881472588,
     0.34354776144028,
     0.25698640942574,
-    0.28974914550781,
-    0.24553622305393,
     0.25094312429428,
-    0.24042755365372,
-    0.25962203741074,
-    0.25958108901978,
     0.22760997712612,
-    0.23173858225346,
-    0.22709631919861,
+    0.22220897674561,
+    0.22185660898685,
+    0.23485288023949,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.22008232772350,
-    0.18630437552929,
-    0.22717818617821,
-    0.24883580207825,
     0.23510228097439,
-    0.22632293403149,
     0.22119507193565,
+    0.23697727918625,
+    0.22171172499657,
 };
 const std::vector<double> XM1014Irezumis = {
     0.18199497461319,
     // 0.21868249773979,
-    0.23527348041534,
     0.23257170617580,
-    0.22225667536259,
-    0.23786947131157,
     0.22009643912315,
+    0.23589205741882,
+    0.22245059907436,
+    0.22816048562527,
 };
 const std::vector<double> NovaDarkSigils = {};
 std::vector<double> kilowattMS = MAC10LightBoxs;
@@ -128,12 +107,14 @@ std::vector<double> kilowattMS = MAC10LightBoxs;
 const double kilowattRMax = 0.2142857142849;
 const std::vector<double> MP7JustSmiles = {
     0.15000000596046, // glock failed
+    0.15000000596046, // glock failed
 };    
 const std::vector<double> FiveSevenHybrids = {
     0.22043582797050,
 };    
 const std::vector<double> EtchLords = {
     0.22325547039509,
+    0.22325582802296,
 };
 std::vector<double> kilowattR = MP7JustSmiles;
 
@@ -405,7 +386,7 @@ struct Result {
 std::vector<double> sortArray(const std::vector<double> &array) {
     std::vector<double> sortedArray = array;
     std::sort(sortedArray.begin(), sortedArray.end());
-    std::cout << std::fixed << std::setprecision(13);
+    std::cout << std::fixed << std::setprecision(14);
 
     // for (double num : sortedArray) {
     //     std::cout << num << "\n";
@@ -462,6 +443,7 @@ Result findBestCombination(const std::vector<double> &numbers, double target, bo
             if (average < target && average > bestAverage) {
                 bestCombination = currentCombination;
                 bestAverage = average;
+                std::cout << bestAverage << "\n";
             }
 
             totalCombinations++;
@@ -526,6 +508,7 @@ Result findBestCombination(const std::vector<double> &numbers, double target, do
             if (average < target && average > bestAverage) {
                 bestCombination = currentCombination;
                 bestAverage = average;
+                std::cout << bestAverage << "\n";
             }
 
             totalCombinations++;
@@ -613,7 +596,7 @@ double getLastGood(const std::vector<double> &values, double target){
 
 bool isArrayGood(const std::vector<double> &values, double target){
     const std::vector<double> arrray = sortArray(values);
-    std::cout << std::fixed << std::setprecision(13);
+    std::cout << std::fixed << std::setprecision(14);
     const std::vector<double> newArray = getFirstN(arrray, 10);
     double average = calculateAverage(newArray, 10);
 
@@ -667,7 +650,7 @@ double estimateExecutionTime(const std::vector<double> &values, double target, d
 }
 
 void printArray(const std::vector<double> &values) {
-    std::cout << std::fixed << std::setprecision(13);
+    std::cout << std::fixed << std::setprecision(14);
     for (double value : values) {
         std::cout << value << "\n";
     }
@@ -726,8 +709,8 @@ void processCombination(const std::vector<double> &values, double target, int mo
         std::cout << std::fixed << std::setprecision(0);
         std::cout << "Total combinations to test: " << totalCombinations << "\n";
         
-        double estimatedTime = estimateExecutionTime(values, target);
-        std::cout << "Estimated total execution time: " << formatExecutionTime(estimatedTime) << "\n";
+        // double estimatedTime = estimateExecutionTime(values, target);
+        // std::cout << "Estimated total execution time: " << formatExecutionTime(estimatedTime) << "\n";
              
         Result result;
 
@@ -749,8 +732,8 @@ void processCombination(const std::vector<double> &values, double target, int mo
         std::ostringstream logStream;
         if (result.combination.size() < 10) {
             double avg = calculateAverage(values, 10);
-            std::cout << std::fixed << std::setprecision(13);
-            logStream << std::fixed << std::setprecision(13);
+            std::cout << std::fixed << std::setprecision(14);
+            logStream << std::fixed << std::setprecision(14);
             std::cout << "No possible combinations for these floats.\n";
             std::cout << "Average of the lowest 10: " << avg << "\n";
             std::cout << "Value " << abs(target - avg) << " above target.\n";
@@ -762,8 +745,8 @@ void processCombination(const std::vector<double> &values, double target, int mo
             logStream << "Value " << abs(target - avg) << " above target.\n";
         } else {
             std::sort(result.combination.begin(), result.combination.end());
-            std::cout << std::fixed << std::setprecision(13);
-            logStream << std::fixed << std::setprecision(13);
+            std::cout << std::fixed << std::setprecision(14);
+            logStream << std::fixed << std::setprecision(14);
 
             isCombinationAcceptable(result.average, aceitavel, 1);
             
@@ -828,7 +811,7 @@ int main(){
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), MAG7Foresights.begin(), MAG7Foresights.end());
     
     int op = -1;
-    double kilowattMSMin = 0.2232558131;
+    double kilowattMSMin = 0.2232558101415; 
     do{
         std::cout << "\n\n|----------------------------|\n";
         std::cout << "| Escolha uma opcao:         |\n";
@@ -893,7 +876,7 @@ calculateBestFloat.exe
 
 /*   SORT ARRAY AND PRINT IT
     const std::vector<double> arrray = sortArray(MAC10LightBoxs);
-    std::cout << std::fixed << std::setprecision(13);
+    std::cout << std::fixed << std::setprecision(14);
 
     for (double num : arrray) {
         std::cout << num << "\n";
