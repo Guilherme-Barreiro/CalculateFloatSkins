@@ -19,6 +19,7 @@ const std::vector<double> G3SG1Scavenger = {
 };
 const std::vector<double> MAC10PipeDowns = {
     0.18069760501385,
+    0.18531885743141,
 };
 std::vector<double> dangerZone = G3SG1Scavenger;
 
@@ -30,8 +31,8 @@ std::vector<double> dangerZone = G3SG1Scavenger;
 
 // const double kilowattMSMax = 0.2232558139519;
 // const double kilowattMSMax = 0.2232558131217;
-const double kilowattMSMax = 0.2232558116315;
-
+// const double kilowattMSMax = 0.2232558116315;
+const double kilowattMSMax = 0.214;
 const std::vector<double> MAC10LightBoxs = {
     // 0.22325581312356,
     // 0.22325581312356,
@@ -44,73 +45,58 @@ const std::vector<double> MAC10LightBoxs = {
     // 0.22325581312356,
     // 0.22325581312356,
     // 0.21298122406006, // stickers ig
-    0.16708335280418,
     0.18130007386208,
-    0.18326807022095,
-    0.22477895021439,
-    0.23051807284355,
     0.23881867527962,
-    0.22967022657394,
-    0.22043907642365,
-    0.23489335179329,
 };
 const std::vector<double> SSGDezastres = {
-    0.17145434021950,
     0.22045558691025,
-    0.17818516492844,
+    0.23743951320648,
+    0.23705387115479,
 };
 const std::vector<double> TEC9Slags = {
     0.22223876416683,
     0.23372501134872,
-    0.20254525542259,
-    0.22324557602406,
     0.22857441008091,
-    0.23824642598629,
-    0.23879389464855,
-    0.23339726030827,
-    0.23491092026234,
+    0.22629198431969,
+    0.23958107829094,
+    0.23118162155151,
 };
 
 const std::vector<double> DualBeretasHideouts = {
-    0.34354776144028,
     0.25698640942574,
     0.25094312429428,
-    0.22760997712612,
     0.22220897674561,
     0.22185660898685,
-    0.23485288023949,
+    0.23875315487385,
+    0.22606526315212,
+    0.23361821472645,
+    0.23940500617027,
 };
 const std::vector<double> UMP45Motorizeds = {
-    0.22008232772350,
-    0.23510228097439,
     0.22119507193565,
-    0.23697727918625,
-    0.22171172499657,
+    0.23872466385365,
 };
 const std::vector<double> XM1014Irezumis = {
-    0.18199497461319,
     // 0.21868249773979,
     0.23257170617580,
     0.22009643912315,
     0.23589205741882,
-    0.22245059907436,
     0.22816048562527,
+    0.22174063324928,
 };
 const std::vector<double> NovaDarkSigils = {};
 std::vector<double> kilowattMS = MAC10LightBoxs;
 
-
-
-
-
-
 const double kilowattRMax = 0.2142857142849;
+// just smile a 0.214 ta otimo
 const std::vector<double> MP7JustSmiles = {
+    0.15000000596046, // glock failed
     0.15000000596046, // glock failed
     0.15000000596046, // glock failed
 };    
 const std::vector<double> FiveSevenHybrids = {
     0.22043582797050,
+    0.22325582802296,
 };    
 const std::vector<double> EtchLords = {
     0.22325547039509,
@@ -811,7 +797,8 @@ int main(){
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), MAG7Foresights.begin(), MAG7Foresights.end());
     
     int op = -1;
-    double kilowattMSMin = 0.2232558101415; 
+    //doub kilowattMSMax = 0.2232558116315;
+    double kilowattMSMin = 0.213; 
     do{
         std::cout << "\n\n|----------------------------|\n";
         std::cout << "| Escolha uma opcao:         |\n";
