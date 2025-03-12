@@ -23,35 +23,23 @@ const std::vector<double> MAC10PipeDowns = {
 };
 std::vector<double> dangerZone = G3SG1Scavenger;
 
-
-
-
-
-
-
 // const double kilowattMSMax = 0.2232558139519;
 // const double kilowattMSMax = 0.2232558131217;
 // const double kilowattMSMax = 0.2232558116315;
 const double kilowattMSMax = 0.214;
 const std::vector<double> MAC10LightBoxs = {
-    // 0.22325581312356,
-    // 0.22325581312356,
-    // 0.22325581312356,
-    // 0.22325581312356,
-    // 0.22325581312356,
-    // 0.22325581312356,
-    // 0.22325581312356,
-    // 0.22325581312356,
-    // 0.22325581312356,
-    // 0.22325581312356,
     // 0.21298122406006, // stickers ig
     0.18130007386208,
     0.23881867527962,
+    0.22543871402740,
 };
 const std::vector<double> SSGDezastres = {
     0.22045558691025,
     0.23743951320648,
     0.23705387115479,
+    0.22042810916901,
+    0.22846692800522,
+    0.23500066995621,
 };
 const std::vector<double> TEC9Slags = {
     0.22223876416683,
@@ -60,6 +48,7 @@ const std::vector<double> TEC9Slags = {
     0.22629198431969,
     0.23958107829094,
     0.23118162155151,
+    0.22442643344402,
 };
 
 const std::vector<double> DualBeretasHideouts = {
@@ -71,6 +60,10 @@ const std::vector<double> DualBeretasHideouts = {
     0.22606526315212,
     0.23361821472645,
     0.23940500617027,
+    0.22097155451775,
+    0.22781074047089,
+    0.22813622653484,
+    0.22133648395538,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.22119507193565,
@@ -83,8 +76,15 @@ const std::vector<double> XM1014Irezumis = {
     0.23589205741882,
     0.22816048562527,
     0.22174063324928,
+    0.22510334849358,
 };
-const std::vector<double> NovaDarkSigils = {};
+const std::vector<double> NovaDarkSigils = {
+    0.23171266913414,
+    0.23448370397091,
+    0.22815707325935,
+    0.23028415441513,
+    0.23203702270985,
+};
 std::vector<double> kilowattMS = MAC10LightBoxs;
 
 const double kilowattRMax = 0.2142857142849;
@@ -816,6 +816,7 @@ int main(){
                 processCombination(dangerZone, dangerZoneMax, 1);
                 break;
             case 2:
+                printArray(sortArray(kilowattMS));           
                 // processCombination(testes, testeMax, 2);      0.2232558131218
                 processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMin);
                 break;
