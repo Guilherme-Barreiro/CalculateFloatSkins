@@ -7430,3 +7430,48 @@ Total combinations tested: 2743726120208
 
 ---------------------------------------
 
+No possible combinations for these floats.
+Average of the lowest 10: 0.07309546321630
+Value 0.11440453678360 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.21705626398325
+Value 0.00305626398325 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 1335011237697062258871226440938478149276800771459180958853313144109426188075429604511103737013234998143374921475948927157230778244769669470893358710784.00000000000000
+Value 1335011237697062258871226440938478149276800771459180958853313144109426188075429604511103737013234998143374921475948927157230778244769669470893358710784.00000000000000 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.09229229539633
+Value 0.00018703223943 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.16165301799774
+Value 0.03834698200216 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+

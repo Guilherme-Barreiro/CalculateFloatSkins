@@ -40,6 +40,7 @@ const std::vector<double> SSGDezastres = {
     0.22042810916901,
     0.22846692800522,
     0.23500066995621,
+    0.23344004154205,
 };
 const std::vector<double> TEC9Slags = {
     0.22223876416683,
@@ -49,6 +50,7 @@ const std::vector<double> TEC9Slags = {
     0.23958107829094,
     0.23118162155151,
     0.22442643344402,
+    0.23808638751507,
 };
 
 const std::vector<double> DualBeretasHideouts = {
@@ -64,6 +66,8 @@ const std::vector<double> DualBeretasHideouts = {
     0.22781074047089,
     0.22813622653484,
     0.22133648395538,
+    0.22294537723064,
+    0.22118207812309,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.22119507193565,
@@ -77,6 +81,8 @@ const std::vector<double> XM1014Irezumis = {
     0.22816048562527,
     0.22174063324928,
     0.22510334849358,
+    0.23889157176018,
+    0.23579737544060,
 };
 const std::vector<double> NovaDarkSigils = {
     0.23171266913414,
@@ -84,6 +90,8 @@ const std::vector<double> NovaDarkSigils = {
     0.22815707325935,
     0.23028415441513,
     0.23203702270985,
+    0.23512665927410,
+    0.22972999513149,
 };
 std::vector<double> kilowattMS = MAC10LightBoxs;
 
@@ -161,7 +169,7 @@ const std::vector<double> MAG7Foresights = {
 };
 std::vector<double> DreamsNightmaresMS = SawedOffSpiritBoards;
 
-const double MAG7MonsterCallMax = 0.1999999999999;
+const double FractureRMax = 0.1999999999999;
 const std::vector<double> MAG7MonsterCalls = {
     0.19039992988110,
     0.21039286255836,
@@ -170,6 +178,13 @@ const std::vector<double> MAG7MonsterCalls = {
     0.20020510256290,
     0.20667530596256,
 };
+const std::vector<double> MP5SDKitbashs = {
+    0.20220027863979,
+};
+const std::vector<double> GalilARConnexions = {
+    0.20897856354713,
+};
+std::vector<double> FractureR = MAG7MonsterCalls;
 
 // void setConsoleColor(int color);
 // void printColorTable();
@@ -352,6 +367,27 @@ std::string getSkinName(double skinFloat, int num) {
                 if (MAG7Foresights[i] == skinFloat){
                     setConsoleColor(2);
                     s = "SCAR-20 | Poultrygeist";
+                }
+            }
+            break;
+
+        case 5: // Fracture R
+            for (int i = 0; i < MAG7MonsterCalls.size(); i++){
+                if (MAG7MonsterCalls[i] == skinFloat){
+                    setConsoleColor(12);
+                    s = "MAG-7 | Monster Call";
+                }
+            }
+            for (int i = 0; i < MP5SDKitbashs.size(); i++){
+                if (MP5SDKitbashs[i] == skinFloat){
+                    setConsoleColor(1);
+                    s = "MP5-SD | Kitbash";
+                }
+            }
+            for (int i = 0; i < GalilARConnexions.size(); i++){
+                if (GalilARConnexions[i] == skinFloat){
+                    setConsoleColor(6);
+                    s = "Galil AR | Connexion";
                 }
             }
             break;
@@ -796,6 +832,9 @@ int main(){
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), SCAR20Poultrygeists.begin(), SCAR20Poultrygeists.end());
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), MAG7Foresights.begin(), MAG7Foresights.end());
     
+    FractureR.insert(FractureR.end(), MP5SDKitbashs.begin(), MP5SDKitbashs.end());
+    FractureR.insert(FractureR.end(), GalilARConnexions.begin(), GalilARConnexions.end());
+
     int op = -1;
     //doub kilowattMSMax = 0.2232558116315;
     double kilowattMSMin = 0.213; 
@@ -806,7 +845,8 @@ int main(){
         std::cout << "| 2 - Kilowatt MS            |\n";
         std::cout << "| 3 - Kilowatt R             |\n";
         std::cout << "| 4 - Dreams & Nightmares MS |\n";
-        std::cout << "| 5 - Todas as anteriores    |\n";
+        std::cout << "| 5 - Fracture R             |\n";
+        std::cout << "| 6 - Todas as anteriores    |\n";
         std::cout << "| 0 - Sair                   |\n";
         std::cout << "|----------------------------|\n";
         scanf("%d", &op);
@@ -828,10 +868,14 @@ int main(){
                 processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4);
                 break;
             case 5:
+                processCombination(FractureR, FractureRMax, 5);
+                break;
+            case 6:
                 processCombination(dangerZone, dangerZoneMax, 1);printStrRandomColor("\n------------------------------------------------------");
                 processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMin);printStrRandomColor("\n------------------------------------------------------");
                 processCombination(kilowattR, kilowattRMax, 3);printStrRandomColor("\n------------------------------------------------------");
-                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4);
+                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4);printStrRandomColor("\n------------------------------------------------------");
+                processCombination(FractureR, FractureRMax, 5);
                 break;
             case 0:
                 break;
