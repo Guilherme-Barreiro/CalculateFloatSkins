@@ -7475,3 +7475,47 @@ Total combinations tested: 1
 
 ---------------------------------------
 
+
+Best Combination:
+0.18544407188892 - MAG-7 | Monster Call
+0.19441471993923 - Galil AR | Connexion
+0.19725874066353 - Galil AR | Connexion
+0.19892306625843 - Galil AR | Connexion
+0.20053717494011 - MAG-7 | Monster Call
+0.20096364617348 - TEC-9 | Brother
+0.20220027863979 - MP5-SD | Kitbash
+0.20470130443573 - TEC-9 | Brother
+0.20715796947479 - TEC-9 | Brother
+0.20839902758598 - MAG-7 | Monster Call
+
+Average: 0.20000000000000
+Target : 0.19999999999990
+
+
+Execution time: 1.86 seconds.
+Total combinations tested: 16917822
+
+---------------------------------------
+
+
+Best Combination:
+0.18544407188892 - MAG-7 | Monster Call
+0.18960884213448 - MP5-SD | Kitbash
+0.19762904942036 - Galil AR | Connexion
+0.19783447682858 - Galil AR | Connexion
+0.19801937043667 - Galil AR | Connexion
+0.19913463294506 - Galil AR | Connexion
+0.19950631260872 - MP5-SD | Kitbash
+0.19978292286396 - MP5-SD | Kitbash
+0.20080624520779 - Galil AR | Connexion
+0.21223406493664 - MAG-7 | Monster Call
+
+Average: 0.19799999892712
+Target : 0.19800000000000
+
+
+Execution time: 32.74 seconds.
+Total combinations tested: 254186856
+
+---------------------------------------
+

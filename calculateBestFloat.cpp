@@ -169,7 +169,8 @@ const std::vector<double> MAG7Foresights = {
 };
 std::vector<double> DreamsNightmaresMS = SawedOffSpiritBoards;
 
-const double FractureRMax = 0.1999999999999;
+// const double FractureRMax = 0.1999999999999;
+const double FractureRMax = 0.198;
 const std::vector<double> MAG7MonsterCalls = {
     0.19039992988110,
     0.21039286255836,
@@ -177,12 +178,44 @@ const std::vector<double> MAG7MonsterCalls = {
     0.18544407188892,
     0.20020510256290,
     0.20667530596256,
+    0.20272307097912,
+    0.20053717494011,
+    0.20283848047256,
+    0.20696358382702,
+    0.20839902758598,
+    0.20195166766644,
+    0.20079170167446,
 };
 const std::vector<double> MP5SDKitbashs = {
     0.20220027863979,
+    0.18960884213448,
+    0.20174598693848,
+    0.20033322274685,
+    0.20841746032238,
+    0.20417630672455,
+    0.19950631260872,
+    0.19978292286396,
+    0.19431403279305,
 };
 const std::vector<double> GalilARConnexions = {
     0.20897856354713,
+    0.20080624520779,
+    0.19801937043667,
+    0.19762904942036,
+    0.19783447682858,
+    0.19725874066353,
+    0.19892306625843,
+    0.19913463294506,
+    0.19441471993923,
+    0.19464899599552,
+
+};
+
+const std::vector<double> TEC9Brothers = {
+    0.20715796947479,
+    0.20789226889610,
+    0.20470130443573,
+    0.20096364617348,
 };
 std::vector<double> FractureR = MAG7MonsterCalls;
 
@@ -388,6 +421,12 @@ std::string getSkinName(double skinFloat, int num) {
                 if (GalilARConnexions[i] == skinFloat){
                     setConsoleColor(6);
                     s = "Galil AR | Connexion";
+                }
+            }
+            for (int i = 0; i < TEC9Brothers.size(); i++){
+                if (TEC9Brothers[i] == skinFloat){
+                    setConsoleColor(13);
+                    s = "TEC-9 | Brother";
                 }
             }
             break;
@@ -834,6 +873,7 @@ int main(){
     
     FractureR.insert(FractureR.end(), MP5SDKitbashs.begin(), MP5SDKitbashs.end());
     FractureR.insert(FractureR.end(), GalilARConnexions.begin(), GalilARConnexions.end());
+    FractureR.insert(FractureR.end(), TEC9Brothers.begin(), TEC9Brothers.end());
 
     int op = -1;
     //doub kilowattMSMax = 0.2232558116315;
