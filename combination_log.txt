@@ -7519,3 +7519,2059 @@ Total combinations tested: 254186856
 
 ---------------------------------------
 
+No possible combinations for these floats.
+Average of the lowest 10: 0.14875382035971
+Value 0.03874617964019 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22133648395538 - Dual Berettas | Hideout
+0.22174063324928 - XM1014 | Irezumi
+0.22510334849358 - XM1014 | Irezumi
+0.22543871402740 - MAC-10 | Light Box
+0.23028415441513 - Nova | Dark Sigil
+0.23118162155151 - Tec-9 | Slag
+0.23512665927410 - Nova | Dark Sigil
+0.23872466385365 - UMP-45 | Motorized
+
+Average: 0.21389807984233
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 152
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.17838946282863
+Value 0.03589625145627 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.14875382035971
+Value 0.03874617964019 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22606526315212 - Dual Berettas | Hideout
+0.23203702270985 - Nova | Dark Sigil
+0.23249705135822 - XM1014 | Irezumi
+0.23448370397091 - Nova | Dark Sigil
+0.23500066995621 - SSG 08 | Dezastre
+0.23808638751507 - Tec-9 | Slag
+0.23872466385365 - UMP-45 | Motorized
+0.23875315487385 - Dual Berettas | Hideout
+
+Average: 0.21312608346343
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 10237
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22097155451775 - Dual Berettas | Hideout
+0.22174063324928 - XM1014 | Irezumi
+0.22220897674561 - Dual Berettas | Hideout
+0.22815707325935 - Nova | Dark Sigil
+0.22816048562527 - XM1014 | Irezumi
+0.23028415441513 - Nova | Dark Sigil
+0.23118162155151 - Tec-9 | Slag
+0.23448370397091 - Nova | Dark Sigil
+
+Average: 0.21337845176458
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 267
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22009643912315 - XM1014 | Irezumi
+0.22174063324928 - XM1014 | Irezumi
+0.22781074047089 - Dual Berettas | Hideout
+0.23171266913414 - Nova | Dark Sigil
+0.23589205741882 - XM1014 | Irezumi
+0.23889157176018 - XM1014 | Irezumi
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21310269087553
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 2080
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22009643912315 - XM1014 | Irezumi
+0.22223876416683 - Tec-9 | Slag
+0.22629198431969 - Tec-9 | Slag
+0.22816048562527 - XM1014 | Irezumi
+0.22857441008091 - Tec-9 | Slag
+0.23118162155151 - Tec-9 | Slag
+0.23257170617580 - XM1014 | Irezumi
+0.23808638751507 - Tec-9 | Slag
+
+Average: 0.21395842283964
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 104
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22543871402740 - MAC-10 | Light Box
+0.23028415441513 - Nova | Dark Sigil
+0.23344004154205 - SSG 08 | Dezastre
+0.23361821472645 - Dual Berettas | Hideout
+0.23372501134872 - Tec-9 | Slag
+0.23500066995621 - SSG 08 | Dezastre
+0.23940500617027 - Dual Berettas | Hideout
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21374678537249
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 11035
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22042810916901 - SSG 08 | Dezastre
+0.22133648395538 - Dual Berettas | Hideout
+0.22174063324928 - XM1014 | Irezumi
+0.22294537723064 - Dual Berettas | Hideout
+0.22813622653484 - Dual Berettas | Hideout
+0.23512665927410 - Nova | Dark Sigil
+0.23808638751507 - Tec-9 | Slag
+0.23875315487385 - Dual Berettas | Hideout
+
+Average: 0.21365975514054
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 193
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22174063324928 - XM1014 | Irezumi
+0.22185660898685 - Dual Berettas | Hideout
+0.22223876416683 - Tec-9 | Slag
+0.22442643344402 - Tec-9 | Slag
+0.22813622653484 - Dual Berettas | Hideout
+0.23249705135822 - XM1014 | Irezumi
+0.23344004154205 - SSG 08 | Dezastre
+0.23448370397091 - Nova | Dark Sigil
+
+Average: 0.21354157775640
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 15
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22119507193565 - UMP-45 | Motorized
+0.22220897674561 - Dual Berettas | Hideout
+0.22510334849358 - XM1014 | Irezumi
+0.22846692800522 - SSG 08 | Dezastre
+0.23361821472645 - Dual Berettas | Hideout
+0.23875315487385 - Dual Berettas | Hideout
+0.25094312429428 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21328881457448
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 12526
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22009643912315 - XM1014 | Irezumi
+0.22045558691025 - SSG 08 | Dezastre
+0.22097155451775 - Dual Berettas | Hideout
+0.22118207812309 - Dual Berettas | Hideout
+0.22816048562527 - XM1014 | Irezumi
+0.23171266913414 - Nova | Dark Sigil
+0.23589205741882 - XM1014 | Irezumi
+0.23705387115479 - SSG 08 | Dezastre
+
+Average: 0.21321210563183
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 4447
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22042810916901 - SSG 08 | Dezastre
+0.22442643344402 - Tec-9 | Slag
+0.22781074047089 - Dual Berettas | Hideout
+0.22816048562527 - XM1014 | Irezumi
+0.23118162155151 - Tec-9 | Slag
+0.23171266913414 - Nova | Dark Sigil
+0.23344004154205 - SSG 08 | Dezastre
+0.23589205741882 - XM1014 | Irezumi
+
+Average: 0.21388827934861
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 2483
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22009643912315 - XM1014 | Irezumi
+0.22118207812309 - Dual Berettas | Hideout
+0.22815707325935 - Nova | Dark Sigil
+0.23579737544060 - XM1014 | Irezumi
+0.23705387115479 - SSG 08 | Dezastre
+0.23940500617027 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21365746408701
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 129
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22133648395538 - Dual Berettas | Hideout
+0.22442643344402 - Tec-9 | Slag
+0.22510334849358 - XM1014 | Irezumi
+0.22606526315212 - Dual Berettas | Hideout
+0.22815707325935 - Nova | Dark Sigil
+0.23257170617580 - XM1014 | Irezumi
+0.23372501134872 - Tec-9 | Slag
+0.23705387115479 - SSG 08 | Dezastre
+
+Average: 0.21384837105870
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 55
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22097155451775 - Dual Berettas | Hideout
+0.23249705135822 - XM1014 | Irezumi
+0.23344004154205 - SSG 08 | Dezastre
+0.23361821472645 - Dual Berettas | Hideout
+0.23448370397091 - Nova | Dark Sigil
+0.23500066995621 - SSG 08 | Dezastre
+0.23512665927410 - Nova | Dark Sigil
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21377372220159
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3472
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22042810916901 - SSG 08 | Dezastre
+0.22118207812309 - Dual Berettas | Hideout
+0.22220897674561 - Dual Berettas | Hideout
+0.23028415441513 - Nova | Dark Sigil
+0.23344004154205 - SSG 08 | Dezastre
+0.23361821472645 - Dual Berettas | Hideout
+0.23579737544060 - XM1014 | Irezumi
+0.23705387115479 - SSG 08 | Dezastre
+
+Average: 0.21398434564471
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 15
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22009643912315 - XM1014 | Irezumi
+0.22815707325935 - Nova | Dark Sigil
+0.22846692800522 - SSG 08 | Dezastre
+0.23028415441513 - Nova | Dark Sigil
+0.23808638751507 - Tec-9 | Slag
+0.23875315487385 - Dual Berettas | Hideout
+0.23881867527962 - MAC-10 | Light Box
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21352621391416
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 13648
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22009643912315 - XM1014 | Irezumi
+0.22118207812309 - Dual Berettas | Hideout
+0.22543871402740 - MAC-10 | Light Box
+0.22606526315212 - Dual Berettas | Hideout
+0.22629198431969 - Tec-9 | Slag
+0.22846692800522 - SSG 08 | Dezastre
+0.23118162155151 - Tec-9 | Slag
+0.23500066995621 - SSG 08 | Dezastre
+
+Average: 0.21303200125694
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22097155451775 - Dual Berettas | Hideout
+0.22294537723064 - Dual Berettas | Hideout
+0.22846692800522 - SSG 08 | Dezastre
+0.22972999513149 - Nova | Dark Sigil
+0.23257170617580 - XM1014 | Irezumi
+0.23958107829094 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21378090903163
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 5787
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22045558691025 - SSG 08 | Dezastre
+0.22543871402740 - MAC-10 | Light Box
+0.22781074047089 - Dual Berettas | Hideout
+0.23589205741882 - XM1014 | Irezumi
+0.23881867527962 - MAC-10 | Light Box
+0.23940500617027 - Dual Berettas | Hideout
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21301084980369
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 45
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22118207812309 - Dual Berettas | Hideout
+0.22223876416683 - Tec-9 | Slag
+0.22442643344402 - Tec-9 | Slag
+0.23257170617580 - XM1014 | Irezumi
+0.23579737544060 - XM1014 | Irezumi
+0.23743951320648 - SSG 08 | Dezastre
+0.25094312429428 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21371983215213
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 30066
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22009643912315 - XM1014 | Irezumi
+0.22097155451775 - Dual Berettas | Hideout
+0.22174063324928 - XM1014 | Irezumi
+0.22442643344402 - Tec-9 | Slag
+0.23361821472645 - Dual Berettas | Hideout
+0.23500066995621 - SSG 08 | Dezastre
+0.23512665927410 - Nova | Dark Sigil
+0.23808638751507 - Tec-9 | Slag
+
+Average: 0.21348976269364
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1937
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22097155451775 - Dual Berettas | Hideout
+0.22133648395538 - Dual Berettas | Hideout
+0.22185660898685 - Dual Berettas | Hideout
+0.22442643344402 - Tec-9 | Slag
+0.23203702270985 - Nova | Dark Sigil
+0.23361821472645 - Dual Berettas | Hideout
+0.23589205741882 - XM1014 | Irezumi
+0.23940500617027 - Dual Berettas | Hideout
+
+Average: 0.21395879015326
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 87
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22118207812309 - Dual Berettas | Hideout
+0.22119507193565 - UMP-45 | Motorized
+0.22133648395538 - Dual Berettas | Hideout
+0.22813622653484 - Dual Berettas | Hideout
+0.23881867527962 - MAC-10 | Light Box
+0.23940500617027 - Dual Berettas | Hideout
+0.25094312429428 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21336159929633
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1112
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22009643912315 - XM1014 | Irezumi
+0.22294537723064 - Dual Berettas | Hideout
+0.23579737544060 - XM1014 | Irezumi
+0.23705387115479 - SSG 08 | Dezastre
+0.23872466385365 - UMP-45 | Motorized
+0.23875315487385 - Dual Berettas | Hideout
+0.23881867527962 - MAC-10 | Light Box
+
+Average: 0.21300859451294
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 4301
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22442643344402 - Tec-9 | Slag
+0.22815707325935 - Nova | Dark Sigil
+0.23448370397091 - Nova | Dark Sigil
+0.23808638751507 - Tec-9 | Slag
+0.23872466385365 - UMP-45 | Motorized
+0.23875315487385 - Dual Berettas | Hideout
+0.23889157176018 - XM1014 | Irezumi
+
+Average: 0.21394193768501
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 16441
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22223876416683 - Tec-9 | Slag
+0.22606526315212 - Dual Berettas | Hideout
+0.23118162155151 - Tec-9 | Slag
+0.23448370397091 - Nova | Dark Sigil
+0.23579737544060 - XM1014 | Irezumi
+0.23589205741882 - XM1014 | Irezumi
+0.23958107829094 - Tec-9 | Slag
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21378391906619
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 154
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22009643912315 - XM1014 | Irezumi
+0.22185660898685 - Dual Berettas | Hideout
+0.23372501134872 - Tec-9 | Slag
+0.23808638751507 - Tec-9 | Slag
+0.23881867527962 - MAC-10 | Light Box
+0.23958107829094 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21344519183040
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 15
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22042810916901 - SSG 08 | Dezastre
+0.22045558691025 - SSG 08 | Dezastre
+0.22133648395538 - Dual Berettas | Hideout
+0.22223876416683 - Tec-9 | Slag
+0.22972999513149 - Nova | Dark Sigil
+0.23203702270985 - Nova | Dark Sigil
+0.23249705135822 - XM1014 | Irezumi
+0.23872466385365 - UMP-45 | Motorized
+
+Average: 0.21340439915657
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 15788
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22045558691025 - SSG 08 | Dezastre
+0.22510334849358 - XM1014 | Irezumi
+0.23372501134872 - Tec-9 | Slag
+0.23512665927410 - Nova | Dark Sigil
+0.23808638751507 - Tec-9 | Slag
+0.23881867527962 - MAC-10 | Light Box
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21336033865810
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 781
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22045558691025 - SSG 08 | Dezastre
+0.22097155451775 - Dual Berettas | Hideout
+0.22294537723064 - Dual Berettas | Hideout
+0.22781074047089 - Dual Berettas | Hideout
+0.22857441008091 - Tec-9 | Slag
+0.23500066995621 - SSG 08 | Dezastre
+0.23743951320648 - SSG 08 | Dezastre
+0.23872466385365 - UMP-45 | Motorized
+
+Average: 0.21377531513572
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1111
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22097155451775 - Dual Berettas | Hideout
+0.22133648395538 - Dual Berettas | Hideout
+0.22174063324928 - XM1014 | Irezumi
+0.22510334849358 - XM1014 | Irezumi
+0.22815707325935 - Nova | Dark Sigil
+0.22846692800522 - SSG 08 | Dezastre
+0.23512665927410 - Nova | Dark Sigil
+0.23705387115479 - SSG 08 | Dezastre
+
+Average: 0.21345528662205
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 7
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22118207812309 - Dual Berettas | Hideout
+0.22185660898685 - Dual Berettas | Hideout
+0.22442643344402 - Tec-9 | Slag
+0.22510334849358 - XM1014 | Irezumi
+0.23028415441513 - Nova | Dark Sigil
+0.23344004154205 - SSG 08 | Dezastre
+0.23361821472645 - Dual Berettas | Hideout
+0.23372501134872 - Tec-9 | Slag
+
+Average: 0.21360183209181
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 99
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22009643912315 - XM1014 | Irezumi
+0.22133648395538 - Dual Berettas | Hideout
+0.22223876416683 - Tec-9 | Slag
+0.22813622653484 - Dual Berettas | Hideout
+0.23171266913414 - Nova | Dark Sigil
+0.23372501134872 - Tec-9 | Slag
+0.23500066995621 - SSG 08 | Dezastre
+0.23808638751507 - Tec-9 | Slag
+
+Average: 0.21361632868648
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 318
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22042810916901 - SSG 08 | Dezastre
+0.22045558691025 - SSG 08 | Dezastre
+0.22781074047089 - Dual Berettas | Hideout
+0.22815707325935 - Nova | Dark Sigil
+0.23118162155151 - Tec-9 | Slag
+0.23171266913414 - Nova | Dark Sigil
+0.23257170617580 - XM1014 | Irezumi
+0.23881867527962 - MAC-10 | Light Box
+
+Average: 0.21369668170810
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 5597
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22543871402740 - MAC-10 | Light Box
+0.22815707325935 - Nova | Dark Sigil
+0.22846692800522 - SSG 08 | Dezastre
+0.23344004154205 - SSG 08 | Dezastre
+0.23500066995621 - SSG 08 | Dezastre
+0.23881867527962 - MAC-10 | Light Box
+0.23958107829094 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21354592218995
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1135
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22857441008091 - Tec-9 | Slag
+0.23171266913414 - Nova | Dark Sigil
+0.23257170617580 - XM1014 | Irezumi
+0.23361821472645 - Dual Berettas | Hideout
+0.23372501134872 - Tec-9 | Slag
+0.23808638751507 - Tec-9 | Slag
+0.23881867527962 - MAC-10 | Light Box
+0.23958107829094 - Tec-9 | Slag
+
+Average: 0.21323010697961
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 169
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22045558691025 - SSG 08 | Dezastre
+0.22220897674561 - Dual Berettas | Hideout
+0.22816048562527 - XM1014 | Irezumi
+0.23500066995621 - SSG 08 | Dezastre
+0.23872466385365 - UMP-45 | Motorized
+0.23881867527962 - MAC-10 | Light Box
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21317000612617
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 29386
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22119507193565 - UMP-45 | Motorized
+0.22294537723064 - Dual Berettas | Hideout
+0.22543871402740 - MAC-10 | Light Box
+0.23344004154205 - SSG 08 | Dezastre
+0.23372501134872 - Tec-9 | Slag
+0.23940500617027 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21310320198536
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 8729
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22606526315212 - Dual Berettas | Hideout
+0.22781074047089 - Dual Berettas | Hideout
+0.23203702270985 - Nova | Dark Sigil
+0.23372501134872 - Tec-9 | Slag
+0.23448370397091 - Nova | Dark Sigil
+0.23940500617027 - Dual Berettas | Hideout
+0.23958107829094 - Tec-9 | Slag
+
+Average: 0.21310042142868
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 11670
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22174063324928 - XM1014 | Irezumi
+0.22294537723064 - Dual Berettas | Hideout
+0.22813622653484 - Dual Berettas | Hideout
+0.22816048562527 - XM1014 | Irezumi
+0.23249705135822 - XM1014 | Irezumi
+0.23344004154205 - SSG 08 | Dezastre
+0.25094312429428 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21304622665048
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 10326
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22042810916901 - SSG 08 | Dezastre
+0.22118207812309 - Dual Berettas | Hideout
+0.22510334849358 - XM1014 | Irezumi
+0.22857441008091 - Tec-9 | Slag
+0.23203702270985 - Nova | Dark Sigil
+0.23344004154205 - SSG 08 | Dezastre
+0.23579737544060 - XM1014 | Irezumi
+0.23589205741882 - XM1014 | Irezumi
+
+Average: 0.21382850781083
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3379
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22223876416683 - Tec-9 | Slag
+0.22510334849358 - XM1014 | Irezumi
+0.23203702270985 - Nova | Dark Sigil
+0.23344004154205 - SSG 08 | Dezastre
+0.23808638751507 - Tec-9 | Slag
+0.23881867527962 - MAC-10 | Light Box
+0.23958107829094 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21358613595366
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3315
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22119507193565 - UMP-45 | Motorized
+0.22220897674561 - Dual Berettas | Hideout
+0.22606526315212 - Dual Berettas | Hideout
+0.22629198431969 - Tec-9 | Slag
+0.23028415441513 - Nova | Dark Sigil
+0.23344004154205 - SSG 08 | Dezastre
+0.23372501134872 - Tec-9 | Slag
+0.23500066995621 - SSG 08 | Dezastre
+
+Average: 0.21382556930184
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 269
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22118207812309 - Dual Berettas | Hideout
+0.22174063324928 - XM1014 | Irezumi
+0.22294537723064 - Dual Berettas | Hideout
+0.22510334849358 - XM1014 | Irezumi
+0.22543871402740 - MAC-10 | Light Box
+0.22781074047089 - Dual Berettas | Hideout
+0.23344004154205 - SSG 08 | Dezastre
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21386485770345
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 136
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22442643344402 - Tec-9 | Slag
+0.22816048562527 - XM1014 | Irezumi
+0.22972999513149 - Nova | Dark Sigil
+0.23361821472645 - Dual Berettas | Hideout
+0.23372501134872 - Tec-9 | Slag
+0.23881867527962 - MAC-10 | Light Box
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21373183280229
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 845
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22133648395538 - Dual Berettas | Hideout
+0.22510334849358 - XM1014 | Irezumi
+0.23028415441513 - Nova | Dark Sigil
+0.23171266913414 - Nova | Dark Sigil
+0.23500066995621 - SSG 08 | Dezastre
+0.23743951320648 - SSG 08 | Dezastre
+0.23940500617027 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21328811720014
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 80
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22442643344402 - Tec-9 | Slag
+0.22543871402740 - MAC-10 | Light Box
+0.22813622653484 - Dual Berettas | Hideout
+0.23344004154205 - SSG 08 | Dezastre
+0.23448370397091 - Nova | Dark Sigil
+0.23875315487385 - Dual Berettas | Hideout
+0.23881867527962 - MAC-10 | Light Box
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21360962763429
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1579
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22097155451775 - Dual Berettas | Hideout
+0.22118207812309 - Dual Berettas | Hideout
+0.22442643344402 - Tec-9 | Slag
+0.23875315487385 - Dual Berettas | Hideout
+0.23889157176018 - XM1014 | Irezumi
+0.23958107829094 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21326453834772
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 14483
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22294537723064 - Dual Berettas | Hideout
+0.22629198431969 - Tec-9 | Slag
+0.23171266913414 - Nova | Dark Sigil
+0.23257170617580 - XM1014 | Irezumi
+0.23361821472645 - Dual Berettas | Hideout
+0.23448370397091 - Nova | Dark Sigil
+0.23889157176018 - XM1014 | Irezumi
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21331145539880
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 563
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22185660898685 - Dual Berettas | Hideout
+0.22223876416683 - Tec-9 | Slag
+0.22815707325935 - Nova | Dark Sigil
+0.23257170617580 - XM1014 | Irezumi
+0.23579737544060 - XM1014 | Irezumi
+0.23872466385365 - UMP-45 | Motorized
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21342289894819
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 117
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22045558691025 - SSG 08 | Dezastre
+0.22972999513149 - Nova | Dark Sigil
+0.23171266913414 - Nova | Dark Sigil
+0.23249705135822 - XM1014 | Irezumi
+0.23743951320648 - SSG 08 | Dezastre
+0.23875315487385 - Dual Berettas | Hideout
+0.23940500617027 - Dual Berettas | Hideout
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21365490183234
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 12098
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22042810916901 - SSG 08 | Dezastre
+0.22223876416683 - Tec-9 | Slag
+0.22510334849358 - XM1014 | Irezumi
+0.23344004154205 - SSG 08 | Dezastre
+0.23743951320648 - SSG 08 | Dezastre
+0.23875315487385 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21322857290506
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 5269
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22220897674561 - Dual Berettas | Hideout
+0.22294537723064 - Dual Berettas | Hideout
+0.23579737544060 - XM1014 | Irezumi
+0.23589205741882 - XM1014 | Irezumi
+0.23808638751507 - Tec-9 | Slag
+0.23889157176018 - XM1014 | Irezumi
+0.23940500617027 - Dual Berettas | Hideout
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21397827938199
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 533
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22045558691025 - SSG 08 | Dezastre
+0.22097155451775 - Dual Berettas | Hideout
+0.22118207812309 - Dual Berettas | Hideout
+0.22119507193565 - UMP-45 | Motorized
+0.22174063324928 - XM1014 | Irezumi
+0.22857441008091 - Tec-9 | Slag
+0.23344004154205 - SSG 08 | Dezastre
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21303764209151
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 809
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22009643912315 - XM1014 | Irezumi
+0.22118207812309 - Dual Berettas | Hideout
+0.22220897674561 - Dual Berettas | Hideout
+0.22813622653484 - Dual Berettas | Hideout
+0.23028415441513 - Nova | Dark Sigil
+0.23171266913414 - Nova | Dark Sigil
+0.23344004154205 - SSG 08 | Dezastre
+0.23872466385365 - UMP-45 | Motorized
+
+Average: 0.21381676793098
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 56
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22042810916901 - SSG 08 | Dezastre
+0.22045558691025 - SSG 08 | Dezastre
+0.22543871402740 - MAC-10 | Light Box
+0.22815707325935 - Nova | Dark Sigil
+0.23118162155151 - Tec-9 | Slag
+0.23372501134872 - Tec-9 | Slag
+0.23500066995621 - SSG 08 | Dezastre
+0.23579737544060 - XM1014 | Irezumi
+
+Average: 0.21360147967935
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 684
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22119507193565 - UMP-45 | Motorized
+0.22294537723064 - Dual Berettas | Hideout
+0.22442643344402 - Tec-9 | Slag
+0.22816048562527 - XM1014 | Irezumi
+0.23118162155151 - Tec-9 | Slag
+0.23171266913414 - Nova | Dark Sigil
+0.23500066995621 - SSG 08 | Dezastre
+0.23872466385365 - UMP-45 | Motorized
+
+Average: 0.21391776278615
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3874
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22119507193565 - UMP-45 | Motorized
+0.22133648395538 - Dual Berettas | Hideout
+0.22220897674561 - Dual Berettas | Hideout
+0.22629198431969 - Tec-9 | Slag
+0.22781074047089 - Dual Berettas | Hideout
+0.23705387115479 - SSG 08 | Dezastre
+0.23881867527962 - MAC-10 | Light Box
+0.23889157176018 - XM1014 | Irezumi
+
+Average: 0.21394380107522
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 43
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22223876416683 - Tec-9 | Slag
+0.22857441008091 - Tec-9 | Slag
+0.23028415441513 - Nova | Dark Sigil
+0.23118162155151 - Tec-9 | Slag
+0.23344004154205 - SSG 08 | Dezastre
+0.23743951320648 - SSG 08 | Dezastre
+0.23889157176018 - XM1014 | Irezumi
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21346494033933
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 221
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22118207812309 - Dual Berettas | Hideout
+0.22846692800522 - SSG 08 | Dezastre
+0.23203702270985 - Nova | Dark Sigil
+0.23344004154205 - SSG 08 | Dezastre
+0.23372501134872 - Tec-9 | Slag
+0.23940500617027 - Dual Berettas | Hideout
+0.23958107829094 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21343932077288
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 11124
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22097155451775 - Dual Berettas | Hideout
+0.23171266913414 - Nova | Dark Sigil
+0.23257170617580 - XM1014 | Irezumi
+0.23500066995621 - SSG 08 | Dezastre
+0.23589205741882 - XM1014 | Irezumi
+0.23872466385365 - UMP-45 | Motorized
+0.23875315487385 - Dual Berettas | Hideout
+
+Average: 0.21315228641033
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3507
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22185660898685 - Dual Berettas | Hideout
+0.22813622653484 - Dual Berettas | Hideout
+0.23344004154205 - SSG 08 | Dezastre
+0.23361821472645 - Dual Berettas | Hideout
+0.23500066995621 - SSG 08 | Dezastre
+0.23512665927410 - Nova | Dark Sigil
+0.23579737544060 - XM1014 | Irezumi
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21355751231313
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 810
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22223876416683 - Tec-9 | Slag
+0.22813622653484 - Dual Berettas | Hideout
+0.22816048562527 - XM1014 | Irezumi
+0.23203702270985 - Nova | Dark Sigil
+0.23372501134872 - Tec-9 | Slag
+0.23743951320648 - SSG 08 | Dezastre
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21305765360594
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1377
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22119507193565 - UMP-45 | Motorized
+0.22223876416683 - Tec-9 | Slag
+0.23257170617580 - XM1014 | Irezumi
+0.23448370397091 - Nova | Dark Sigil
+0.23579737544060 - XM1014 | Irezumi
+0.23808638751507 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21332125216722
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1471
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22118207812309 - Dual Berettas | Hideout
+0.22133648395538 - Dual Berettas | Hideout
+0.22442643344402 - Tec-9 | Slag
+0.22815707325935 - Nova | Dark Sigil
+0.23118162155151 - Tec-9 | Slag
+0.23257170617580 - XM1014 | Irezumi
+0.23372501134872 - Tec-9 | Slag
+0.23705387115479 - SSG 08 | Dezastre
+
+Average: 0.21396787986159
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 116
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22629198431969 - Tec-9 | Slag
+0.22972999513149 - Nova | Dark Sigil
+0.23118162155151 - Tec-9 | Slag
+0.23249705135822 - XM1014 | Irezumi
+0.23372501134872 - Tec-9 | Slag
+0.23448370397091 - Nova | Dark Sigil
+0.23958107829094 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21340464875102
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 839
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22174063324928 - XM1014 | Irezumi
+0.22223876416683 - Tec-9 | Slag
+0.22510334849358 - XM1014 | Irezumi
+0.22543871402740 - MAC-10 | Light Box
+0.22606526315212 - Dual Berettas | Hideout
+0.22846692800522 - SSG 08 | Dezastre
+0.23118162155151 - Tec-9 | Slag
+0.23361821472645 - Dual Berettas | Hideout
+
+Average: 0.21304498016834
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 3115
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22133648395538 - Dual Berettas | Hideout
+0.22220897674561 - Dual Berettas | Hideout
+0.22857441008091 - Tec-9 | Slag
+0.23344004154205 - SSG 08 | Dezastre
+0.23808638751507 - Tec-9 | Slag
+0.23875315487385 - Dual Berettas | Hideout
+0.23940500617027 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21344037875533
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 10085
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22009643912315 - XM1014 | Irezumi
+0.22220897674561 - Dual Berettas | Hideout
+0.22294537723064 - Dual Berettas | Hideout
+0.22813622653484 - Dual Berettas | Hideout
+0.23171266913414 - Nova | Dark Sigil
+0.23344004154205 - SSG 08 | Dezastre
+0.23512665927410 - Nova | Dark Sigil
+0.23940500617027 - Dual Berettas | Hideout
+
+Average: 0.21389020308852
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 781
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22174063324928 - XM1014 | Irezumi
+0.22543871402740 - MAC-10 | Light Box
+0.23344004154205 - SSG 08 | Dezastre
+0.23361821472645 - Dual Berettas | Hideout
+0.23579737544060 - XM1014 | Irezumi
+0.23705387115479 - SSG 08 | Dezastre
+0.23872466385365 - UMP-45 | Motorized
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21323695555329
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1151
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22118207812309 - Dual Berettas | Hideout
+0.22857441008091 - Tec-9 | Slag
+0.23257170617580 - XM1014 | Irezumi
+0.23361821472645 - Dual Berettas | Hideout
+0.23512665927410 - Nova | Dark Sigil
+0.23579737544060 - XM1014 | Irezumi
+0.23958107829094 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21330075636506
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 341
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22097155451775 - Dual Berettas | Hideout
+0.22510334849358 - XM1014 | Irezumi
+0.22972999513149 - Nova | Dark Sigil
+0.23171266913414 - Nova | Dark Sigil
+0.23361821472645 - Dual Berettas | Hideout
+0.23448370397091 - Nova | Dark Sigil
+0.25094312429428 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21391619369388
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1738
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22009643912315 - XM1014 | Irezumi
+0.22119507193565 - UMP-45 | Motorized
+0.22223876416683 - Tec-9 | Slag
+0.22816048562527 - XM1014 | Irezumi
+0.22857441008091 - Tec-9 | Slag
+0.23589205741882 - XM1014 | Irezumi
+0.23743951320648 - SSG 08 | Dezastre
+0.23875315487385 - Dual Berettas | Hideout
+
+Average: 0.21381805315614
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 2326
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22042810916901 - SSG 08 | Dezastre
+0.22220897674561 - Dual Berettas | Hideout
+0.22442643344402 - Tec-9 | Slag
+0.22846692800522 - SSG 08 | Dezastre
+0.22857441008091 - Tec-9 | Slag
+0.23118162155151 - Tec-9 | Slag
+0.23500066995621 - SSG 08 | Dezastre
+0.23940500617027 - Dual Berettas | Hideout
+
+Average: 0.21397366747260
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 214
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22097155451775 - Dual Berettas | Hideout
+0.22223876416683 - Tec-9 | Slag
+0.22294537723064 - Dual Berettas | Hideout
+0.22629198431969 - Tec-9 | Slag
+0.22781074047089 - Dual Berettas | Hideout
+0.22816048562527 - XM1014 | Irezumi
+0.23872466385365 - UMP-45 | Motorized
+0.23940500617027 - Dual Berettas | Hideout
+
+Average: 0.21365930959582
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 64
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22009643912315 - XM1014 | Irezumi
+0.22042810916901 - SSG 08 | Dezastre
+0.22133648395538 - Dual Berettas | Hideout
+0.22185660898685 - Dual Berettas | Hideout
+0.22220897674561 - Dual Berettas | Hideout
+0.23203702270985 - Nova | Dark Sigil
+0.23705387115479 - SSG 08 | Dezastre
+0.23940500617027 - Dual Berettas | Hideout
+
+Average: 0.21310188323259
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 2291
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22606526315212 - Dual Berettas | Hideout
+0.22813622653484 - Dual Berettas | Hideout
+0.22846692800522 - SSG 08 | Dezastre
+0.23344004154205 - SSG 08 | Dezastre
+0.23361821472645 - Dual Berettas | Hideout
+0.23579737544060 - XM1014 | Irezumi
+0.23958107829094 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21316611692309
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1963
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.22045558691025 - SSG 08 | Dezastre
+0.22097155451775 - Dual Berettas | Hideout
+0.22118207812309 - Dual Berettas | Hideout
+0.22119507193565 - UMP-45 | Motorized
+0.22133648395538 - Dual Berettas | Hideout
+0.22223876416683 - Tec-9 | Slag
+0.22606526315212 - Dual Berettas | Hideout
+0.22846692800522 - SSG 08 | Dezastre
+0.23203702270985 - Nova | Dark Sigil
+
+Average: 0.21384793147445
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1156
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22174063324928 - XM1014 | Irezumi
+0.22543871402740 - MAC-10 | Light Box
+0.22846692800522 - SSG 08 | Dezastre
+0.22972999513149 - Nova | Dark Sigil
+0.23589205741882 - XM1014 | Irezumi
+0.23872466385365 - UMP-45 | Motorized
+0.23881867527962 - MAC-10 | Light Box
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21314109936357
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 67
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22118207812309 - Dual Berettas | Hideout
+0.22133648395538 - Dual Berettas | Hideout
+0.22223876416683 - Tec-9 | Slag
+0.22543871402740 - MAC-10 | Light Box
+0.22629198431969 - Tec-9 | Slag
+0.23203702270985 - Nova | Dark Sigil
+0.23361821472645 - Dual Berettas | Hideout
+0.23512665927410 - Nova | Dark Sigil
+
+Average: 0.21338662356138
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 133
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22174063324928 - XM1014 | Irezumi
+0.22220897674561 - Dual Berettas | Hideout
+0.23118162155151 - Tec-9 | Slag
+0.23171266913414 - Nova | Dark Sigil
+0.23872466385365 - UMP-45 | Motorized
+0.23875315487385 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21392045170069
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 185
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22133648395538 - Dual Berettas | Hideout
+0.22174063324928 - XM1014 | Irezumi
+0.23118162155151 - Tec-9 | Slag
+0.23512665927410 - Nova | Dark Sigil
+0.23743951320648 - SSG 08 | Dezastre
+0.23889157176018 - XM1014 | Irezumi
+0.23940500617027 - Dual Berettas | Hideout
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21316775307059
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 12690
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22009643912315 - XM1014 | Irezumi
+0.22294537723064 - Dual Berettas | Hideout
+0.23344004154205 - SSG 08 | Dezastre
+0.23372501134872 - Tec-9 | Slag
+0.23512665927410 - Nova | Dark Sigil
+0.23940500617027 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21396213322878
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 400
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22118207812309 - Dual Berettas | Hideout
+0.22119507193565 - UMP-45 | Motorized
+0.22220897674561 - Dual Berettas | Hideout
+0.22813622653484 - Dual Berettas | Hideout
+0.22815707325935 - Nova | Dark Sigil
+0.23257170617580 - XM1014 | Irezumi
+0.23743951320648 - SSG 08 | Dezastre
+0.23958107829094 - Tec-9 | Slag
+
+Average: 0.21363023594022
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1482
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22009643912315 - XM1014 | Irezumi
+0.22042810916901 - SSG 08 | Dezastre
+0.22097155451775 - Dual Berettas | Hideout
+0.22510334849358 - XM1014 | Irezumi
+0.23028415441513 - Nova | Dark Sigil
+0.23249705135822 - XM1014 | Irezumi
+0.23361821472645 - Dual Berettas | Hideout
+0.23958107829094 - Tec-9 | Slag
+
+Average: 0.21326244696975
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 21
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22009643912315 - XM1014 | Irezumi
+0.22118207812309 - Dual Berettas | Hideout
+0.22223876416683 - Tec-9 | Slag
+0.22510334849358 - XM1014 | Irezumi
+0.22816048562527 - XM1014 | Irezumi
+0.23808638751507 - Tec-9 | Slag
+0.23875315487385 - Dual Berettas | Hideout
+0.23940500617027 - Dual Berettas | Hideout
+
+Average: 0.21388562992215
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 119
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22119507193565 - UMP-45 | Motorized
+0.22185660898685 - Dual Berettas | Hideout
+0.22220897674561 - Dual Berettas | Hideout
+0.22294537723064 - Dual Berettas | Hideout
+0.22781074047089 - Dual Berettas | Hideout
+0.22972999513149 - Nova | Dark Sigil
+0.23448370397091 - Nova | Dark Sigil
+0.23889157176018 - XM1014 | Irezumi
+
+Average: 0.21357183605432
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 319
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22042810916901 - SSG 08 | Dezastre
+0.22118207812309 - Dual Berettas | Hideout
+0.22220897674561 - Dual Berettas | Hideout
+0.22857441008091 - Tec-9 | Slag
+0.23881867527962 - MAC-10 | Light Box
+0.23958107829094 - Tec-9 | Slag
+0.25094312429428 - Dual Berettas | Hideout
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21343357786536
+Target : 0.21400000000000
+
+
+Execution time: 0.01 seconds.
+Total combinations tested: 9835
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22042810916901 - SSG 08 | Dezastre
+0.22119507193565 - UMP-45 | Motorized
+0.22133648395538 - Dual Berettas | Hideout
+0.22294537723064 - Dual Berettas | Hideout
+0.23344004154205 - SSG 08 | Dezastre
+0.23361821472645 - Dual Berettas | Hideout
+0.23448370397091 - Nova | Dark Sigil
+0.23705387115479 - SSG 08 | Dezastre
+
+Average: 0.21368833035231
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 932
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.16402029842138
+Value 0.05026541586352 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.16402029842138
+Value 0.05026541586352 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.08502318710089 - Five-SeveN | Scrawl
+0.08575100451708 - Five-SeveN | Scrawl
+0.09040935337543 - MAC-10 | Ensnared
+0.09042023867369 - Five-SeveN | Scrawl
+0.09077902138233 - Five-SeveN | Scrawl
+0.09171529114246 - MP5-SD | Necro Jnr
+0.09248161315918 - MAC-10 | Ensnared
+0.09349250048399 - Sawed-Off | Spirit Board
+0.09639929234982 - Sawed-Off | Spirit Board
+0.10424643009901 - Sawed-Off | Spirit Board
+
+Average: 0.09207179322839
+Target : 0.09210526315690
+
+
+Execution time: 13.34 seconds.
+Total combinations tested: 141684597
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22009643912315 - XM1014 | Irezumi
+0.22119507193565 - UMP-45 | Motorized
+0.22606526315212 - Dual Berettas | Hideout
+0.22816048562527 - XM1014 | Irezumi
+0.23028415441513 - Nova | Dark Sigil
+0.23203702270985 - Nova | Dark Sigil
+0.23512665927410 - Nova | Dark Sigil
+0.23875315487385 - Dual Berettas | Hideout
+
+Average: 0.21375488862395
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 966
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.14875382035971
+Value 0.03874617964019 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+

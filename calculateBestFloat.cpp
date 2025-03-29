@@ -16,6 +16,7 @@ const double dangerZoneMax = 0.1874999999999;
 const std::vector<double> G3SG1Scavenger = {
     0.18018649518490,
     0.18475167453289,
+    0.18969373404980,
 };
 const std::vector<double> MAC10PipeDowns = {
     0.18069760501385,
@@ -41,6 +42,8 @@ const std::vector<double> SSGDezastres = {
     0.22846692800522,
     0.23500066995621,
     0.23344004154205,
+    0.13108235597610,
+    0.12453056126833,
 };
 const std::vector<double> TEC9Slags = {
     0.22223876416683,
@@ -83,6 +86,7 @@ const std::vector<double> XM1014Irezumis = {
     0.22510334849358,
     0.23889157176018,
     0.23579737544060,
+    0.23249705135822,
 };
 const std::vector<double> NovaDarkSigils = {
     0.23171266913414,
@@ -92,6 +96,7 @@ const std::vector<double> NovaDarkSigils = {
     0.23203702270985,
     0.23512665927410,
     0.22972999513149,
+    0.18551395833492,
 };
 std::vector<double> kilowattMS = MAC10LightBoxs;
 
@@ -148,24 +153,39 @@ const std::vector<double> SawedOffSpiritBoards = {
     0.14659325778484,
     0.09349250048399,
     0.09373930096626,
+    0.09275966882706,
 };
 const std::vector<double> MP5SDNecroJrs = {
     0.09171529114246,
     0.09229476004839,
+    0.09257861226797,
+    0.09236881881952,
 };
 const std::vector<double> MAC10Ensnareds = {
     0.09040935337543,
     0.09102553129196,
+    0.09248161315918,
 };    
 const std::vector<double> FiveSeveNScrawls = {
     0.09268655627966,
     0.09254652261734,
+    0.09077902138233,
+    0.08974013477564,
+    0.09129532426596,
+    0.09042023867369,
+    0.08502318710089,
+    0.08575100451708,
 };
 const std::vector<double> SCAR20Poultrygeists = {
     0.09223306924105,
+    0.09251530468464,
 };
 const std::vector<double> MAG7Foresights = {
     0.09278006851673,
+    0.09286309778690,
+};
+const std::vector<double> P2000LiftedSpirits = {
+    0.09210523217916,
 };
 std::vector<double> DreamsNightmaresMS = SawedOffSpiritBoards;
 
@@ -219,25 +239,9 @@ const std::vector<double> TEC9Brothers = {
 };
 std::vector<double> FractureR = MAG7MonsterCalls;
 
-// void setConsoleColor(int color);
-// void printColorTable();
-// void printStrRandomColor(const std::string& text);
-// std::string getSkinName(double skinFloat, int num);
-// std::vector<double> sortArray(const std::vector<double> &array);
-// Result findBestCombination(const std::vector<double> &numbers, double target);
-// Result findBestCombination(const std::vector<double> &numbers, double target, double aceitavel);
-// double calculateAverage(const std::vector<double> &array, int entries);
-// void writeCombinationToFile(const std::vector<double> &combination, const std::string &fileName, const std::string &logContent = "");
-// void writeSeparatorToFile(const std::string &barraN, const std::string &fileName, const std::string &logContent = "");
-// std::vector<double> getFirstN(const std::vector<double> &values, int N);
-// double getLastGood(const std::vector<double> &values, double target);
-// bool isArrayGood(const std::vector<double> &values, double target);
-// unsigned long long binomialCoefficient(int n, int k);
-// std::vector<double> shuffleArray(std::vector<double> values);
-// double estimateExecutionTime(const std::vector<double> &values, double target, double aceitavel = 0);
-// void printArray(const std::vector<double> &values);
-// std::string formatExecutionTime(double seconds);
-// void processCombination(const std::vector<double> &values, double target, int mode, double aceitavel = 0);
+
+
+
 
 void setConsoleColor(int color) {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -386,7 +390,7 @@ std::string getSkinName(double skinFloat, int num) {
             }        
             for (int i = 0; i < FiveSeveNScrawls.size(); i++){
                 if (FiveSeveNScrawls[i] == skinFloat){
-                    setConsoleColor(13);
+                    setConsoleColor(11);
                     s = "Five-SeveN | Scrawl";
                 }
             }      
@@ -400,6 +404,12 @@ std::string getSkinName(double skinFloat, int num) {
                 if (MAG7Foresights[i] == skinFloat){
                     setConsoleColor(2);
                     s = "SCAR-20 | Poultrygeist";
+                }
+            }
+            for (int i = 0; i < P2000LiftedSpirits.size(); i++){
+                if (P2000LiftedSpirits[i] == skinFloat){
+                    setConsoleColor(13);
+                    s = "P2000 | Lifted Spirit";
                 }
             }
             break;
@@ -870,6 +880,7 @@ int main(){
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), FiveSeveNScrawls.begin(), FiveSeveNScrawls.end());
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), SCAR20Poultrygeists.begin(), SCAR20Poultrygeists.end());
     DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), MAG7Foresights.begin(), MAG7Foresights.end());
+    DreamsNightmaresMS.insert(DreamsNightmaresMS.end(), P2000LiftedSpirits.begin(), P2000LiftedSpirits.end());
     
     FractureR.insert(FractureR.end(), MP5SDKitbashs.begin(), MP5SDKitbashs.end());
     FractureR.insert(FractureR.end(), GalilARConnexions.begin(), GalilARConnexions.end());
@@ -877,7 +888,8 @@ int main(){
 
     int op = -1;
     //doub kilowattMSMax = 0.2232558116315;
-    double kilowattMSMin = 0.213; 
+    double kilowattMSMin = 0.2135; 
+    double DreamsNightmaresMSMin = 0.092; 
     do{
         std::cout << "\n\n|----------------------------|\n";
         std::cout << "| Escolha uma opcao:         |\n";
@@ -896,7 +908,6 @@ int main(){
                 processCombination(dangerZone, dangerZoneMax, 1);
                 break;
             case 2:
-                printArray(sortArray(kilowattMS));           
                 // processCombination(testes, testeMax, 2);      0.2232558131218
                 processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMin);
                 break;
@@ -905,7 +916,7 @@ int main(){
                 processCombination(kilowattR, kilowattRMax, 3);
                 break;
             case 4:
-                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4);
+                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4, DreamsNightmaresMSMin);
                 break;
             case 5:
                 processCombination(FractureR, FractureRMax, 5);
