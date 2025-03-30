@@ -9575,3 +9575,331 @@ Total combinations tested: 1
 
 ---------------------------------------
 
+No possible combinations for these floats.
+Average of the lowest 10: 0.14875382035971
+Value 0.03874617964019 above target.
+
+Execution time: 0.01 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22174063324928 - XM1014 | Irezumi
+0.22220897674561 - Dual Berettas | Hideout
+0.22510334849358 - XM1014 | Irezumi
+0.22629198431969 - Tec-9 | Slag
+0.22815707325935 - Nova | Dark Sigil
+0.22972999513149 - Nova | Dark Sigil
+0.23203702270985 - Nova | Dark Sigil
+0.23579737544060 - XM1014 | Irezumi
+
+Average: 0.21376627236605
+Target : 0.21400000000000
+
+
+Execution time: 0.01 seconds.
+Total combinations tested: 53
+
+---------------------------------------
+
+
+Best Combination:
+0.08502318710089 - Five-SeveN | Scrawl
+0.08974013477564 - Five-SeveN | Scrawl
+0.09077902138233 - Five-SeveN | Scrawl
+0.09102553129196 - MAC-10 | Ensnared
+0.09223306924105 - SCAR-20 | Poultrygeist
+0.09257861226797 - MP5-SD | Necro Jnr
+0.09275966882706 - Sawed-Off | Spirit Board
+0.09390566498041 - Sawed-Off | Spirit Board
+0.09591663628817 - Sawed-Off | Spirit Board
+0.09608733654022 - Sawed-Off | Spirit Board
+
+Average: 0.09200488626957
+Target : 0.09210526315690
+
+
+Execution time: 1.55 seconds.
+Total combinations tested: 18043108
+
+---------------------------------------
+
+
+Best Combination:
+0.18544407188892 - MAG-7 | Monster Call
+0.19039992988110 - MAG-7 | Monster Call
+0.19431403279305 - MP5-SD | Kitbash
+0.19783447682858 - Galil AR | Connexion
+0.19892306625843 - Galil AR | Connexion
+0.19913463294506 - Galil AR | Connexion
+0.20033322274685 - MP5-SD | Kitbash
+0.20195166766644 - MAG-7 | Monster Call
+0.20470130443573 - TEC-9 | Brother
+0.20696358382702 - MAG-7 | Monster Call
+
+Average: 0.19799999892712
+Target : 0.19800000000000
+
+
+Execution time: 31.67 seconds.
+Total combinations tested: 254186856
+
+---------------------------------------
+
+
+Best Combination:
+0.18544407188892 - MAG-7 | Monster Call
+0.18960884213448 - MP5-SD | Kitbash
+0.19039992988110 - MAG-7 | Monster Call
+0.19441471993923 - Galil AR | Connexion
+0.19801937043667 - Galil AR | Connexion
+0.19950631260872 - MP5-SD | Kitbash
+0.20096364617348 - TEC-9 | Brother
+0.20174598693848 - MP5-SD | Kitbash
+0.20696358382702 - MAG-7 | Monster Call
+0.21223406493664 - MAG-7 | Monster Call
+
+Average: 0.19793005287647
+Target : 0.19800000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 837
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.14875382035971
+Value 0.03874617964019 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.18551395833492 - Nova | Dark Sigil
+0.22042810916901 - SSG 08 | Dezastre
+0.22119507193565 - UMP-45 | Motorized
+0.22972999513149 - Nova | Dark Sigil
+0.23448370397091 - Nova | Dark Sigil
+0.23500066995621 - SSG 08 | Dezastre
+0.23958107829094 - Tec-9 | Slag
+0.25698640942574 - Dual Berettas | Hideout
+
+Average: 0.21353014260531
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 101
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.17134588062763
+Value 0.04293983365727 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.08575100451708 - Five-SeveN | Scrawl
+0.09040935337543 - MAC-10 | Ensnared
+0.09102553129196 - MAC-10 | Ensnared
+0.09171529114246 - MP5-SD | Necro Jnr
+0.09229476004839 - MP5-SD | Necro Jnr
+0.09248161315918 - MAC-10 | Ensnared
+0.09251530468464 - SCAR-20 | Poultrygeist
+0.09254652261734 - Five-SeveN | Scrawl
+0.09278006851673 - SCAR-20 | Poultrygeist
+0.09286309778690 - SCAR-20 | Poultrygeist
+
+Average: 0.09143825471401
+Target : 0.09210526315690
+
+
+Execution time: 0.02 seconds.
+Total combinations tested: 245121
+
+---------------------------------------
+
+
+Best Combination:
+0.18960884213448 - MP5-SD | Kitbash
+0.19039992988110 - MAG-7 | Monster Call
+0.19431403279305 - MP5-SD | Kitbash
+0.19725874066353 - Galil AR | Connexion
+0.19913463294506 - Galil AR | Connexion
+0.20079170167446 - MAG-7 | Monster Call
+0.20080624520779 - Galil AR | Connexion
+0.20174598693848 - MP5-SD | Kitbash
+0.20220027863979 - MP5-SD | Kitbash
+0.20272307097912 - MAG-7 | Monster Call
+
+Average: 0.19789834618569
+Target : 0.19800000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.17866614162922
+Value 0.00883385837068 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18551395833492 - Nova | Dark Sigil
+0.22009643912315 - XM1014 | Irezumi
+0.22118207812309 - Dual Berettas | Hideout
+0.22119507193565 - UMP-45 | Motorized
+0.22185660898685 - Dual Berettas | Hideout
+0.22815707325935 - Nova | Dark Sigil
+0.23028415441513 - Nova | Dark Sigil
+0.23512665927410 - Nova | Dark Sigil
+0.23875315487385 - Dual Berettas | Hideout
+
+Average: 0.21332475543022
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 10
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.17134588062763
+Value 0.04293983365727 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.08502318710089 - Five-SeveN | Scrawl
+0.08575100451708 - Five-SeveN | Scrawl
+0.08974013477564 - Five-SeveN | Scrawl
+0.09040935337543 - MAC-10 | Ensnared
+0.09042023867369 - Five-SeveN | Scrawl
+0.09077902138233 - Five-SeveN | Scrawl
+0.09210523217916 - P2000 | Lifted Spirit
+0.09223306924105 - SCAR-20 | Poultrygeist
+0.10082382708788 - Sawed-Off | Spirit Board
+0.10329607129097 - Sawed-Off | Spirit Board
+
+Average: 0.09205811396241
+Target : 0.09210526315690
+
+
+Execution time: 0.64 seconds.
+Total combinations tested: 7426290
+
+---------------------------------------
+
+
+Best Combination:
+0.18544407188892 - MAG-7 | Monster Call
+0.18960884213448 - MP5-SD | Kitbash
+0.19039992988110 - MAG-7 | Monster Call
+0.19431403279305 - MP5-SD | Kitbash
+0.19464899599552 - Galil AR | Connexion
+0.19762904942036 - Galil AR | Connexion
+0.20283848047256 - MAG-7 | Monster Call
+0.20417630672455 - MP5-SD | Kitbash
+0.20839902758598 - MAG-7 | Monster Call
+0.21223406493664 - MAG-7 | Monster Call
+
+Average: 0.19796928018332
+Target : 0.19800000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 11141
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.16516029983759
+Value 0.02233970016231 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.13108235597610 - SSG 08 | Dezastre
+0.18130007386208 - MAC-10 | Light Box
+0.22045558691025 - SSG 08 | Dezastre
+0.22097155451775 - Dual Berettas | Hideout
+0.22223876416683 - Tec-9 | Slag
+0.22294537723064 - Dual Berettas | Hideout
+0.22606526315212 - Dual Berettas | Hideout
+0.23589205741882 - XM1014 | Irezumi
+0.23881867527962 - MAC-10 | Light Box
+0.23940500617027 - Dual Berettas | Hideout
+
+Average: 0.21391747146845
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 2011
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.17867142707109
+Value 0.03561428721381 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 1
+
+---------------------------------------
+
+
+Best Combination:
+0.12453056126833 - SSG 08 | Dezastre
+0.13108235597610 - SSG 08 | Dezastre
+0.22223876416683 - Tec-9 | Slag
+0.22510334849358 - XM1014 | Irezumi
+0.23171266913414 - Nova | Dark Sigil
+0.23249705135822 - XM1014 | Irezumi
+0.23872466385365 - UMP-45 | Motorized
+0.23889157176018 - XM1014 | Irezumi
+0.23940500617027 - Dual Berettas | Hideout
+0.25094312429428 - Dual Berettas | Hideout
+
+Average: 0.21351291164756
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 14940
+
+---------------------------------------
+
+Erro: N vou fazer contas. Precisas de 10 skins para isso.

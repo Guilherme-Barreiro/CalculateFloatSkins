@@ -478,10 +478,9 @@ double calculateAverage(const std::vector<double> &array, int entries){
 
 Result findBestCombination(const std::vector<double> &numbers, double target, bool mode = false) {
     if (numbers.size() < 10) {
-        double avgg = calculateAverage(numbers, numbers.size());
-        // std::cout << "\n\nIGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n";
-        // getLastGood(numbers, target);
-        return {numbers, avgg, 1};
+        // double avgg = calculateAverage(numbers, numbers.size());
+        // return {numbers, avgg, 1};
+        throw std::invalid_argument("N vou fazer contas. Precisas de 10 skins para isso.");
     }
 
     int n = numbers.size();
@@ -490,31 +489,24 @@ Result findBestCombination(const std::vector<double> &numbers, double target, bo
     std::vector<double> currentCombination;
     long double currentSum = 0.0;
     unsigned long long totalCombinations = 0;
-    bool foundExactMatch = false;
     
     const char spinner[4] = {'|', '/', '-', '\\'};
     int spinnerIndex = 0;
     auto lastUpdate = std::chrono::high_resolution_clock::now();
 
     std::function<void(int, int)> backtrack = [&](int start, int depth) {
-        if (foundExactMatch) return;
 
         if (depth == 10) {
             double average = static_cast<double>(currentSum / 10.0);
-            double truncatedAverage = std::floor(average * 1e12) / 1e12;
-            double truncatedTarget = std::floor(target * 1e12) / 1e12;
 
-            if (truncatedAverage == truncatedTarget) {
-                bestCombination = currentCombination;
-                bestAverage = average;
-                foundExactMatch = true;
-                return;
-            }
-
-            if (average < target && average > bestAverage) {
+            if (average > bestAverage && average <= target) {
                 bestCombination = currentCombination;
                 bestAverage = average;
                 std::cout << bestAverage << "\n";
+                if (average >= aceitavel) {
+                    foundMatch = true;
+                    return;
+                }
             }
 
             totalCombinations++;
@@ -548,7 +540,9 @@ Result findBestCombination(const std::vector<double> &numbers, double target, bo
 
 Result findBestCombination(const std::vector<double> &numbers, double target, double aceitavel, bool mode = false) {
     if (numbers.size() < 10) {
-        throw std::invalid_argument("The array must contain at least 10 numbers.");
+        // double avgg = calculateAverage(numbers, numbers.size());
+        // return {numbers, avgg, 1};
+        throw std::invalid_argument("N vou fazer contas. Precisas de 10 skins para isso.");
     }
 
     int n = numbers.size();
@@ -557,29 +551,25 @@ Result findBestCombination(const std::vector<double> &numbers, double target, do
     std::vector<double> currentCombination;
     long double currentSum = 0.0;
     unsigned long long totalCombinations = 0;
-    bool foundExactMatch = false;
+    bool foundMatch = false;
 
     const char spinner[4] = {'|', '/', '-', '\\'};
     int spinnerIndex = 0;
     auto lastUpdate = std::chrono::high_resolution_clock::now();
 
     std::function<void(int, int)> backtrack = [&](int start, int depth) {
-        if (foundExactMatch) return;
-
+        if (foundMatch) return;
         if (depth == 10) {
             double average = static_cast<double>(currentSum / 10.0);
 
-            if (average >= aceitavel && average <= target) {
-                bestCombination = currentCombination;
-                bestAverage = average;
-                foundExactMatch = true;
-                return;
-            }
-
-            if (average < target && average > bestAverage) {
+            if (average > bestAverage && average <= target) {
                 bestCombination = currentCombination;
                 bestAverage = average;
                 std::cout << bestAverage << "\n";
+                if (average >= aceitavel) {
+                    foundMatch = true;
+                    return;
+                }
             }
 
             totalCombinations++;
@@ -887,9 +877,9 @@ int main(){
     FractureR.insert(FractureR.end(), TEC9Brothers.begin(), TEC9Brothers.end());
 
     int op = -1;
-    //doub kilowattMSMax = 0.2232558116315;
-    double kilowattMSMin = 0.2135; 
-    double DreamsNightmaresMSMin = 0.092; 
+    // double kilowattMSMin = 0.2137; 
+    // double DreamsNightmaresMSMin = 0.092; 
+    // double FractureR = 0.197; 
     do{
         std::cout << "\n\n|----------------------------|\n";
         std::cout << "| Escolha uma opcao:         |\n";
@@ -908,25 +898,23 @@ int main(){
                 processCombination(dangerZone, dangerZoneMax, 1);
                 break;
             case 2:
-                // processCombination(testes, testeMax, 2);      0.2232558131218
-                processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMin);
+                processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMax-0.001);
                 break;
             case 3:
-                // printArray(sortArray(kilowattR));           
                 processCombination(kilowattR, kilowattRMax, 3);
                 break;
             case 4:
-                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4, DreamsNightmaresMSMin);
+                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4, DreamsNightmaresMSMax-0.001);
                 break;
             case 5:
-                processCombination(FractureR, FractureRMax, 5);
+                processCombination(FractureR, FractureRMax, 5, FractureRMax-0.001);
                 break;
             case 6:
                 processCombination(dangerZone, dangerZoneMax, 1);printStrRandomColor("\n------------------------------------------------------");
-                processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMin);printStrRandomColor("\n------------------------------------------------------");
+                processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMax-0.001);printStrRandomColor("\n------------------------------------------------------");
                 processCombination(kilowattR, kilowattRMax, 3);printStrRandomColor("\n------------------------------------------------------");
-                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4);printStrRandomColor("\n------------------------------------------------------");
-                processCombination(FractureR, FractureRMax, 5);
+                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4, DreamsNightmaresMSMax-0.001);printStrRandomColor("\n------------------------------------------------------");
+                processCombination(FractureR, FractureRMax, 5, FractureRMax-0.001);
                 break;
             case 0:
                 break;
