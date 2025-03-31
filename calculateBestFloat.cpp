@@ -22,7 +22,7 @@ const std::vector<double> MAC10PipeDowns = {
     0.18069760501385,
     0.18531885743141,
 };
-std::vector<double> dangerZone = G3SG1Scavenger;
+std::vector<double> dangerZoneMS = G3SG1Scavenger;
 
 // const double kilowattMSMax = 0.2232558139519;
 // const double kilowattMSMax = 0.2232558131217;
@@ -30,212 +30,126 @@ std::vector<double> dangerZone = G3SG1Scavenger;
 const double kilowattMSMax = 0.214;
 const std::vector<double> MAC10LightBoxs = {
     // 0.21298122406006, // stickers ig
-    0.18130007386208,
-    0.23881867527962,
-    0.22543871402740,
+    0.23867854475975,
 };
 const std::vector<double> SSGDezastres = {
-    0.22045558691025,
-    0.23743951320648,
-    0.23705387115479,
-    0.22042810916901,
-    0.22846692800522,
-    0.23500066995621,
-    0.23344004154205,
-    0.13108235597610,
-    0.12453056126833,
+    0.12991911172867,
+    0.14351275563240,
 };
 const std::vector<double> TEC9Slags = {
-    0.22223876416683,
-    0.23372501134872,
-    0.22857441008091,
-    0.22629198431969,
-    0.23958107829094,
-    0.23118162155151,
-    0.22442643344402,
-    0.23808638751507,
+    0.22076492011547,
+    0.17410819232464,
+    0.17682598531246,
 };
-
-const std::vector<double> DualBeretasHideouts = {
-    0.25698640942574,
-    0.25094312429428,
-    0.22220897674561,
-    0.22185660898685,
-    0.23875315487385,
-    0.22606526315212,
-    0.23361821472645,
-    0.23940500617027,
-    0.22097155451775,
-    0.22781074047089,
-    0.22813622653484,
-    0.22133648395538,
-    0.22294537723064,
-    0.22118207812309,
-};
+const std::vector<double> DualBeretasHideouts = {};
 const std::vector<double> UMP45Motorizeds = {
     0.22119507193565,
-    0.23872466385365,
+    0.15084239840508,
 };
 const std::vector<double> XM1014Irezumis = {
     // 0.21868249773979,
-    0.23257170617580,
-    0.22009643912315,
-    0.23589205741882,
-    0.22816048562527,
-    0.22174063324928,
-    0.22510334849358,
-    0.23889157176018,
-    0.23579737544060,
-    0.23249705135822,
+    0.17948941886425,
 };
 const std::vector<double> NovaDarkSigils = {
     0.23171266913414,
-    0.23448370397091,
-    0.22815707325935,
-    0.23028415441513,
-    0.23203702270985,
-    0.23512665927410,
-    0.22972999513149,
-    0.18551395833492,
+    0.16885834932327,
 };
 std::vector<double> kilowattMS = MAC10LightBoxs;
 
-const double kilowattRMax = 0.2142857142849;
-// just smile a 0.214 ta otimo
+
+
+
+
+
+const double kilowattRMax = 0.2142857142849; // just smile a 0.214 ta otimo
 const std::vector<double> MP7JustSmiles = {
     0.15000000596046, // glock failed
-    0.15000000596046, // glock failed
-    0.15000000596046, // glock failed
 };    
-const std::vector<double> FiveSevenHybrids = {
-    0.22043582797050,
-    0.22325582802296,
-};    
-const std::vector<double> EtchLords = {
-    0.22325547039509,
-    0.22325582802296,
-};
+const std::vector<double> FiveSevenHybrids = {};    
+const std::vector<double> EtchLords = {};
 std::vector<double> kilowattR = MP7JustSmiles;
+
+
 
 const double DreamsNightmaresMSMax = 0.0921052631569;
 const std::vector<double> SawedOffSpiritBoards = {
-    0.09390566498041,
-    0.09515551477671,
-    0.09577052295208,
-    0.09591663628817,
-    0.09608733654022,
-    0.09639929234982,
-    0.09710415452719,
-    0.09715437144041,
-    0.09779497981071,
-    0.09803152084351,
-    0.10005585849285,
-    0.10082382708788,
-    0.10149347782135,
-    0.10329607129097,
-    0.10330630838871,
-    0.10424643009901,
-    0.10468701273203,
-    0.10629476606846,
-    0.10664975643158,
-    0.10830996185541,
-    0.11019420623779,
-    0.11021392792463,
-    0.11072692275047,
-    0.11124511808157,
-    0.11142890155315,
-    0.11505038291216,
-    0.11639872193336,
-    0.11695097386837,
-    0.11695714294910,
-    0.11757521331310,
-    0.14554034173489,
     0.14659325778484,
-    0.09349250048399,
-    0.09373930096626,
-    0.09275966882706,
+    0.09779497981071,
+    0.09715437144041,
+    0.09515551477671,
+    0.11019420623779,
+    0.11124511808157,
+    0.11757521331310,
+    0.10629476606846,
+    0.09390566498041,
+    0.10082382708788,
+    0.14554034173489,
+    0.11695097386837,
+    0.11639872193336,
+    0.10330630838871,
+    0.10664975643158,
+    0.10329607129097,
+    0.10468701273203,
+    0.11021392792463,
+    0.10830996185541,
+    0.11505038291216,
+    0.11695714294910,
+    0.11142890155315,
+    0.10005585849285,
+    0.10424643009901,
+    0.09639929234982,
+    0.11072692275047,
+    0.09591663628817,
+    0.09577052295208,
+    0.09710415452719,
+    0.09608733654022,
 };
 const std::vector<double> MP5SDNecroJrs = {
-    0.09171529114246,
     0.09229476004839,
-    0.09257861226797,
     0.09236881881952,
 };
-const std::vector<double> MAC10Ensnareds = {
-    0.09040935337543,
-    0.09102553129196,
-    0.09248161315918,
-};    
+const std::vector<double> MAC10Ensnareds = {};    
 const std::vector<double> FiveSeveNScrawls = {
     0.09268655627966,
-    0.09254652261734,
-    0.09077902138233,
-    0.08974013477564,
-    0.09129532426596,
-    0.09042023867369,
-    0.08502318710089,
-    0.08575100451708,
 };
 const std::vector<double> SCAR20Poultrygeists = {
     0.09223306924105,
     0.09251530468464,
 };
 const std::vector<double> MAG7Foresights = {
-    0.09278006851673,
-    0.09286309778690,
+    0.09287420660257,
 };
-const std::vector<double> P2000LiftedSpirits = {
-    0.09210523217916,
-};
+const std::vector<double> P2000LiftedSpirits = {};
 std::vector<double> DreamsNightmaresMS = SawedOffSpiritBoards;
+
+
 
 // const double FractureRMax = 0.1999999999999;
 const double FractureRMax = 0.198;
 const std::vector<double> MAG7MonsterCalls = {
-    0.19039992988110,
     0.21039286255836,
     0.21223406493664,
-    0.18544407188892,
-    0.20020510256290,
     0.20667530596256,
     0.20272307097912,
-    0.20053717494011,
     0.20283848047256,
     0.20696358382702,
     0.20839902758598,
-    0.20195166766644,
     0.20079170167446,
 };
 const std::vector<double> MP5SDKitbashs = {
     0.20220027863979,
-    0.18960884213448,
-    0.20174598693848,
-    0.20033322274685,
     0.20841746032238,
     0.20417630672455,
     0.19950631260872,
     0.19978292286396,
-    0.19431403279305,
 };
+
 const std::vector<double> GalilARConnexions = {
-    0.20897856354713,
-    0.20080624520779,
-    0.19801937043667,
-    0.19762904942036,
-    0.19783447682858,
-    0.19725874066353,
     0.19892306625843,
-    0.19913463294506,
-    0.19441471993923,
-    0.19464899599552,
-
 };
-
 const std::vector<double> TEC9Brothers = {
     0.20715796947479,
     0.20789226889610,
-    0.20470130443573,
-    0.20096364617348,
 };
 std::vector<double> FractureR = MAG7MonsterCalls;
 
@@ -403,7 +317,7 @@ std::string getSkinName(double skinFloat, int num) {
             for (int i = 0; i < MAG7Foresights.size(); i++){
                 if (MAG7Foresights[i] == skinFloat){
                     setConsoleColor(2);
-                    s = "SCAR-20 | Poultrygeist";
+                    s = "MAG-7 | Foresight";
                 }
             }
             for (int i = 0; i < P2000LiftedSpirits.size(); i++){
@@ -503,10 +417,6 @@ Result findBestCombination(const std::vector<double> &numbers, double target, bo
                 bestCombination = currentCombination;
                 bestAverage = average;
                 std::cout << bestAverage << "\n";
-                if (average >= aceitavel) {
-                    foundMatch = true;
-                    return;
-                }
             }
 
             totalCombinations++;
@@ -783,8 +693,8 @@ void processCombination(const std::vector<double> &values, double target, int mo
                 result = findBestCombination(shuffledValues, target, aceitavel, true);
             }
         } else {
-            double j = getLastGood(values, target);
-            std::cout << "\nUm " << j << " resolve o problema em vez de " << values[9] << "\n\n";
+            // double j = getLastGood(values, target);
+            // std::cout << "\nUm " << j << " resolve o problema em vez de " << values[9] << "\n\n";
         }
 
         auto end = std::chrono::high_resolution_clock::now();
@@ -853,7 +763,7 @@ void processCombination(const std::vector<double> &values, double target, int mo
 
 int main(){
 
-    dangerZone.insert(dangerZone.end(), MAC10PipeDowns.begin(), MAC10PipeDowns.end());
+    dangerZoneMS.insert(dangerZoneMS.end(), MAC10PipeDowns.begin(), MAC10PipeDowns.end());
 
     kilowattMS.insert(kilowattMS.end(), SSGDezastres.begin(), SSGDezastres.end());
     kilowattMS.insert(kilowattMS.end(), TEC9Slags.begin(), TEC9Slags.end());
@@ -880,6 +790,7 @@ int main(){
     // double kilowattMSMin = 0.2137; 
     // double DreamsNightmaresMSMin = 0.092; 
     // double FractureR = 0.197; 
+    double margin = 0.0001;
     do{
         std::cout << "\n\n|----------------------------|\n";
         std::cout << "| Escolha uma opcao:         |\n";
@@ -895,26 +806,26 @@ int main(){
         setConsoleColor(10); std::cout << "\n---------------------------------------------------------------------"; setConsoleColor(7);
         switch(op){
             case 1:
-                processCombination(dangerZone, dangerZoneMax, 1);
+                processCombination(dangerZoneMS, dangerZoneMax, 1);
                 break;
             case 2:
-                processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMax-0.001);
+                processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMax-margin);
                 break;
             case 3:
                 processCombination(kilowattR, kilowattRMax, 3);
                 break;
             case 4:
-                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4, DreamsNightmaresMSMax-0.001);
+                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4, DreamsNightmaresMSMax-margin);
                 break;
             case 5:
-                processCombination(FractureR, FractureRMax, 5, FractureRMax-0.001);
+                processCombination(FractureR, FractureRMax, 5, FractureRMax-margin);
                 break;
             case 6:
-                processCombination(dangerZone, dangerZoneMax, 1);printStrRandomColor("\n------------------------------------------------------");
-                processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMax-0.001);printStrRandomColor("\n------------------------------------------------------");
+                processCombination(dangerZoneMS, dangerZoneMax, 1);printStrRandomColor("\n------------------------------------------------------");
+                processCombination(kilowattMS, kilowattMSMax, 2, kilowattMSMax-margin);printStrRandomColor("\n------------------------------------------------------");
                 processCombination(kilowattR, kilowattRMax, 3);printStrRandomColor("\n------------------------------------------------------");
-                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4, DreamsNightmaresMSMax-0.001);printStrRandomColor("\n------------------------------------------------------");
-                processCombination(FractureR, FractureRMax, 5, FractureRMax-0.001);
+                processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4, DreamsNightmaresMSMax-margin);printStrRandomColor("\n------------------------------------------------------");
+                processCombination(FractureR, FractureRMax, 5, FractureRMax-margin);
                 break;
             case 0:
                 break;
