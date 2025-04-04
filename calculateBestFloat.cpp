@@ -35,6 +35,8 @@ const std::vector<double> MAC10LightBoxs = {
 const std::vector<double> SSGDezastres = {
     0.12991911172867,
     0.14351275563240,
+    0.14458298683167,
+    0.14505240321159,
 };
 const std::vector<double> TEC9Slags = {
     0.22076492011547,
@@ -45,6 +47,7 @@ const std::vector<double> DualBeretasHideouts = {};
 const std::vector<double> UMP45Motorizeds = {
     0.22119507193565,
     0.15084239840508,
+    0.19450305402279,
 };
 const std::vector<double> XM1014Irezumis = {
     // 0.21868249773979,
