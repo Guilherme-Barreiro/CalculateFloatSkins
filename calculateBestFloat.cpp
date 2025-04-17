@@ -30,7 +30,6 @@ std::vector<double> dangerZoneMS = G3SG1Scavenger;
 const double kilowattMSMax = 0.214;
 const std::vector<double> MAC10LightBoxs = {
     // 0.21298122406006, // stickers ig
-    0.23867854475975,
 };
 const std::vector<double> SSGDezastres = {
     0.12991911172867,
@@ -39,22 +38,30 @@ const std::vector<double> SSGDezastres = {
     0.14505240321159,
 };
 const std::vector<double> TEC9Slags = {
-    0.22076492011547,
     0.17410819232464,
     0.17682598531246,
+    0.16332463920116,
+    0.15710411965847,
 };
-const std::vector<double> DualBeretasHideouts = {};
+const std::vector<double> DualBeretasHideouts = {
+    0.15687505900860,
+    0.18563836812973,
+    0.16930392384529,
+    0.17885558307171,
+    0.16717129945755,
+    0.15626659989357,
+    0.15083245933056,
+};
 const std::vector<double> UMP45Motorizeds = {
-    0.22119507193565,
     0.15084239840508,
-    0.19450305402279,
+    0.15821604430676,
 };
 const std::vector<double> XM1014Irezumis = {
     // 0.21868249773979,
     0.17948941886425,
+    0.16516545414925,
 };
 const std::vector<double> NovaDarkSigils = {
-    0.23171266913414,
     0.16885834932327,
 };
 std::vector<double> kilowattMS = MAC10LightBoxs;
@@ -77,24 +84,21 @@ std::vector<double> kilowattR = MP7JustSmiles;
 const double DreamsNightmaresMSMax = 0.0921052631569;
 const std::vector<double> SawedOffSpiritBoards = {
     0.14659325778484,
-    0.09779497981071,
     0.09715437144041,
     0.09515551477671,
     0.11019420623779,
     0.11124511808157,
-    0.11757521331310,
     0.10629476606846,
+    0.11757521331310,
     0.09390566498041,
-    0.10082382708788,
     0.14554034173489,
     0.11695097386837,
     0.11639872193336,
     0.10330630838871,
-    0.10664975643158,
     0.10329607129097,
     0.10468701273203,
-    0.11021392792463,
     0.10830996185541,
+    0.11021392792463,
     0.11505038291216,
     0.11695714294910,
     0.11142890155315,
@@ -106,6 +110,8 @@ const std::vector<double> SawedOffSpiritBoards = {
     0.09577052295208,
     0.09710415452719,
     0.09608733654022,
+    0.09218721091747,
+    0.09253608435392,
 };
 const std::vector<double> MP5SDNecroJrs = {
     0.09229476004839,
@@ -116,13 +122,18 @@ const std::vector<double> FiveSeveNScrawls = {
     0.09268655627966,
 };
 const std::vector<double> SCAR20Poultrygeists = {
-    0.09223306924105,
     0.09251530468464,
 };
 const std::vector<double> MAG7Foresights = {
-    0.09287420660257,
+    0.09259203821421,
+    0.09229906648397,
+    0.09173545986414,
+    0.09250134229660,
 };
-const std::vector<double> P2000LiftedSpirits = {};
+const std::vector<double> P2000LiftedSpirits = {
+    0.09003980457783,
+    0.09263627231121,
+};
 std::vector<double> DreamsNightmaresMS = SawedOffSpiritBoards;
 
 
@@ -146,7 +157,6 @@ const std::vector<double> MP5SDKitbashs = {
     0.19950631260872,
     0.19978292286396,
 };
-
 const std::vector<double> GalilARConnexions = {
     0.19892306625843,
 };
