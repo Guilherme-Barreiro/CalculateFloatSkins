@@ -17260,3 +17260,48 @@ Total combinations tested: 0
 
 ---------------------------------------
 
+
+Best Combination:
+0.16516545414925 - XM1014 | Irezumi
+0.16717129945755 - Dual Berettas | Hideout
+0.16885834932327 - Nova | Dark Sigil
+0.16930392384529 - Dual Berettas | Hideout
+0.17410819232464 - Tec-9 | Slag
+0.17682598531246 - Tec-9 | Slag
+0.17885558307171 - Dual Berettas | Hideout
+0.17948941886425 - XM1014 | Irezumi
+0.17992557585239 - UMP-45 | Motorized
+0.18563836812973 - Dual Berettas | Hideout
+
+Average: 0.17453421503305
+Target : 0.21400000000000
+
+
+Execution time: 0.07 seconds.
+Total combinations tested: 352716
+
+---------------------------------------
+
+Erro: N vou fazer contas. Precisas de 10 skins para isso.
+
+Best Combination:
+0.09003980457783 - P2000 | Lifted Spirit
+0.09125255793333 - P2000 | Lifted Spirit
+0.09173545986414 - MAG-7 | Foresight
+0.09218721091747 - Sawed-Off | Spirit Board
+0.09229476004839 - MP5-SD | Necro Jnr
+0.09236881881952 - MP5-SD | Necro Jnr
+0.09251530468464 - SCAR-20 | Poultrygeist
+0.09253608435392 - Sawed-Off | Spirit Board
+0.09259203821421 - MAG-7 | Foresight
+0.09296244382858 - Sawed-Off | Spirit Board
+
+Average: 0.09204844832420
+Target : 0.09210526315690
+
+
+Execution time: 88.01 seconds.
+Total combinations tested: 1032189816
+
+---------------------------------------
+

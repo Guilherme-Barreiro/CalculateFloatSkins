@@ -55,6 +55,7 @@ const std::vector<double> DualBeretasHideouts = {
 const std::vector<double> UMP45Motorizeds = {
     0.15084239840508,
     0.15821604430676,
+    0.17992557585239,
 };
 const std::vector<double> XM1014Irezumis = {
     // 0.21868249773979,
@@ -110,28 +111,20 @@ const std::vector<double> SawedOffSpiritBoards = {
     0.09577052295208,
     0.09710415452719,
     0.09608733654022,
-    0.09218721091747,
-    0.09253608435392,
 };
 const std::vector<double> MP5SDNecroJrs = {
-    0.09229476004839,
-    0.09236881881952,
 };
 const std::vector<double> MAC10Ensnareds = {};    
 const std::vector<double> FiveSeveNScrawls = {
     0.09268655627966,
 };
 const std::vector<double> SCAR20Poultrygeists = {
-    0.09251530468464,
 };
 const std::vector<double> MAG7Foresights = {
-    0.09259203821421,
     0.09229906648397,
-    0.09173545986414,
     0.09250134229660,
 };
 const std::vector<double> P2000LiftedSpirits = {
-    0.09003980457783,
     0.09263627231121,
 };
 std::vector<double> DreamsNightmaresMS = SawedOffSpiritBoards;
