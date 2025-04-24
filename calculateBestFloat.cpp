@@ -17,6 +17,7 @@ const std::vector<double> G3SG1Scavenger = {
     0.18018649518490,
     0.18475167453289,
     0.18969373404980,
+    0.18049833178520,
 };
 const std::vector<double> MAC10PipeDowns = {
     0.18069760501385,
@@ -34,7 +35,6 @@ const std::vector<double> MAC10LightBoxs = {
 const std::vector<double> SSGDezastres = {
     0.12991911172867,
     0.14351275563240,
-    0.14458298683167,
     0.14505240321159,
 };
 const std::vector<double> TEC9Slags = {
@@ -45,25 +45,33 @@ const std::vector<double> TEC9Slags = {
 };
 const std::vector<double> DualBeretasHideouts = {
     0.15687505900860,
-    0.18563836812973,
     0.16930392384529,
     0.17885558307171,
     0.16717129945755,
     0.15626659989357,
     0.15083245933056,
 };
+
+
 const std::vector<double> UMP45Motorizeds = {
-    0.15084239840508,
     0.15821604430676,
     0.17992557585239,
 };
 const std::vector<double> XM1014Irezumis = {
     // 0.21868249773979,
-    0.17948941886425,
-    0.16516545414925,
 };
 const std::vector<double> NovaDarkSigils = {
     0.16885834932327,
+    0.15870468318462,
+    0.16126440465450,
+    0.15803025662899,
+    0.16653850674629,
+    0.16386491060257,
+    0.17655272781849,
+    0.18379977345467,
+    0.15537154674530,
+    0.16920268535614,
+    0.16006810963154,
 };
 std::vector<double> kilowattMS = MAC10LightBoxs;
 
@@ -75,9 +83,13 @@ std::vector<double> kilowattMS = MAC10LightBoxs;
 const double kilowattRMax = 0.2142857142849; // just smile a 0.214 ta otimo
 const std::vector<double> MP7JustSmiles = {
     0.15000000596046, // glock failed
+    0.21478891372681,
 };    
 const std::vector<double> FiveSevenHybrids = {};    
-const std::vector<double> EtchLords = {};
+const std::vector<double> EtchLords = {
+    0.21398714184761,
+    0.21394987404346,
+};
 std::vector<double> kilowattR = MP7JustSmiles;
 
 
@@ -117,15 +129,21 @@ const std::vector<double> MP5SDNecroJrs = {
 const std::vector<double> MAC10Ensnareds = {};    
 const std::vector<double> FiveSeveNScrawls = {
     0.09268655627966,
+    0.09008483588696,
+    0.09287907928228,
 };
 const std::vector<double> SCAR20Poultrygeists = {
 };
 const std::vector<double> MAG7Foresights = {
     0.09229906648397,
     0.09250134229660,
+    0.09172885864973,
+    0.09253513813019,
+    0.09253964573145,
 };
 const std::vector<double> P2000LiftedSpirits = {
     0.09263627231121,
+    0.09212218225002,
 };
 std::vector<double> DreamsNightmaresMS = SawedOffSpiritBoards;
 

@@ -17305,3 +17305,164 @@ Total combinations tested: 1032189816
 
 ---------------------------------------
 
+
+Best Combination:
+0.16516545414925 - XM1014 | Irezumi
+0.16717129945755 - Dual Berettas | Hideout
+0.16885834932327 - Nova | Dark Sigil
+0.16930392384529 - Dual Berettas | Hideout
+0.17410819232464 - Tec-9 | Slag
+0.17682598531246 - Tec-9 | Slag
+0.17885558307171 - Dual Berettas | Hideout
+0.17948941886425 - XM1014 | Irezumi
+0.17992557585239 - UMP-45 | Motorized
+0.18563836812973 - Dual Berettas | Hideout
+
+Average: 0.17453421503305
+Target : 0.21400000000000
+
+
+Execution time: 0.06 seconds.
+Total combinations tested: 352716
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.09433582052589
+Value 0.00223055736899 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+Erro: N vou fazer contas. Precisas de 10 skins para isso.
+
+Best Combination:
+0.19010348618031 - Nova | Dark Sigil
+0.19078852236271 - Nova | Dark Sigil
+0.19294857978821 - Nova | Dark Sigil
+0.19528707861900 - Nova | Dark Sigil
+0.20005509257317 - Nova | Dark Sigil
+0.20017068088055 - Nova | Dark Sigil
+0.20161443948746 - Nova | Dark Sigil
+0.20194423198700 - Nova | Dark Sigil
+0.20199581980705 - Nova | Dark Sigil
+0.21520674228668 - Nova | Dark Sigil
+
+Average: 0.19901146739721
+Target : 0.21400000000000
+
+
+Execution time: 537.84 seconds.
+Total combinations tested: 6540715896
+
+---------------------------------------
+
+Erro: N vou fazer contas. Precisas de 10 skins para isso.
+No possible combinations for these floats.
+Average of the lowest 10: 0.09220129773021
+Value 0.00009603457331 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 6540715896
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.20245810300112
+Value 0.00445810300112 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 6540715896
+
+---------------------------------------
+
+
+Best Combination:
+0.14458298683167 - SSG 08 | Dezastre
+0.15084239840508 - UMP-45 | Motorized
+0.17318500578403 - Nova | Dark Sigil
+0.18443934619427 - Nova | Dark Sigil
+0.18563836812973 - Dual Berettas | Hideout
+0.19078852236271 - Nova | Dark Sigil
+0.21520674228668 - Nova | Dark Sigil
+0.26080361008644 - Nova | Dark Sigil
+0.26559945940971 - SSG 08 | Dezastre
+0.36878490447998 - Tec-9 | Slag
+
+Average: 0.21398713439703
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 9821
+
+---------------------------------------
+
+
+Best Combination:
+0.16261778771877 - Nova | Dark Sigil
+0.16516545414925 - XM1014 | Irezumi
+0.17013315856457 - Nova | Dark Sigil
+0.18828898668289 - Nova | Dark Sigil
+0.19294857978821 - Nova | Dark Sigil
+0.19528707861900 - Nova | Dark Sigil
+0.20005509257317 - Nova | Dark Sigil
+0.20194423198700 - Nova | Dark Sigil
+0.33037579059601 - MAC-10 | Light Box
+0.33263093233109 - UMP-45 | Motorized
+
+Average: 0.21394470930100
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 22998
+
+---------------------------------------
+
+
+Best Combination:
+0.17948941886425 - XM1014 | Irezumi
+0.18396054208279 - Nova | Dark Sigil
+0.18837091326714 - Nova | Dark Sigil
+0.19010348618031 - Nova | Dark Sigil
+0.20017068088055 - Nova | Dark Sigil
+0.20161443948746 - Nova | Dark Sigil
+0.20199581980705 - Nova | Dark Sigil
+0.25795203447342 - Nova | Dark Sigil
+0.26001426577568 - Nova | Dark Sigil
+0.27583870291710 - XM1014 | Irezumi
+
+Average: 0.21395103037357
+Target : 0.21400000000000
+
+
+Execution time: 12.45 seconds.
+Total combinations tested: 127748475
+
+---------------------------------------
+
+
+Best Combination:
+0.16717129945755 - Dual Berettas | Hideout
+0.16885834932327 - Nova | Dark Sigil
+0.16920268535614 - Nova | Dark Sigil
+0.16930392384529 - Dual Berettas | Hideout
+0.17410819232464 - Tec-9 | Slag
+0.17655272781849 - Nova | Dark Sigil
+0.17682598531246 - Tec-9 | Slag
+0.17885558307171 - Dual Berettas | Hideout
+0.17992557585239 - UMP-45 | Motorized
+0.18379977345467 - Nova | Dark Sigil
+
+Average: 0.17446040958166
+Target : 0.21400000000000
+
+
+Execution time: 0.65 seconds.
+Total combinations tested: 5311735
+
+---------------------------------------
+
