@@ -85,6 +85,9 @@ const std::vector<double> NovaDarkSigils = {
     0.15558218955994,
     0.16485545039177,
     0.15047250688076,
+    0.17202065885067,
+    0.17743240296841,
+    0.15898312628269,
 };
 std::vector<double> kilowattMS = MAC10LightBoxs;
 
@@ -159,6 +162,9 @@ const std::vector<double> MAG7Foresights = {
 const std::vector<double> P2000LiftedSpirits = {
     0.09263627231121,
     0.09212218225002,
+    0.09221494197845,
+    0.09130270034075,
+    0.09130696207285,
 };
 std::vector<double> DreamsNightmaresMS = SawedOffSpiritBoards;
 

@@ -17466,3 +17466,36 @@ Total combinations tested: 5311735
 
 ---------------------------------------
 
+
+Best Combination:
+0.09008483588696 - Five-SeveN | Scrawl
+0.09130270034075 - P2000 | Lifted Spirit
+0.09130696207285 - P2000 | Lifted Spirit
+0.09144683182240 - Five-SeveN | Scrawl
+0.09172885864973 - MAG-7 | Foresight
+0.09216795116663 - Five-SeveN | Scrawl
+0.09221494197845 - P2000 | Lifted Spirit
+0.09229906648397 - MAG-7 | Foresight
+0.09263627231121 - P2000 | Lifted Spirit
+0.09577052295208 - Sawed-Off | Spirit Board
+
+Average: 0.09209589436650
+Target : 0.09210526315690
+
+
+Execution time: 4.89 seconds.
+Total combinations tested: 51903384
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.20245810300112
+Value 0.00445810300112 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 51903384
+
+---------------------------------------
+
+Erro: N vou fazer contas. Precisas de 10 skins para isso.
+Erro: N vou fazer contas. Precisas de 10 skins para isso.
