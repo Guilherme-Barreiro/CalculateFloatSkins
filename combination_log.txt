@@ -17499,3 +17499,97 @@ Total combinations tested: 51903384
 
 Erro: N vou fazer contas. Precisas de 10 skins para isso.
 Erro: N vou fazer contas. Precisas de 10 skins para isso.
+
+Best Combination:
+0.17992557585239 - UMP-45 | Motorized
+0.18379977345467 - Nova | Dark Sigil
+0.18491320312023 - Nova | Dark Sigil
+0.18908165395260 - Nova | Dark Sigil
+0.19859516620636 - Nova | Dark Sigil
+0.20313438773155 - Nova | Dark Sigil
+0.20737996697426 - Dual Berettas | Hideout
+0.20832733809948 - Nova | Dark Sigil
+0.21891234815121 - Dual Berettas | Hideout
+0.29782050848007 - Dual Berettas | Hideout
+
+Average: 0.20718899220228
+Target : 0.21400000000000
+
+
+Execution time: 349.49 seconds.
+Total combinations tested: 2481256778
+
+---------------------------------------
+
+
+Best Combination:
+0.09008483588696 - Five-SeveN | Scrawl
+0.09130270034075 - P2000 | Lifted Spirit
+0.09130696207285 - P2000 | Lifted Spirit
+0.09172885864973 - MAG-7 | Foresight
+0.09212218225002 - P2000 | Lifted Spirit
+0.09216795116663 - Five-SeveN | Scrawl
+0.09250134229660 - MAG-7 | Foresight
+0.09253513813019 - MAG-7 | Foresight
+0.09263627231121 - P2000 | Lifted Spirit
+0.09390566498041 - Sawed-Off | Spirit Board
+
+Average: 0.09202919080853
+Target : 0.09210526315690
+
+
+Execution time: 23.86 seconds.
+Total combinations tested: 214015351
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.09257290288806
+Value 0.00046763973116 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 4595529002684252193
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.20245810300112
+Value 0.00445810300112 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 4595529002684252193
+
+---------------------------------------
+
+Erro: N vou fazer contas. Precisas de 10 skins para isso.
+No possible combinations for these floats.
+Average of the lowest 10: 0.16351318806410
+Value 0.02398681193580 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 4595529002684252193
+
+---------------------------------------
+
+
+Best Combination:
+0.17992557585239 - UMP-45 | Motorized
+0.18379977345467 - Nova | Dark Sigil
+0.18491320312023 - Nova | Dark Sigil
+0.18908165395260 - Nova | Dark Sigil
+0.19859516620636 - Nova | Dark Sigil
+0.20313438773155 - Nova | Dark Sigil
+0.20737996697426 - Dual Berettas | Hideout
+0.20832733809948 - Nova | Dark Sigil
+0.21891234815121 - Dual Berettas | Hideout
+0.29782050848007 - Dual Berettas | Hideout
+
+Average: 0.20718899220228
+Target : 0.21400000000000
+
+
+Execution time: 298.09 seconds.
+Total combinations tested: 2481256778
+
+---------------------------------------
+
