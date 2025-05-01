@@ -17593,3 +17593,52 @@ Total combinations tested: 2481256778
 
 ---------------------------------------
 
+No possible combinations for these floats.
+Average of the lowest 10: 0.20245810300112
+Value 0.00445810300112 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.09257290288806
+Value 0.00046763973116 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 2121124747924934795029271607071034296902537608432859594259559207961857184524187704754176.00000000000000
+Value 2121124747924934795029271607071034296902537608432859594259559207961857184524187704754176.00000000000000 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+
+Best Combination:
+0.16653850674629 - Nova | Dark Sigil
+0.17410819232464 - Tec-9 | Slag
+0.17682598531246 - Tec-9 | Slag
+0.17717890441418 - XM1014 | Irezumi
+0.17885558307171 - Dual Berettas | Hideout
+0.17992557585239 - UMP-45 | Motorized
+0.18908165395260 - Nova | Dark Sigil
+0.20832733809948 - Nova | Dark Sigil
+0.31388309597969 - Nova | Dark Sigil
+0.37468257546425 - Dual Berettas | Hideout
+
+Average: 0.21394074112177
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 852
+
+---------------------------------------
+
