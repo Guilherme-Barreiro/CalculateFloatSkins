@@ -14,20 +14,11 @@
 
 const double dangerZoneMax = 0.1874999999999;
 const std::vector<double> G3SG1Scavenger = {
-    0.18018649518490,
-    0.18475167453289,
-    0.18969373404980,
-    0.18049833178520,
-    0.17842662334442,
     0.16586482524872,
-    0.18224649131298,
     0.15320129692554,
-    0.18650133907795,
 };
-const std::vector<double> MAC10PipeDowns = {
-    0.18069760501385,
-    0.18531885743141,
-};
+const std::vector<double> MAC10PipeDowns = {};
+
 std::vector<double> dangerZoneMS = G3SG1Scavenger;
 
 // const double kilowattMSMax = 0.2232558139519;
@@ -36,6 +27,12 @@ std::vector<double> dangerZoneMS = G3SG1Scavenger;
 const double kilowattMSMax = 0.214;
 const std::vector<double> MAC10LightBoxs = {
     // 0.21298122406006, // stickers ig
+    0.29033428430557,
+    0.16956217586994,
+    0.18934148550034,
+    0.22393628954887,
+    0.20449706912041,
+    0.31453502178192,
 };
 const std::vector<double> SSGDezastres = {
     0.12991911172867,
@@ -47,13 +44,12 @@ const std::vector<double> TEC9Slags = {
     0.17682598531246,
     0.16332463920116,
     0.15710411965847,
+    0.19421297311783,
 };
 const std::vector<double> DualBeretasHideouts = {
     0.15687505900860,
     0.16930392384529,
-    0.17885558307171,
     0.16717129945755,
-    0.15626659989357,
     0.15083245933056,
     0.21891234815121,
     0.16079667210579,
@@ -61,7 +57,6 @@ const std::vector<double> DualBeretasHideouts = {
     0.29782050848007,
     0.37468257546425,
     0.16856195032597,
-    0.28238612413406,
     0.18495452404022,
     0.23793576657772,
     0.29010546207428,
@@ -73,9 +68,10 @@ const std::vector<double> UMP45Motorizeds = {
 };
 const std::vector<double> XM1014Irezumis = {
     // 0.21868249773979,
-    0.31596183776855,
     0.17717890441418,
     0.30174690485001,
+    0.29812669754028,
+    0.34924423694611,
 };
 const std::vector<double> NovaDarkSigils = {
     0.16885834932327,
@@ -87,15 +83,11 @@ const std::vector<double> NovaDarkSigils = {
     0.17655272781849,
     0.18379977345467,
     0.15537154674530,
-    0.16920268535614,
-    0.16006810963154,
     0.18908165395260,
-    0.16503040492535,
     0.17972382903099,
     0.19859516620636,
     0.17676018178463,
     0.20832733809948,
-    0.20313438773155,
     0.18491320312023,
     0.15558218955994,
     0.16485545039177,
@@ -104,7 +96,6 @@ const std::vector<double> NovaDarkSigils = {
     0.17743240296841,
     0.15898312628269,
     0.16504400968552,
-    0.26182475686073,
     0.25250405073166,
     0.15760412812233,
     0.21946695446968,
@@ -122,6 +113,7 @@ const double kilowattRMax = 0.2142857142849; // just smile a 0.214 ta otimo
 const std::vector<double> MP7JustSmiles = {
     0.15000000596046, // glock failed
     0.21478891372681,
+    0.21391808986664,
 };    
 const std::vector<double> FiveSevenHybrids = {};    
 const std::vector<double> EtchLords = {

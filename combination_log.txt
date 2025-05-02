@@ -17642,3 +17642,75 @@ Total combinations tested: 852
 
 ---------------------------------------
 
+No possible combinations for these floats.
+Average of the lowest 10: 0.09257290288806
+Value 0.00046763973116 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.09257290288806
+Value 0.00046763973116 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.20245810300112
+Value 0.00445810300112 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+Erro: N vou fazer contas. Precisas de 10 skins para isso.
+
+Best Combination:
+0.17842662334442 - G3SG1 | Scavenger
+0.18018649518490 - G3SG1 | Scavenger
+0.18049833178520 - G3SG1 | Scavenger
+0.18069760501385 - MAC-10 | Pipe Down
+0.18224649131298 - G3SG1 | Scavenger
+0.18475167453289 - G3SG1 | Scavenger
+0.18531885743141 - MAC-10 | Pipe Down
+0.18650133907795 - G3SG1 | Scavenger
+0.18653997778893 - G3SG1 | Scavenger
+0.18969373404980 - G3SG1 | Scavenger
+
+Average: 0.18348611295223
+Target : 0.18749999999990
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 66
+
+---------------------------------------
+
+
+Best Combination:
+0.15626659989357 - Dual Berettas | Hideout
+0.16006810963154 - Nova | Dark Sigil
+0.16503040492535 - Nova | Dark Sigil
+0.16920268535614 - Nova | Dark Sigil
+0.17885558307171 - Dual Berettas | Hideout
+0.20313438773155 - Nova | Dark Sigil
+0.24645054340363 - MAC-10 | Light Box
+0.26182475686073 - Nova | Dark Sigil
+0.28238612413406 - Dual Berettas | Hideout
+0.31596183776855 - XM1014 | Irezumi
+
+Average: 0.21391810327768
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 305
+
+---------------------------------------
+
