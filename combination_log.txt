@@ -17714,3 +17714,83 @@ Total combinations tested: 305
 
 ---------------------------------------
 
+No possible combinations for these floats.
+Average of the lowest 10: 0.20245810300112
+Value 0.00445810300112 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.09257290288806
+Value 0.00046763973116 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: 0.10066440254450
+Value 0.11362131174040 above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+No possible combinations for these floats.
+Average of the lowest 10: nan
+Value nan above target.
+
+Execution time: 0.00 seconds.
+Total combinations tested: 0
+
+---------------------------------------
+
+
+Best Combination:
+0.15537154674530 - Nova | Dark Sigil
+0.16096337139606 - Tec-9 | Slag
+0.18444584310055 - Dual Berettas | Hideout
+0.19106213748455 - UMP-45 | Motorized
+0.19106213748455 - UMP-45 | Motorized
+0.19806206226349 - Tec-9 | Slag
+0.21891234815121 - Dual Berettas | Hideout
+0.21946695446968 - Nova | Dark Sigil
+0.30581945180893 - Dual Berettas | Hideout
+0.31453502178192 - MAC-10 | Light Box
+
+Average: 0.21397008746862
+Target : 0.21400000000000
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 15227
+
+---------------------------------------
+
+
+Best Combination:
+0.18254263699055 - Five-SeveN | Hybrid
+0.18428024649620 - Five-SeveN | Hybrid
+0.19496639072895 - MP7 | Just Smile
+0.20026373863220 - M4A4 | Etch Lord
+0.21277078986168 - M4A4 | Etch Lord
+0.21391808986664 - MP7 | Just Smile
+0.21394987404346 - M4A4 | Etch Lord
+0.21398714184761 - M4A4 | Etch Lord
+0.21478891372681 - MP7 | Just Smile
+0.23036511242390 - MP7 | Just Smile
+
+Average: 0.20618329346180
+Target : 0.21428571428490
+
+
+Execution time: 0.00 seconds.
+Total combinations tested: 286
+
+---------------------------------------
+

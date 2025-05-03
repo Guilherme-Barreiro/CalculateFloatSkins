@@ -24,114 +24,13 @@ std::vector<double> dangerZoneMS = G3SG1Scavenger;
 
 // const double kilowattMSMax = 0.2232558116315; // n tenho certeza que servia (penso q n)
 const double kilowattMSMax = 0.214;
-const std::vector<double> MAC10LightBoxs = {
-    // 0.21298122406006, // stickers ig
-    0.29033428430557,
-    0.16956217586994,
-    0.18934148550034,
-    0.22393628954887,
-    0.20449706912041,
-    0.31453502178192,
-};
-const std::vector<double> SSGDezastres = {
-    0.12991911172867,
-    0.14351275563240,
-    0.14505240321159,
-};
-const std::vector<double> TEC9Slags = {
-    0.17410819232464,
-    0.17682598531246,
-    0.16332463920116,
-    0.15710411965847,
-    0.19421297311783,
-    0.16552037000656,
-    0.21549472212791,
-    0.22003374993801,
-    0.19806206226349,
-    0.15346845984459,
-    0.19106213748455,
-    0.24457103013992,
-    0.24210165441036,
-    0.30710226297379,
-    0.16096337139606,
-    0.18983443081379,
-    0.18090225756168,
-    0.15093457698822,
-    0.21321839094162,
-};
-const std::vector<double> DualBeretasHideouts = {
-    0.15687505900860,
-    0.16930392384529,
-    0.16717129945755,
-    0.15083245933056,
-    0.21891234815121,
-    0.16079667210579,
-    0.20737996697426,
-    0.29782050848007,
-    0.37468257546425,
-    0.16856195032597,
-    0.18495452404022,
-    0.23793576657772,
-    0.29010546207428,
-    0.30581945180893,
-    0.21107673645020,
-    0.19018390774727,
-    0.16262561082840,
-    0.18444584310055,
-    0.15156050026417,
-    0.16257563233376,
-    0.16256955265999,
-};
-const std::vector<double> UMP45Motorizeds = {
-    0.15821604430676,
-    0.17992557585239,
-    0.19106213748455,
-    0.23535715043545,
-    0.16315422952175,
-};
-const std::vector<double> XM1014Irezumis = {
-    // 0.21868249773979,
-    0.17717890441418,
-    0.30174690485001,
-    0.29812669754028,
-    0.34924423694611,
-    0.21345204114914,
-    0.15843923389912,
-    0.20803169906139,
-    0.17115613818169,
-    0.21095313131809,
-    0.15915569663048,
-    0.15448333323002,
-};
-const std::vector<double> NovaDarkSigils = {
-    0.16885834932327,
-    0.15870468318462,
-    0.16126440465450,
-    0.15803025662899,
-    0.16653850674629,
-    0.16386491060257,
-    0.17655272781849,
-    0.18379977345467,
-    0.15537154674530,
-    0.18908165395260,
-    0.17972382903099,
-    0.19859516620636,
-    0.17676018178463,
-    0.20832733809948,
-    0.18491320312023,
-    0.15558218955994,
-    0.16485545039177,
-    0.15047250688076,
-    0.17202065885067,
-    0.17743240296841,
-    0.15898312628269,
-    0.16504400968552,
-    0.25250405073166,
-    0.15760412812233,
-    0.21946695446968,
-    0.18702332675457,
-    0.31388309597969,
-};
+const std::vector<double> MAC10LightBoxs = {};
+const std::vector<double> SSGDezastres = {};
+const std::vector<double> TEC9Slags = {};
+const std::vector<double> DualBeretasHideouts = {};
+const std::vector<double> UMP45Motorizeds = {};
+const std::vector<double> XM1014Irezumis = {};
+const std::vector<double> NovaDarkSigils = {};
 std::vector<double> kilowattMS = MAC10LightBoxs;
 
 
@@ -143,11 +42,20 @@ const std::vector<double> MP7JustSmiles = {
     0.15000000596046, // glock failed
     0.21478891372681,
     0.21391808986664,
+    0.23036511242390,
+    0.17133554816246,
+    0.19496639072895,
 };    
-const std::vector<double> FiveSevenHybrids = {};    
+const std::vector<double> FiveSevenHybrids = {
+    0.18254263699055,
+    0.18428024649620,
+};    
 const std::vector<double> EtchLords = {
     0.21398714184761,
     0.21394987404346,
+    0.20026373863220,
+    0.21277078986168,
+    0.17478978633881,
 };
 std::vector<double> kilowattR = MP7JustSmiles;
 
@@ -640,11 +548,18 @@ std::vector<double> getFirstN(const std::vector<double> &values, int N){
     return newArray;
 }
 
-double getLastGood(const std::vector<double> &values, double target){
-    std::vector<double> newArray = getFirstN(values, 9);
-    double j = target * 10 - (newArray[0] + newArray[1] + newArray[2] + newArray[3] + newArray[4] + newArray[5] + newArray[6] + newArray[7] + newArray[8]);
-    return j;
+double getLastGood(const std::vector<double> &values, double target) {
+    if (values.size() != 9) 
+        throw std::invalid_argument("A função espera exatamente 9 valores.");
+    
+    double sum = 0.0;
+    for (double val : values) 
+        sum += val;
+
+    double required10th = target * 10 - sum;
+    return required10th;
 }
+
 
 bool isArrayGood(const std::vector<double> &values, double target){
     const std::vector<double> arrray = sortArray(values);
@@ -842,6 +757,34 @@ void processCombination(const std::vector<double> &values, double target, int mo
     }
 }
 
+void manualFloatEntry() {
+    std::cout << std::fixed << std::setprecision(14);
+    std::vector<double> floats;
+    double target;
+    std::cout << "\nInsere a media maxima: ";
+    std::cin >> target;
+
+    std::cout << "Insere 9 floats:\n";
+    for (int i = 0; i < 9; ++i) {
+        double f;
+        std::cout << "Float #" << (i + 1) << ": ";
+        std::cin >> f;
+        floats.push_back(f);
+    }
+
+    // Opcional: ordenar antes, caso o utilizador insira fora de ordem
+    std::sort(floats.begin(), floats.end());
+
+    double required10th = getLastGood(floats, target - 0.01);
+    std::cout << std::fixed << std::setprecision(5);
+    if(required10th > 1){
+        required10th /= 10000;
+        target /= 10000;
+    }
+    std::cout << "\nPara atingir uma media de " << target - 0.01 << ", o 10 float deve ser: " << required10th << "\n";
+}
+
+
 int main(){
 
     dangerZoneMS.insert(dangerZoneMS.end(), MAC10PipeDowns.begin(), MAC10PipeDowns.end());
@@ -873,16 +816,17 @@ int main(){
     // double FractureR = 0.197; 
     double margin = 0.0001;
     do{
-        std::cout << "\n\n|----------------------------|\n";
-        std::cout << "| Escolha uma opcao:         |\n";
-        std::cout << "| 1 - Danger Zone MS         |\n";
-        std::cout << "| 2 - Kilowatt MS            |\n";
-        std::cout << "| 3 - Kilowatt R             |\n";
-        std::cout << "| 4 - Dreams & Nightmares MS |\n";
-        std::cout << "| 5 - Fracture R             |\n";
-        std::cout << "| 6 - Todas as anteriores    |\n";
-        std::cout << "| 0 - Sair                   |\n";
-        std::cout << "|----------------------------|\n";
+        std::cout << "\n\n|----------------------------------|\n";
+        std::cout << "| Escolha uma opcao:               |\n";
+        std::cout << "| 1 - Danger Zone MS               |\n";
+        std::cout << "| 2 - Kilowatt MS                  |\n";
+        std::cout << "| 3 - Kilowatt R                   |\n";
+        std::cout << "| 4 - Dreams & Nightmares MS       |\n";
+        std::cout << "| 5 - Fracture R                   |\n";
+        std::cout << "| 6 - Todas as anteriores          |\n";
+        std::cout << "| 7 - Inserir 9 floats manualmente |\n";
+        std::cout << "| 0 - Sair                         |\n";
+        std::cout << "|----------------------------------|\n";
         scanf("%d", &op);
         setConsoleColor(10); std::cout << "\n---------------------------------------------------------------------"; setConsoleColor(7);
         switch(op){
@@ -907,6 +851,9 @@ int main(){
                 processCombination(kilowattR, kilowattRMax, 3);printStrRandomColor("\n------------------------------------------------------");
                 processCombination(DreamsNightmaresMS, DreamsNightmaresMSMax, 4, DreamsNightmaresMSMax-margin);printStrRandomColor("\n------------------------------------------------------");
                 processCombination(FractureR, FractureRMax, 5, FractureRMax-margin);
+                break;
+            case 7:
+                manualFloatEntry();
                 break;
             case 0:
                 break;
