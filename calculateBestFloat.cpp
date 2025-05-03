@@ -21,9 +21,8 @@ const std::vector<double> MAC10PipeDowns = {};
 
 std::vector<double> dangerZoneMS = G3SG1Scavenger;
 
-// const double kilowattMSMax = 0.2232558139519;
-// const double kilowattMSMax = 0.2232558131217;
-// const double kilowattMSMax = 0.2232558116315;
+
+// const double kilowattMSMax = 0.2232558116315; // n tenho certeza que servia (penso q n)
 const double kilowattMSMax = 0.214;
 const std::vector<double> MAC10LightBoxs = {
     // 0.21298122406006, // stickers ig
@@ -45,6 +44,20 @@ const std::vector<double> TEC9Slags = {
     0.16332463920116,
     0.15710411965847,
     0.19421297311783,
+    0.16552037000656,
+    0.21549472212791,
+    0.22003374993801,
+    0.19806206226349,
+    0.15346845984459,
+    0.19106213748455,
+    0.24457103013992,
+    0.24210165441036,
+    0.30710226297379,
+    0.16096337139606,
+    0.18983443081379,
+    0.18090225756168,
+    0.15093457698822,
+    0.21321839094162,
 };
 const std::vector<double> DualBeretasHideouts = {
     0.15687505900860,
@@ -61,10 +74,20 @@ const std::vector<double> DualBeretasHideouts = {
     0.23793576657772,
     0.29010546207428,
     0.30581945180893,
+    0.21107673645020,
+    0.19018390774727,
+    0.16262561082840,
+    0.18444584310055,
+    0.15156050026417,
+    0.16257563233376,
+    0.16256955265999,
 };
 const std::vector<double> UMP45Motorizeds = {
     0.15821604430676,
     0.17992557585239,
+    0.19106213748455,
+    0.23535715043545,
+    0.16315422952175,
 };
 const std::vector<double> XM1014Irezumis = {
     // 0.21868249773979,
@@ -72,6 +95,13 @@ const std::vector<double> XM1014Irezumis = {
     0.30174690485001,
     0.29812669754028,
     0.34924423694611,
+    0.21345204114914,
+    0.15843923389912,
+    0.20803169906139,
+    0.17115613818169,
+    0.21095313131809,
+    0.15915569663048,
+    0.15448333323002,
 };
 const std::vector<double> NovaDarkSigils = {
     0.16885834932327,
@@ -108,7 +138,6 @@ std::vector<double> kilowattMS = MAC10LightBoxs;
 
 
 
-
 const double kilowattRMax = 0.2142857142849; // just smile a 0.214 ta otimo
 const std::vector<double> MP7JustSmiles = {
     0.15000000596046, // glock failed
@@ -121,6 +150,9 @@ const std::vector<double> EtchLords = {
     0.21394987404346,
 };
 std::vector<double> kilowattR = MP7JustSmiles;
+
+
+
 
 
 
@@ -161,8 +193,7 @@ const std::vector<double> FiveSeveNScrawls = {
     0.09287907928228,
     0.09144683182240,
 };
-const std::vector<double> SCAR20Poultrygeists = {
-};
+const std::vector<double> SCAR20Poultrygeists = {};
 const std::vector<double> MAG7Foresights = {
     0.09229906648397,
     0.09253964573145,
