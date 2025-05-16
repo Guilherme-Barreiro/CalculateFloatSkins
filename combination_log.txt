@@ -17794,3 +17794,27 @@ Total combinations tested: 286
 
 ---------------------------------------
 
+Erro: A função espera exatamente 9 valores.
+Erro: A função espera exatamente 9 valores.
+
+Best Combination:
+0.18866740167141 - M4A4 | Etch Lord
+0.19061063230038 - Five-SeveN | Hybrid
+0.19171860814095 - MP7 | Just Smile
+0.19350093603134 - Five-SeveN | Hybrid
+0.19376173615456 - MP7 | Just Smile
+0.19874683022499 - MP7 | Just Smile
+0.19928237795830 - M4A4 | Etch Lord
+0.21374742686749 - MP7 | Just Smile
+0.22597472369671 - M4A4 | Etch Lord
+0.23594591021538 - MP7 | Just Smile
+
+Average: 0.20319565832615
+Target : 0.21428571428490
+
+
+Execution time: 0.01 seconds.
+Total combinations tested: 43758
+
+---------------------------------------
+
